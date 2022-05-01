@@ -1,12 +1,19 @@
 import React from 'react';
+import Navbar from './components/navbar';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import './App.css';
 
 
 function App() {
   return (
-    <div className="App">
-        <h1>Homepage for FightCultureLLC</h1>
-    </div>
+    <>
+      <Router>
+        <Navbar/>
+          <Routes>
+            <Route path='/' exact />
+          </Routes>
+      </Router>
+    </>
   );
 }
 
