@@ -34,7 +34,7 @@ function Navbar() {
             <nav class='navbar'>
                 <div class='navbar-container'>
                     <Link to='/' class='navbar-logo' onClick={closeMobileMenu}>
-                        LOGO <i class='fab fa-typo3'></i>
+                        Fight Culture LLC <i class='fab fa-typo3'></i>
                     </Link>
                     <div class='menu-icon' onClick={handleClick}>
                         <i class={click ? 'fas fa-times' : 'fas fa-bars'} />
