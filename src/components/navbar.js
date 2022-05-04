@@ -31,47 +31,47 @@ function Navbar() {
 
     return (
         <>
-            <nav class='navbar'>
-                <div class='navbar-container'>
-                    <Link to='/' class='navbar-logo' onClick={closeMobileMenu}>
-                        Fight Culture LLC <i class='fab fa-typo3'></i>
+            <nav className='navbar'>
+                <div className='navbar-container'>
+                    <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+                        Fight Culture LLC <i className='fab fa-typo3'></i>
                     </Link>
-                    <div class='menu-icon' onClick={handleClick}>
-                        <i class={click ? 'fas fa-times' : 'fas fa-bars'} />
+                    <div className='menu-icon' onClick={handleClick}>
+                        <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>
-                    <ul class={click ? 'nav-menu active' : 'nav-menu' }>
-                        <li class='nav-item'>
-                            <Link to='/' class='nav-links' onClick={closeMobileMenu}>
+                    <ul className={click ? 'nav-menu active' : 'nav-menu' }>
+                        <li className='nav-item'>
+                            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                                 Home
                             </Link>
                         </li>
-                        <li class='nav-item'>
-                            <Link to='/classes' class='nav-links' onClick={closeMobileMenu}>
+                        <li className='nav-item'>
+                            <Link to='/classes' className='nav-links' onClick={closeMobileMenu}>
                                 Classes
                             </Link>
                         </li>
-                        <li class='nav-item'>
-                            <Link to='/signup' class='nav-links' onClick={closeMobileMenu}>
+                        <li className='nav-item'>
+                            <Link to='/signup' className='nav-links' onClick={closeMobileMenu}>
                                 SignUp
                             </Link>
                         </li>
-                        <li class='nav-item'>
-                            <Link to='/instructors' class='nav-links' onClick={closeMobileMenu}>
+                        <li className='nav-item'>
+                            <Link to='/instructors' className='nav-links' onClick={closeMobileMenu}>
                                 Instructors
                             </Link>
                         </li>
-                        <li class='nav-item'>
-                            <Link to='/schedule' class='nav-links' onClick={closeMobileMenu}>
+                        <li className='nav-item'>
+                            <Link to='/schedule' className='nav-links' onClick={closeMobileMenu}>
                                 Schedule
                             </Link>
                         </li>
-                        <li class='nav-item'>
-                            <Link to='/gallery' class='nav-links' onClick={closeMobileMenu}>
+                        <li className='nav-item'>
+                            <Link to='/gallery' className='nav-links' onClick={closeMobileMenu}>
                                 Gallery
                             </Link>
                         </li>
-                        <li class='nav-item'>
-                            <Link to='/contact' class='nav-links' onClick={closeMobileMenu}>
+                        <li className='nav-item'>
+                            <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
                                 Contact Us
                             </Link>
                         </li>
