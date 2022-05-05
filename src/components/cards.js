@@ -11,35 +11,35 @@ function Cards() {
                 <div className='cards_wrapper'>
                     <ul className='cards__item'>
                         <CardItem 
-                        src='/images/SamplePicture1.png'
-                        text='Sample text for classes'
-                        label='Classes Label'
+                        src='/images/SFSkyline.jpg'
+                        text='Sample text'
+                        label='Classes'
                         path='/classes'
                         />
                         <CardItem 
-                        src='images/underwater.jpg'
-                        text='Sample text for instructors'
-                        label='Instructors label'
+                        src='images/SFSkyline.jpg'
+                        text='Sample text'
+                        label='Instructors'
                         path='/instructors'
                         />
                     </ul>
                     <ul className='cards__item'>
                         <CardItem 
                         src='images/SFSkyline.jpg'
-                        text='Sample Text Schedule'
-                        label='Schedule Label'
+                        text='Sample text'
+                        label='Schedule'
                         path='/schedule'
                         />
                         <CardItem 
-                        src='images/CitySkyline.jpg'
-                        text='Sample text for gallery'
-                        label='Gallery Label'
+                        src='images/SFSkyline.jpg'
+                        text='Sample text'
+                        label='Gallery'
                         path='/gallery'
                         />
                         <CardItem 
                         src='images/SFSkyline.jpg'
-                        text='Sample text for contact'
-                        label='Contact Label'
+                        text='Sample text'
+                        label='Contact Us'
                         path='/contact'
                         />
                     </ul>
