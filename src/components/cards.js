@@ -12,33 +12,33 @@ function Cards() {
                     <ul className='cards__item'>
                         <CardItem 
                         src='images/Sample1.png'
-                        text='Sample text'
+                        text='Martial Arts Classes'
                         label='Classes'
                         path='/classes'
                         />
                         <CardItem 
-                        src='images/SFSkyline.jpg'
-                        text='Sample text'
+                        src='images/samplephoto2.jpg'
+                        text='View Our Instructors'
                         label='Instructors'
                         path='/instructors'
                         />
                     </ul>
                     <ul className='cards__item'>
                         <CardItem 
-                        src='images/SFSkyline.jpg'
-                        text='Sample text'
+                        src='images/samplephoto3.jpg'
+                        text='Weekly Schedule'
                         label='Schedule'
                         path='/schedule'
                         />
                         <CardItem 
-                        src='images/SFSkyline.jpg'
-                        text='Sample text'
+                        src='images/samplephoto4.jpg'
+                        text='View Our Facility'
                         label='Gallery'
                         path='/gallery'
                         />
                         <CardItem 
-                        src='images/SFSkyline.jpg'
-                        text='Sample text'
+                        src='images/samplephoto5.jpg'
+                        text='Get in Touch'
                         label='Contact Us'
                         path='/contact'
                         />
