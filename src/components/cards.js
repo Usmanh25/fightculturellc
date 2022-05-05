@@ -12,35 +12,35 @@ function Cards() {
                     <ul className='cards__item'>
                         <CardItem 
                         src='images/img-9.jpg'
-                        text='Sam'
-                        label='labeltagggg'
+                        text='Sample text for classes'
+                        label='Classes Label'
                         path='/classes'
                         />
                         <CardItem 
                         src='images/img-9.jpg'
-                        text='ample text helloooo 22222'
-                        label='labeltagggg222'
-                        path='/classes'
+                        text='Sample text for instructors'
+                        label='Instructors label'
+                        path='/instructors'
                         />
                     </ul>
                     <ul className='cards__item'>
                         <CardItem 
                         src='images/img-9.jpg'
-                        text='ample text helloooo'
-                        label='labeltagggg'
-                        path='/classes'
+                        text='Sample Text Schedule'
+                        label='Schedule Label'
+                        path='/schedule'
                         />
                         <CardItem 
                         src='images/img-9.jpg'
-                        text='ample text helloooo 22222'
-                        label='labeltagggg222'
-                        path='/classes'
+                        text='Sample text for gallery'
+                        label='Gallery Label'
+                        path='/gallery'
                         />
                         <CardItem 
                         src='images/img-9.jpg'
-                        text='ample text helloooo 22222'
-                        label='labeltagggg222'
-                        path='/classes'
+                        text='Sample text for contact'
+                        label='COntact Label'
+                        path='/contact'
                         />
                     </ul>
                 </div>

@@ -9,7 +9,7 @@ function HeroSection() {
             <video src='/videos/videoName.mp4' autoPlay loop muted/>
             <h1>FIGHT CULTURE HOMEPAGE</h1>
             <p> short description </p>
-            <div className='hero-btns'>
+            {/* <div className='hero-btns'>
                 
             <Button className='btns' 
             buttonStyle='btn--outline'
@@ -24,7 +24,7 @@ function HeroSection() {
             >
                 watch trailer! <i className='far fa-play-circle'/>
             </Button>
-            </div>
+            </div> */}
         </div>
     )
 }
