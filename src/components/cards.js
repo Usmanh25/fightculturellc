@@ -6,12 +6,12 @@ import './cards.css';
 function Cards() {
     return (
         <div className='cards'>
-            <h1> check out this stuff</h1>
+            <h1>Our Services</h1>
             <div className='cards__container'>
                 <div className='cards_wrapper'>
                     <ul className='cards__item'>
                         <CardItem 
-                        src='images/samplephoto1.jpg'
+                        src='/images/samplephoto1.jpg'
                         text='Sample text for classes'
                         label='Classes Label'
                         path='/classes'
