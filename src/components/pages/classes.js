@@ -6,12 +6,12 @@ import './classes.css';
 function Classes() {
     return (
         <>
+        <h1 className='classes'>Our Services</h1>
             <div className='classes-div'>
-                <h1 className='our-services-title'> Our Services </h1>
 
                 <div className='class-div'>
                     <div className='class-image'>
-                        <img src='images/MuayThai.jpg' alt='muaythaifight'></img>
+                        <img src='images/MuayThai.jpeg' alt='muaythaifight'></img>
                     </div>
                     <div className='class-text'>
                         <h1> Muay Thai </h1>

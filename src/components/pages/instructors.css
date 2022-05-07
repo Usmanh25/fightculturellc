@@ -1,4 +1,4 @@
-.class-div {
+.instructor-div {
     width: 70%;
     display: flex;
     margin: auto;
@@ -6,10 +6,10 @@
     padding-bottom: 25px;
 }
 
-.class-image {
+.instructor-image {
 
 }
-.class-text{
+.instructor-text{
     color: purple;
     
 }

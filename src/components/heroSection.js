@@ -6,9 +6,9 @@ function HeroSection() {
     return (
         <div className='hero-container'>
             
-            <img src='/images/SFSkyline.jpg' alt='Hero Section'></img>
-            <h1>FIGHT CULTURE</h1>
-            <p> short description </p>
+            <img id='image' src='/images/FightCultureHomePagePic.png' alt='Hero Section'></img>
+            <h1>Fight Culture <br/> Combat Systems</h1>
+            <p> Daly City </p>
 
         </div>
     )

@@ -1,4 +1,4 @@
-video {
+#image {
     object-fit: cover;
     width: 100%;
     height: 100%;
@@ -7,8 +7,7 @@ video {
 }
 
 .hero-container {
-    /* background: url('../images/FightCultureHomePagePic.png') center center/cover no-repeat; */
-    /* background-color: aqua; */
+    /* background: url('../public/images/FightCultureHomePagePic.png') center center/cover no-repeat; */
     height: 100vh;
     width: 100%;
     display: flex;
