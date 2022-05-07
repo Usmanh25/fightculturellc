@@ -30,7 +30,7 @@ function Classes() {
                         <p>Lorem ipsum dolor sit amet, consectetur 
                             adipiscing elit, sed do eiusmod tempor 
                             esse cillum dolore eu fugiat nulla pariatur. 
-                            Excepteur sint occaecat cupidatat non proident</p>
+                            Exceteur sint occaecat cupidatat non proident</p>
                     </div>
                 </div>
                 <div className='class-div'>
