@@ -3,7 +3,7 @@
 }
 
 .class-div {
-    width: 50%;
+    width: 70%;
     display: flex;
     margin: auto;
     align-items: center;
@@ -17,6 +17,10 @@
 }
 
 img {
-    height: 500px;
-    width: 500px;
+    height: 100%;
+    width: 100%;
+}
+
+.our-services-title {
+    font-size: 100px;
 }

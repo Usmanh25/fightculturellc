@@ -77,6 +77,12 @@
     display: none;
 }
 
+.fclogo {
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+}
+
 @media screen and (max-width: 960px) {
 
     .NavbarItems {

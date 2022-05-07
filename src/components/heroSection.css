@@ -7,8 +7,8 @@ video {
 }
 
 .hero-container {
-    /* background: url('images/imageName.jpg') center center/cover no-repeat; */
-    background-color: aqua;
+    /* background: url('../images/FightCultureHomePagePic.png') center center/cover no-repeat; */
+    /* background-color: aqua; */
     height: 100vh;
     width: 100%;
     display: flex;
@@ -32,15 +32,6 @@ video {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-.hero-btns {
-    margin-top: 32px;
-
-}
-
-.hero-btns .btn {
-    margin: 6px;
-
-}
 
 .fa-play-circle {
     margin-left: 4px;
@@ -62,13 +53,7 @@ video {
     .hero-container > p {
         font-size: 30px;
     }
-    .btn-mobile {
-        display: block;
-        text-decoration: none;
-    }
-    .btn {
-        width: 100%;
-    }
+
 }
 
 
