@@ -1,0 +1,22 @@
+.classes-div {
+    background-color: aquamarine;
+}
+
+.class-div {
+    width: 50%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    background-color: green;
+}
+
+.class-image {
+}
+.class-text{
+
+}
+
+img {
+    height: 500px;
+    width: 500px;
+}
