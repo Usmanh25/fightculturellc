@@ -8,7 +8,7 @@ function HeroSection() {
             
             <img id='image' src='/images/FightCultureHomePagePic.png' alt='Hero Section'></img>
             <h1>Fight Culture <br/> Combat Systems</h1>
-            <p> Daly City </p>
+            <p> Daly City, California </p>
 
         </div>
     )

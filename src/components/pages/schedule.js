@@ -8,7 +8,7 @@ function Schedule() {
     return(
         <>
             <div>
-                <h1 className='schedule'>Weekly Class Schedule</h1>
+                {/* <h1 className='schedule'>Weekly Class Schedule</h1> */}
                 <CardItem 
                             src='images/FightCultureSchedule.jpeg'
                             text='Martial Arts Classes'

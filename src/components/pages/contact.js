@@ -1,6 +1,30 @@
 import React from 'react';
 import '../../App.css';
+import './contact.css';
 
-export default function Contact() {
-    return <h1 className='contact'>Contact Us!</h1>
+function Contact() {
+    return (
+        <>
+            <h1 className='contact'>Get in Touch!</h1>
+
+            <div className='contact-container'>
+                <div className='contact-container1'>
+                    <div className='contact-greeting'>
+                        <h1>Join our culture, start training today!</h1>
+                        <h1>Drop-ins welcome or give us a call!</h1>
+                    </div>
+                    <div className='contact-info'>
+                        <h1>(415)-555-5555</h1>
+                        <h1>fightculture@email.com</h1>
+                        <h1>6137 Mission Street Daly City, CA 94014</h1>
+                    </div>
+                </div>
+                <div className='contact-container2'>
+                    <img src='/images/FightCultureLocation.png' alt='FC Map'></img>
+                </div>
+            </div>
+        </>
+    )
 }
+
+export default Contact;

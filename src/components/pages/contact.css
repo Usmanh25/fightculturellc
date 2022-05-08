@@ -1,0 +1,23 @@
+.contact-greeting {
+    border: 1px solid red;
+    font-size: 18px;
+    padding-bottom: 100px;
+}
+
+.contact-container2 > img {
+    height: 100%;
+    width: 100%;
+    justify-items: center;
+}
+.contact-container2 {
+    text-align: center;
+}
+.contact-container1 {
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+.contact-info {
+    border: 1px solid blue;
+    font-size: 18px;
+}
