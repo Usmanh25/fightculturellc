@@ -1,20 +1,28 @@
 .class-div {
+    background-color: aqua;
     width: 70%;
     display: flex;
     margin: auto;
     align-items: center;
+    justify-content: center;
+    padding-top: 25px;
     padding-bottom: 25px;
 }
 
 .class-image {
+    background-color: red;
+    height: 350px;
+    width: 350px;
 
 }
 .class-text{
+    background-color: green;
     color: purple;
+    width: 50%;
     
 }
 
-img {
+/* img {
     height: 100%;
     width: 100%;
-}
+} */
