@@ -5,12 +5,13 @@ import './contact.css';
 function Contact() {
     return (
         <>
-            <h1 className='contact'>Get in Touch!</h1>
+            {/* <h1 className='contact'>Join the Culture!</h1> */}
 
             <div className='contact-container'>
                 <div className='contact-container1'>
+            <h1 className='conta'>Join the Culture!</h1>
                     <div className='contact-greeting'>
-                        <h1>Join our culture, start training today!</h1>
+                        <h1>Start your training today!</h1>
                         <h1>Drop-ins welcome or give us a call!</h1>
                     </div>
                     <div className='contact-info'>

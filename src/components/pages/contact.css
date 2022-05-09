@@ -1,7 +1,9 @@
 .contact-greeting {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     font-size: 18px;
     padding-bottom: 100px;
+    color: red;
+    column-gap: 40px; 
 }
 
 .contact-container2 > img {
@@ -18,6 +20,7 @@
 }
 
 .contact-info {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     font-size: 18px;
+    padding-bottom: 50px;
 }
