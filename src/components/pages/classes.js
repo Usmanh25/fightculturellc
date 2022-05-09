@@ -8,7 +8,8 @@ function Classes() {
         <>
         {/* <h1 className='classes'>Our Services</h1> */}
             <div className='classes-div'>
-            <h1>Our Services</h1>
+
+            <h1 className='classes-title'>Our Classes</h1>
 
                 <div className='class-div'>
                     <div className='class-image'>
