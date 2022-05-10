@@ -57,13 +57,14 @@ function Footer() {
                 <div className="social-media-wrap">
                     <div className="footer-logo">
                         <Link to='/' className="social-logo">
-                            Fight Culture <img className='fclogo'src='/images/FightCultureBlackLogo.png' alt='pic'/>
+                            Fight Culture
                         </Link>
 
                     </div>
-                    <small className="website-rights"> UsmanHameed©2022</small>
+                    <small className="website-rights"> FightCultureLLC©2022</small>
                     <div className="social-icons">
-                        <Link 
+                        <img className='fclogo'src='/images/FightCultureBlackLogo.png' alt='pic'/>
+                        {/* <Link 
                         className="social-icon-link facebook"
                         to='/' 
                         target='_blank'
@@ -97,7 +98,7 @@ function Footer() {
                         target='_blank'
                         aria-label='LinkedIn'>
                             <i className='fab fa-linkedin'/>
-                        </Link>
+                        </Link> */}
                     </div>
                 </div>
             </section>

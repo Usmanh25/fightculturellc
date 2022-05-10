@@ -124,11 +124,25 @@
     justify-content: space-between;
     align-items: center;
     width: 240px;
-    background-color: blue;
+    text-align: center;
+    
+    /* background-color: blue; */
+}
+.social-icons > img{
+    height: 100%;
+    background-color: black;
+    width: 100%;
+    border-radius: 150px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
 }
 
 .social-logo {
     color: white; 
+    font-family: 'UnifrakturCook', cursive;
+
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
@@ -138,6 +152,11 @@
     align-items: center;
     margin-bottom: 16px;
 }
+
+
+
+
+
 
 .website-rights {
     color: white;
