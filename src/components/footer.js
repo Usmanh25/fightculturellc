@@ -14,7 +14,7 @@ function Footer() {
                     Outer Mission District. We teach a variety of martial arts classes suitable for 
                     all levels. Whether you are a beginner, a trained fighter, or just looking for a good workout,
                     Fight Culture provides a friendly and welcoming environment to hone your skills and accomplish 
-                    your goals.
+                    your fitness goals.
                 </p>
 
             </section>

@@ -58,7 +58,7 @@ function Classes() {
                             drilling moves, advanced concepts, and live rolling</p>
                             <br/>
                         <li> 10 min Stretching </li>
-                        <li> 20 min Combinations </li>
+                        <li> 20 min Drilling </li>
                         <li> 20 min Live Drilling </li>
                         <li> 10 min Cardio / Cool Off </li>
                     </div>
@@ -66,14 +66,17 @@ function Classes() {
 
                 <div className='class-div'>
                     <div className='class-image'>
-                        <img src='images/Wrestling.png' alt='wrestlingpic'></img>
+                        <img src='images/Wrestling.png' alt='wrestlers'></img>
                     </div>
                     <div className='class-text'>
-                        <h1> Wrestling </h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur 
-                            adipiscing elit, sed do eiusmod tempor 
-                            esse cillum dolore eu fugiat nulla pariatur. 
-                            Excepteur sint occaecat cupidatat non proident</p>
+                    <h1> Wrestling </h1>
+                        <p>60 minute class focusing on 
+                            positions, moves, & concepts</p>
+                            <br/>
+                        <li> 10 min Stretching </li>
+                        <li> 20 min Driling </li>
+                        <li> 20 min Live Drilling </li>
+                        <li> 10 min Cardio / Cool Off </li>
                     </div>
                 </div>
                 
