@@ -1,6 +1,7 @@
 .cards {
     padding: 4rem;
-    background: #fff;
+    background-image: url("FightCultureBlackLogo.png");
+    background-size: 510px, 560px;
 }
   
 h1 {
