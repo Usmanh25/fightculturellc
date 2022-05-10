@@ -20,10 +20,9 @@
 }
 .class-text{
     /* background-color: green; */
-    color: purple;
+    color: black;
     width: 50%;
-    margin-left: 40px;
-    
+    margin-left: 40px;    
 }
 .class-text > h1{
     font-family: 'UnifrakturCook', cursive;
@@ -32,8 +31,13 @@
     font-size: 85px;
 
 }
+.class-text > li{
+    font-size: 16px;
+}
 .class-text > p{
-
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 2px solid black;
 }
 
 

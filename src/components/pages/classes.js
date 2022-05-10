@@ -18,11 +18,14 @@ function Classes() {
                         <img src='images/MuayThai.png' alt='muaythaifight'></img>
                     </div>
                     <div className='class-text'>
-                        <h1> Muay Thai </h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur 
-                            adipiscing elit, sed do eiusmod tempor 
-                            esse cillum dolore eu fugiat nulla pariatur. 
-                            Excepteur sint occaecat cupidatat non proident</p>
+                    <h1> Muay Thai </h1>
+                        <p>60 minute high-intensity class focusing on 
+                            Muay Thai footwork, strikes, & padwork</p>
+                            <br/>
+                        <li> 10 min Dynamic Stretching / Shadowboxing </li>
+                        <li> 20 min Combinations </li>
+                        <li> 20 min Live Drilling </li>
+                        <li> 10 min Cardio / Cool Off </li>
                     </div>
                 </div>
 
@@ -31,11 +34,14 @@ function Classes() {
                         <img src='images/Sample1.png' alt='boxingpic'></img>
                     </div>
                     <div className='class-text'>
-                        <h1> Boxing </h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur 
-                            adipiscing elit, sed do eiusmod tempor 
-                            esse cillum dolore eu fugiat nulla pariatur. 
-                            Exceteur sint occaecat cupidatat non proident</p>
+                    <h1> Boxing </h1>
+                        <p>60 minute high-intensity class focusing on 
+                            Boxing footwork, strikes, & padwork</p>
+                        <br/>
+                        <li> 10 min Dynamic Stretching / Shadowboxing </li>
+                        <li> 20 min Combinations </li>
+                        <li> 20 min Live Drilling </li>
+                        <li> 10 min Cardio / Cool Off </li>
                     </div>
                 </div>
 
@@ -45,10 +51,16 @@ function Classes() {
                     </div>
                     <div className='class-text'>
                         <h1> Jiu Jitsu </h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur 
-                            adipiscing elit, sed do eiusmod tempor 
-                            esse cillum dolore eu fugiat nulla pariatur. 
-                            Excepteur sint occaecat cupidatat non proident</p>
+                        <p>60 minute fundamentals class focusing on 
+                            basic moves, positions, and concepts</p>
+                            <br/>
+                        <p>60 minute situational class focusing on 
+                            drilling moves, advanced concepts, and live rolling</p>
+                            <br/>
+                        <li> 10 min Stretching </li>
+                        <li> 20 min Combinations </li>
+                        <li> 20 min Live Drilling </li>
+                        <li> 10 min Cardio / Cool Off </li>
                     </div>
                 </div>
 
