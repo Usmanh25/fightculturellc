@@ -16,6 +16,7 @@ function Schedule() {
                             path='/classes'
                             /> */}
                 <img src='images/FightCultureSchedule.jpeg'></img>
+                
 
             </div>
 

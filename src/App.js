@@ -8,7 +8,7 @@ import Instructors from './components/pages/instructors'
 import Schedule from './components/pages/schedule'
 import Gallery from './components/pages/gallery'
 import Contact from './components/pages/contact'
-// import Footer from './components/footer'
+import Footer from './components/footer'
 
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
             <Route path='/gallery' element={<Gallery />} />
             <Route path='/contact' element={<Contact />} />
           </Routes>
-          {/* <Footer/> */}
+          <Footer/>
       </Router>
       
     </>
