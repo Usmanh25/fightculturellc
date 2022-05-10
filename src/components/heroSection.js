@@ -7,8 +7,8 @@ function HeroSection() {
         <div className='hero-container'>
             
             <img id='image' src='/images/FightCultureHomePage.png' alt='Hero Section'></img>
-            <h1>Fight Culture <br/> Combat Systems</h1>
-            <p> Daly City </p>
+            <h1>Fight Culture SF</h1>
+            <p> 6137 Mission Street</p>
 
         </div>
     )

@@ -2,7 +2,9 @@
     /* border: 1px solid red; */
     font-size: 18px;
     padding-bottom: 100px;
-    color: red;
+    color: black;
+    -webkit-text-stroke: 2px red;
+
     column-gap: 40px; 
 }
 
@@ -14,13 +16,16 @@
 .contact-container2 {
     text-align: center;
 }
-.contact-container1 {
-    /* display: flex; */
-    /* justify-content: center; */
+.conta {
+    font-family: 'UnifrakturCook', cursive;
+    color: black;
+    -webkit-text-stroke: 2px red;
+    font-size: 150px;
 }
 
-.contact-info {
+.contact-info > h1{
     /* border: 1px solid blue; */
-    font-size: 18px;
-    padding-bottom: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    padding-bottom: 20px;
 }

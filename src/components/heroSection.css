@@ -37,6 +37,9 @@
 .hero-container > p {
     backdrop-filter: blur(8px);
     color: red;
+    background: -webkit-linear-gradient(red, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 2px black;
     font-family: 'UnifrakturCook', cursive;
     font-size: 80px;
