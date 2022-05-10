@@ -7,48 +7,49 @@ function Footer() {
         <div className="footer-container">
             <section className="footer-subscription">
                 <p className="footer-subscription-heading">
-                    Join the culture!
+                    About Us
                 </p>
                 <p className="footer-subscription-text">
-                    Sign up today 
+                    Fight Culture is a ___ year-old ___square-foot facility located in San Francisco's 
+                    Outer Mission District. We teach a variety of martial arts classes suitable for 
+                    all levels. Whether you are a beginner, fighter, or just looking for a good workout,
+                    come train here in a friendly and welcoming environment.
                 </p>
-                <div>
-                    <form>
-                        <input type='email' name='email' placeholder='your email' className='footer-input'/>
-                    </form>
-                </div>
+
             </section>
             <div className='footer-links'>
                 <div className='footer-link-wrapper'>
                     <div className='footer-link-items'>
-                        <h2>About Us</h2>
-                        <Link to='/classes'>How it works</Link>
-                        <Link to='/'>testimonials</Link>
-                        <Link to='/'>careers</Link>
-                        <Link to='/'>investors</Link>
+                        <h2>Services</h2>
+                        <Link to='/classes'>Classes</Link>
+                        <Link to='/instructors'>Instructors</Link>
+                        <Link to='/schedule'>Schedule</Link>
                     </div>
                     <div className='footer-link-items'>
-                        <h2>Contact Us</h2>
-                        <Link to='/contact'>contact</Link>
-                        <Link to='/'>support</Link>
-                        <Link to='/'>Schedule</Link>
-                        <Link to='/'>Contact</Link>
+                        <h2>Get in Touch!</h2>
+                        <Link to='/contact'>Contact</Link>
+
                     </div>
                 </div>
                 <div className='footer-link-wrapper'>
                     <div className='footer-link-items'>
                         <h2>Pictures</h2>
                         <Link to='/gallery'>Gallery</Link>
-                        <Link to='/'>submit</Link>
-                        <Link to='/'>agency</Link>
-                        <Link to='/'>ambassadors</Link>
+
                     </div>
                     <div className='footer-link-items'>
                         <h2>Follow Us!</h2>
-                        <Link to='/'>Instagram</Link>
+                        <a 
+                        className="social-icon-link instagram"
+                        href='https://www.instagram.com/fight_culturesf/' 
+                        target='_blank'
+                        aria-label='Instagram'>
+                            <i className='fab fa-instagram'/>
+                        </a>
+                        {/* <Link to='/'>Instagram</Link>
                         <Link to='/'>Facebook</Link>
                         <Link to='/'>Twitter</Link>
-                        <Link to='/'>Youtube</Link>
+                        <Link to='/'>Youtube</Link> */}
                     </div>
                 </div>
             </div>
@@ -56,10 +57,11 @@ function Footer() {
                 <div className="social-media-wrap">
                     <div className="footer-logo">
                         <Link to='/' className="social-logo">
-                            TRVL <i className='fab fa-typo3'/>
+                            Fight Culture <img className='fclogo'src='/images/FightCultureBlackLogo.png' alt='pic'/>
                         </Link>
+
                     </div>
-                    <small className="website-rights"> FC © 2022</small>
+                    <small className="website-rights"> UsmanHameed©2022</small>
                     <div className="social-icons">
                         <Link 
                         className="social-icon-link facebook"
