@@ -1,3 +1,6 @@
-.full-schedule {
-    background-color: aqua;
+
+.schedule-image-container > img {
+    height: 100%;
+    width: 100%;
+
 }

@@ -7,7 +7,7 @@ import CardItem from '../cardItem';
 function Schedule() {
     return(
         <>
-            <div>
+            <div className='schedule-image-container'>
                 {/* <h1 className='schedule'>Weekly Class Schedule</h1> */}
                 {/* <CardItem 
                             src='images/FightCultureSchedule.jpeg'

@@ -16,7 +16,7 @@ function Cards() {
                         path='/classes'
                         />
                         <CardItem 
-                        src='images/samplephoto2.jpg'
+                        src='images/FightCultureHomePage.png'
                         text='View Our Instructors'
                         label='Instructors'
                         path='/instructors'
@@ -30,7 +30,7 @@ function Cards() {
                         path='/schedule'
                         />
                         <CardItem 
-                        src='images/samplephoto4.jpg'
+                        src='images/FightCultureHomePagePic.png'
                         text='View Our Facility'
                         label='Gallery'
                         path='/gallery'

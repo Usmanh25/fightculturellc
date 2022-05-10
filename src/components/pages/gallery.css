@@ -1,0 +1,12 @@
+.gallery-container {
+    background-color: bisque;
+}
+.gallery-image-container { 
+    text-align: center;
+}
+
+.gallery-image-container > img {
+    height: 75%;
+    width: 75%;
+
+}

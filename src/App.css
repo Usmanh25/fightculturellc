@@ -46,8 +46,12 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    color: red;
-    font-size: 100px;
+    font-family: 'UnifrakturCook', cursive;
+    color: black;
+    -webkit-text-stroke: 2px red;
+    font-size: 150px;
+
+    /* background: url("/components/FightCultureBlackLogo.png"); */
 }
 .contact {
     /* background: url("/public/images/FightCultureLocation.png"); */
