@@ -10,7 +10,7 @@ function Cards() {
                 <div className='cards_wrapper'>
                     <ul className='cards__item'>
                         <CardItem 
-                        src='images/Sample1.png'
+                        src='images/MuayThai.png'
                         text='Martial Arts Classes'
                         label='Classes'
                         path='/classes'
@@ -24,7 +24,7 @@ function Cards() {
                     </ul>
                     <ul className='cards__item'>
                         <CardItem 
-                        src='images/samplephoto3.jpg'
+                        src='images/FightCultureSchedule.jpeg'
                         text='Weekly Schedule'
                         label='Schedule'
                         path='/schedule'

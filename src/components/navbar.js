@@ -16,7 +16,7 @@ function Navbar() {
             <nav className='navbar'>
                 <div className='navbar-container'>
                     <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                        Fight Culture <img className='fclogo'src='/images/FightCultureLogo.jpeg' alt='pic'/>
+                        Fight Culture <img className='fclogo'src='/images/FightCultureBlackLogo.png' alt='pic'/>
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />

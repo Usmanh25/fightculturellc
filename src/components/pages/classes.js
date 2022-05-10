@@ -13,7 +13,7 @@ function Classes() {
 
                 <div className='class-div'>
                     <div className='class-image'>
-                        <img src='images/MuayThai.jpeg' alt='muaythaifight'></img>
+                        <img src='images/MuayThai.png' alt='muaythaifight'></img>
                     </div>
                     <div className='class-text'>
                         <h1> Muay Thai </h1>
@@ -39,7 +39,7 @@ function Classes() {
 
                 <div className='class-div'>
                     <div className='class-image'>
-                        <img src='images/JiuJitsu.jpg' alt='jiujitsupic'></img>
+                        <img src='images/JiuJitsu.png' alt='jiujitsupic'></img>
                     </div>
                     <div className='class-text'>
                         <h1> Jiu Jitsu </h1>
@@ -52,7 +52,7 @@ function Classes() {
 
                 <div className='class-div'>
                     <div className='class-image'>
-                        <img src='images/Wrestling.jpg' alt='wrestlingpic'></img>
+                        <img src='images/Wrestling.png' alt='wrestlingpic'></img>
                     </div>
                     <div className='class-text'>
                         <h1> Wrestling </h1>
