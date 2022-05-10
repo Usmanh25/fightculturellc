@@ -7,6 +7,8 @@ function Classes() {
     return (
         <>
         {/* <h1 className='classes'>Our Services</h1> */}
+        <div className='class-page-container'>
+
             <div className='classes-div'>
 
             <h1 className='classes-title'>Our Classes</h1>
@@ -64,6 +66,7 @@ function Classes() {
                 </div>
                 
             </div>
+        </div>
         </>
 
     )
