@@ -9,12 +9,14 @@ import Schedule from './components/pages/schedule'
 import Gallery from './components/pages/gallery'
 import Contact from './components/pages/contact'
 import Footer from './components/footer'
+import ScrollToTop from './components/scrollToTop';
 
 
 function App() {
   return (
     <>
       <Router>
+        <ScrollToTop/>
         <Navbar/>
           <Routes>
             <Route path='/' exact element={<Home />} />
