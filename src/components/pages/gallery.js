@@ -7,7 +7,9 @@ function Gallery() {
         <>
             <div className='gallery-container'>
 
-                <h1 className='gallery'>Our Facilities</h1>
+                <div className='gallery-text'>
+                    <h1 className='gallery'><span>Our Facilities</span></h1>
+                </div>
 
                 <div className='gallery-image-container'>
                     <img src='images/FightCultureHomePage.png'></img>

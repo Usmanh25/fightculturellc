@@ -1,5 +1,18 @@
 .gallery-container {
-    background-color: bisque;
+    background-image: url('FightCultureBlackLogo.png');
+    background-size: 500px 500px;
+    
+}
+h1 span { 
+    backdrop-filter: blur(8px);
+    font-family: 'UnifrakturCook', cursive;
+
+    font-family: 'UnifrakturCook', cursive;
+    color: black;
+    -webkit-text-stroke: 2px red;
+    font-size: 150px;
+    border-radius: 30px;
+
 }
 .gallery-image-container { 
     text-align: center;
