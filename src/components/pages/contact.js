@@ -10,7 +10,7 @@ function Contact() {
 
             <div className='contact-container'>
                 <div className='contact-container1'>
-            <h1 className='conta'>Join the Culture!</h1>
+            <h1 className='title-container'>Join the Culture!</h1>
                     <div className='contact-greeting'>
                         <h1>Start your training today,</h1>
                         <h1>drop-ins welcome or give us a call!</h1>
