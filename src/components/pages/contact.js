@@ -20,6 +20,7 @@ function Contact() {
                         <h1>fightculture@email.com</h1>
                         <h1>6137 Mission Street Daly City, CA 94014</h1>
                     </div>
+                    
                 </div>
                 <div className='contact-container2'>
                     <img src='/images/FightCultureLocation.png' alt='FC Map'></img>
