@@ -43,6 +43,7 @@ function Footer() {
                         <a 
                         className="social-icon-link instagram"
                         href='https://www.instagram.com/fight_culturesf/' 
+                        rel="noreferrer"
                         target='_blank'
                         aria-label='Instagram'>
                             <i className='fab fa-instagram'/>
