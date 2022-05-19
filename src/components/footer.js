@@ -60,6 +60,7 @@ function Footer() {
                         <Link to='/' className="social-logo">
                             Fight Culture
                         </Link>
+                        {/* // */}
 
                     </div>
                     <small className="website-rights"> UsmanHameed©2022</small>
