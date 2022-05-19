@@ -14,7 +14,7 @@ function Footer() {
                     Outer Mission District. We teach a variety of martial arts classes suitable for 
                     all levels. Whether you are a beginner, a trained fighter, or just looking to stay fit,
                     Fight Culture provides a friendly and welcoming environment to hone your skills and accomplish 
-                    your fitness goals.
+                    your fitness goals. 
                 </p>
 
             </section>
@@ -62,7 +62,7 @@ function Footer() {
                         </Link>
 
                     </div>
-                    <small className="website-rights"> FightCultureLLC©2022</small>
+                    <small className="website-rights"> UsmanHameed©2022</small>
                     <div className="social-icons">
                         <img className='fclogo'src='/images/FightCultureBlackLogo.png' alt='pic'/>
                         {/* <Link 
