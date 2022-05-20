@@ -10,7 +10,7 @@ function Footer() {
                     About Us
                 </p>
                 <p className="footer-subscription-text">
-                    Fight Culture is a 3 year-old 200 square-foot training facility located in San Francisco's 
+                    Fight Culture is a 3 year-old 1000 square-foot martial arts training facility located in San Francisco's 
                     Outer Mission District. We teach a variety of martial arts classes suitable for 
                     all levels. Whether you are a beginner, a trained fighter, or just looking to stay fit,
                     Fight Culture provides a friendly and welcoming environment to hone your skills and accomplish 
