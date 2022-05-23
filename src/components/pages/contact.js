@@ -13,8 +13,9 @@ function Contact() {
             <h1 className='title-container'>Join the Culture!</h1>
                     <div className='contact-greeting'>
                         <h1>Start your training today,</h1>
-                        <h1>drop-ins welcome or give us a call!</h1>
+                        <h1>dropins welcome or give us a call!</h1>
                     </div>
+
                     <div className='contact-info'>
                         <h1>(415)-123-4567</h1>
                         <h1>fightculture@email.com</h1>
