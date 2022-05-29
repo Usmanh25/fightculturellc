@@ -18,7 +18,7 @@ function Contact() {
 
                     <div className='contact-info'>
                         <h1>(415)123-4567</h1>
-                        <h1>fightculture@email.com</h1>
+                        <h1>fightculture@gmail.com</h1>
                         <h1>6137 Mission Street Daly City, CA 94014</h1>
                     </div>
 
