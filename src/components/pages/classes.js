@@ -20,7 +20,7 @@ function Classes() {
                     </div>
                     <div className='class-text'>
                     <h1> Muay Thai </h1>
-                        <p>60 minute high-intensity class focusing on 
+                        <p>60 minute hig h-intensity class focusing on 
                             Muay Thai fotwork, strikes, & padwork</p>
                             <br/>
                         <li> 10 min Dynamic Stretching / Shadowboxing </li>
