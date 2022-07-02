@@ -25,7 +25,7 @@ function Classes() {
                             <br/>
                         <li> 15 min Warmup Dynamic Stretching / Shadowboxing </li>
                         <li> 20 min Combinations </li>
-                        <li> 20 minLive Drilling </li>
+                        <li> 20 minLive Drlling </li>
                         <li> 10 min io / Cool Off </li>
                         <li> 10 min Cadio /Cool Off </li>
                     </div>
