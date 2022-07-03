@@ -27,7 +27,7 @@ function Classes() {
                         <li> 20 min Combinatins </li>
                         <li> 20 minLiv Drlling </li>
                         <li> 10 min io / Cool Off </li>
-                        <li> 10 min Cadio /Cool Off </li>
+                        <li> 10 min Cadio /Col Off </li>
                     </div>
                 </div>
 
