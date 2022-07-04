@@ -2,7 +2,7 @@ import React from 'react';
 import '../../App.css';
 import './classes.css';
 
-
+ 
 function Classes() {
         
     return (
@@ -24,7 +24,7 @@ function Classes() {
                             Muay Thai footwork, striking, & padholding</p>
                             <br/>
                         <li> 15 min Warmup Dynamic Stretching / Shadowboxing </li>
-                        <li> 20 min Combinatins </li>
+                        <li> 20 min Combiatins </li>
                         <li> 20 minLiv Drlling </li>
                         <li> 10 min io / Cool Off </li>
                         <li> 10 min Cadio /Col Off </li>
