@@ -23,7 +23,7 @@ function Classes() {
                         <p>60 minute high-intensity class focusing on 
                             Muay Thai footwork, striking, & padholding</p>
                             <br/>
-                        <li> 15 min Warmup Dynamic Stretching / Shadowboxing </li>
+                        <li> 15 min Wamup Dynamic Stretching / Shadowboxing </li>
                         <li> 20 min Combiatins </li>
                         <li> 20 minLiv Drlling </li>
                         <li> 10 min io / Cool Off </li>
