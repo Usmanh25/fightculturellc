@@ -24,7 +24,7 @@ function Classes() {
                             Muay Thai foowork, striking, & padholding</p>
                             <br/>
                         <li> 15 min Wamup Dynamic Stretching / Shadowboxing </li>
-                        <li> 20 min Combiains </li>
+                        <li> 20 min Cobiains </li>
                         <li> 20 minLiv Drlling </li>
                         <li> 10 min io / Cool Off </li>
                         <li> 10 min Cadio /Col Off </li>
