@@ -77,7 +77,7 @@ function Classes() {
                             <br/>
                         <li> 10 min Stretching </li>
                         <li> 20 min Driling </li>
-                        <li> 20 min Live Drilling </li>
+                        <li> 20 min LiveDrilling </li>
                         <li> 10 min Cardio / Cool Off </li>
                     </div>
                 </div>
