@@ -72,7 +72,7 @@ function Classes() {
                     </div>
                     <div className='class-text'>
                     <h1> Wrestling </h1>
-                        <p>60 minute class focusing on 
+                        <p>60 minte class focusing on 
                             positions, moves, & concepts</p>
                             <br/>
                         <li> 10 min Stretching </li>
