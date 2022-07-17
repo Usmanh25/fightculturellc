@@ -162,7 +162,7 @@
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
 
     .cards__item {
         /* background-color: blue; */
@@ -171,7 +171,6 @@
     }
 
     .fc-header {
-        font-size: 30px;
         text-align: center;
     }
 
