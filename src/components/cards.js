@@ -30,15 +30,23 @@ function Cards() {
                         path='/schedule'
                         />
                         <CardItem 
-                        src='images/FightCultureHomePagePic.png'
+                        src='images/fcp-2.jpg'
                         text='View Our Facility'
                         label='Gallery'
                         path='/gallery'
                         />
+                    </ul>
+                    <ul className='cards__item'>
                         <CardItem 
                         src='images/samplephoto5.jpg'
                         text='Get in Touch'
                         label='Contact Us'
+                        path='/contact'
+                        />
+                        <CardItem 
+                        src='images/samplephoto5.jpg'
+                        text='Get in Touch'
+                        label='Instagram'
                         path='/contact'
                         />
                     </ul>
