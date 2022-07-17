@@ -1,11 +1,19 @@
 .cards {
     padding: 4rem;
-    background-image: url("FightCultureBlackLogo.png");
-    background-size: 510px, 560px;
+    /* background-image: url("FightCultureBlackLogo.png"); */
+    background-image: url("background.jpg");
+    background-size: 1020px, 1120px;
+    /* object-fit: cover; */
 }
   
-h1 {
+.fc-header {
     text-align: center;
+    /* background-color: blue; */
+    color: black;
+    font-size: 100px;
+    font-weight: bold;
+    margin-bottom: 45px;
+    font-family: 'Mochiy Pop One', sans-serif;
 }
   
 .cards__container {
@@ -162,24 +170,41 @@ h1 {
         flex-direction: column;
     }
 
+    .fc-header {
+        font-size: 30px;
+        text-align: center;
+    }
+
+
+}
+@media only screen and (max-width: 500px) {
+
+    .fc-header {
+        margin-left: -15px;
+    }
+
 
 }
 @media only screen and (max-width: 800px) {
 
     .cards__item {
         margin-bottom: 2rem;
-      }
-      .cards__container {
-          display: flex;
-          /* flex-direction: column; */
-      }
-      .cards__item__info {
-          padding: 5px 75px 15px;
-          /* background-color: black;
-          text-align: center; */
-      }
-      .cards__item__text {
-          font-size: 12px;
-      }
+    }
+    .cards__container {
+        display: flex;
+        /* flex-direction: column; */
+    }
+    .cards__item__info {
+        padding: 5px 75px 15px;
+        /* background-color: black;
+        text-align: center; */
+    }
+    .cards__item__text {
+        font-size: 12px;
+    }
+
+    .fc-header {
+        font-size: 60px;
+    }
 
 }
