@@ -19,15 +19,15 @@ function Classes() {
                         <img src='images/MuayThai.png' alt='muaythaifight'></img>
                     </div>
                     <div className='class-text'>
-                    <h1> Muay Thai </h1>
-                        <p>60 minute session covering aspects of Muay Thai 
-                            from foowork, padwork, striking, and sparring</p>
-                            {/* <br/>
-                        <li> 15 min Wamup Dynamic Stretching / Shadowboxing </li>
-                        <li> 20 min Cobiains </li>
-                        <li> 20 minLiv Drlling </li>
-                        <li> 10 min io / Cool Off </li>
-                        <li> 10 min Cadio /Col Off </li> */}
+                        <h1> Muay Thai </h1>
+                            <p>60 minute session covering aspects of Muay Thai 
+                                from foowork, padwork, striking, and sparring</p>
+                                {/* <br/>
+                            <li> 15 min Wamup Dynamic Stretching / Shadowboxing </li>
+                            <li> 20 min Cobiains </li>
+                            <li> 20 minLiv Drlling </li>
+                            <li> 10 min io / Cool Off </li>
+                            <li> 10 min Cadio /Col Off </li> */}
                     </div>
                 </div>
 
