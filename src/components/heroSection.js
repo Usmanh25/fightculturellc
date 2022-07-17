@@ -6,9 +6,9 @@ function HeroSection() {
     return (
         <div className='hero-container'>
             
-            <img id='image' src='/images/FightCultureHomePage.png' alt='Hero Section'></img>
-            {/* <h1>Fight Culture SF</h1>
-            <p> 6137 Mission Street</p> */}
+            <video src="public/videos/f_c_video.mp4" autoPlay loop muted/>
+            <h1>Fight Culture SF</h1>
+            <p> 6137 Mission Street</p>
 
         </div>
     )
