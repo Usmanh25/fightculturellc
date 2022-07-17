@@ -1,6 +1,8 @@
 import React from 'react';
 import CardItem from './cardItem';
 import './cards.css';
+import {Link} from 'react-router-dom';
+
 
 
 function Cards() {
@@ -10,15 +12,15 @@ function Cards() {
                 <div className='cards_wrapper'>
                     <ul className='cards__item'>
                         <CardItem 
-                        src='images/MuayThai.png'
-                        text='Martial Arts Classes'
-                        label='Classes'
+                        src='images/fcp-2.jpg'
+                        text='Our Classes'
+                        label='Our Classes'
                         path='/classes'
                         />
                         <CardItem 
                         src='images/FightCultureHomePage.png'
-                        text='View Our Instructors'
-                        label='Instructors'
+                        text='Our Instructors'
+                        label='Our Instructors'
                         path='/instructors'
                         />
                     </ul>
@@ -26,29 +28,35 @@ function Cards() {
                         <CardItem 
                         src='images/FightCultureSchedule.jpeg'
                         text='Weekly Schedule'
-                        label='Schedule'
+                        label='Weekly Schedule'
                         path='/schedule'
                         />
                         <CardItem 
-                        src='images/fcp-2.jpg'
+                        src='images/fcp-7.jpg'
                         text='View Our Facility'
-                        label='Gallery'
+                        label='View Our Facility'
                         path='/gallery'
                         />
                     </ul>
                     <ul className='cards__item'>
                         <CardItem 
                         src='images/samplephoto5.jpg'
-                        text='Get in Touch'
-                        label='Contact Us'
+                        text='Get in Touch!'
+                        label='Get In Touch!'
                         path='/contact'
                         />
-                        <CardItem 
-                        src='images/samplephoto5.jpg'
-                        text='Get in Touch'
-                        label='Instagram'
-                        path='/contact'
-                        />
+
+                        <li className="cards__item">
+                            <a className="cards__item__link" target='_blank' href='https://www.instagram.com/fight_culturesf/'>
+                                <figure className="cards__item__pic-wrap" data-category='Follow Us!'>
+                                    <img src='images/instagram.png' alt="Sample-Pic" className="cards__item__img"/>
+                                </figure>
+                                <div className="cards__item__info">
+                                    <h5 className="cards__item__text">'Follow Us!'</h5>
+                                </div>
+                            </a>
+                        </li>
+
                     </ul>
                 </div>
             </div>
