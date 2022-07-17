@@ -17,10 +17,9 @@
     text-align: center;
 }
 .title-container {
-    font-family: 'UnifrakturCook', cursive;
-    color: black;
-    -webkit-text-stroke: 3px red;
-    font-size: 150px;
+    font-family: 'Rubik Glitch', cursive;    /* color: black; */
+    -webkit-text-stroke: 3px rgb(224, 38, 38);
+    font-size: 100px;
 }
 
 .contact-info > h1{
