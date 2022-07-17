@@ -1,7 +1,6 @@
 import React from 'react';
 import CardItem from './cardItem';
 import './cards.css';
-import {Link} from 'react-router-dom';
 
 
 
@@ -40,19 +39,19 @@ function Cards() {
                     </ul>
                     <ul className='cards__item'>
                         <CardItem 
-                        src='images/samplephoto5.jpg'
+                        src='images/FightCultureLocation.png'
                         text='Get in Touch!'
                         label='Get In Touch!'
                         path='/contact'
                         />
 
                         <li className="cards__item">
-                            <a className="cards__item__link" target='_blank' href='https://www.instagram.com/fight_culturesf/'>
+                            <a className="cards__item__link" target='_blank' rel="noreferrer" href='https://www.instagram.com/fight_culturesf/'>
                                 <figure className="cards__item__pic-wrap" data-category='Follow Us!'>
                                     <img src='images/instagram.png' alt="Sample-Pic" className="cards__item__img"/>
                                 </figure>
                                 <div className="cards__item__info">
-                                    <h5 className="cards__item__text">'Follow Us!'</h5>
+                                    <h5 className="cards__item__text"></h5>
                                 </div>
                             </a>
                         </li>
