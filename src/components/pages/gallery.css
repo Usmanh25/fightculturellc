@@ -5,18 +5,13 @@
 }
 h1 span { 
     backdrop-filter: blur(10px);
-    font-family: 'UnifrakturCook', cursive;
 
     color: black;
-    -webkit-text-stroke: 3px red;
-    font-size: 150px;
-    border-radius: 30px;
+    border-radius: 10px;
     /* opacity: 5; */
 
-
     font-family: 'Mochiy Pop One', sans-serif;
-    color: white;
-    -webkit-text-stroke: 3px rgb(0, 0, 0);
+    -webkit-text-stroke: 3px #e53d27ee;
     font-size: 100px;
     text-align: center;
     /* padding-top: 50px;
