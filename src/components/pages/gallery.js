@@ -13,11 +13,13 @@ function Gallery() {
 
                 <div className='gallery-image-container'>
                     <img alt='Gallery' src='images/FightCultureHomePage.png'></img>
-                    <img alt='Gallery' src='images/FightCultureHomePagePic.png'></img>
-                    <img alt='Gallery' src='images/FightCultureBlackLogo.png'></img>
-                    <img alt='Gallery' src='images/Wrestling.png'></img>
-                    <img alt='Gallery' src='images/JiuJitsu.png'></img>
-                    <img alt='Gallery' src='images/MuayThai.png'></img>
+                    <img alt='Gallery' src='images/fcp-1.jpg'></img>
+                    <img alt='Gallery' src='images/fcp-2.jpg'></img>
+                    <img alt='Gallery' src='images/fcp-3.jpg'></img>
+                    <img alt='Gallery' src='images/fcp-4.jpg'></img>
+                    <img alt='Gallery' src='images/fcp-5.jpg'></img>
+                    <img alt='Gallery' src='images/fcp-6.jpg'></img>
+                    <img alt='Gallery' src='images/fcp-7.jpg'></img>
                 </div>  
             </div>
         </>

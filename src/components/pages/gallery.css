@@ -13,6 +13,20 @@ h1 span {
     border-radius: 30px;
     /* opacity: 5; */
 
+
+    font-family: 'Mochiy Pop One', sans-serif;
+    color: white;
+    -webkit-text-stroke: 3px rgb(0, 0, 0);
+    font-size: 100px;
+    text-align: center;
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
+
+    -webkit-animation: fadeInTop 1.2s both;
+    -moz-animation: fadeInTop 1.2s both;
+    -o-animation: fadeInTop 1.2s both;
+    animation: fadeInTop 1.2s both;
+
 }
 .gallery-image-container { 
     text-align: center;
@@ -22,4 +36,15 @@ h1 span {
     height: 75%;
     width: 75%;
 
+}
+
+@media only screen and (max-width: 700px) {
+    h1 span { 
+        font-size:75px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    h1 span { 
+        font-size:50px;
+    }
 }
