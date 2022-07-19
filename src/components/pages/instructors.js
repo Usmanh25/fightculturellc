@@ -40,11 +40,8 @@ function Instructors() {
 
                             Jeremy is a former ______ muay thai fighter with over 
                             _____ fights of experience. He has been teaching 
-                            muay thai for _______
-                            Lorem ipsum dolor sit amet, consectetur 
-                            adipiscing elit, sed do eiusmod tempor 
-                            esse cillum dolore eu fugiat nulla pariatur. 
-                            Excepteur sint occaecat cupidatat non proident
+                            muay thai for _______ years and _________________
+
                         </p>
                     </div>
                 </div>
