@@ -53,8 +53,9 @@ function Instructors() {
                         <h1> Martin Ruiz </h1>
                         <h2> Wrestling </h2>
                         <p>
-                            Martin is a former wrestler for San 
-                            Francisco State University with ____
+                            Martin is a former member of the SFSU
+                            wrestling team, with (name of accolades and number
+                            of matches and experience)
                             Lorem ipsum dolor sit amet, consectetur 
                             adipiscing elit, sed do eiusmod tempor 
                             esse cillum dolore eu fugiat nulla pariatur. 
@@ -70,7 +71,8 @@ function Instructors() {
                     <div className='instructor-text'>
                         <h1> Brandy Cotter </h1>
                         <h2> Boxing </h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur 
+                        <p>Brandy has been training boxing for 
+                            _____Lorem ipsum dolor sit amet, consectetur 
                             adipiscing elit, sed do eiusmod tempor 
                             esse cillum dolore eu fugiat nulla pariatur. 
                             Excepteur sint occaecat cupidatat non proident</p>
