@@ -21,7 +21,8 @@ function Instructors() {
                     <div className='instructor-text'>
                     <h1> Kyle Riddeau </h1>
                     <h2> Jiu-Jitsu </h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur 
+                    <p>Kyle is a ___th degree black belt under _______ who has professionally
+                        fought for ___ years and has been teaching jiu jLorem ipsum dolor sit amet, consectetur 
                             adipiscing elit, sed do eiusmod tempor 
                             esse cillum dolore eu fugiat nulla pariatur. 
                             Excepteur sint occaecat cupidatat non proident</p>
