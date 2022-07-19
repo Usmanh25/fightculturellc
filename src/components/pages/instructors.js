@@ -25,7 +25,7 @@ function Instructors() {
                             Kyle is a (number)th degree black belt under 
                             (name of guy) who has professionally 
                             fought (name of sport) for (number) years and has 
-                            been teaching jiu jitsu for (number) years.
+                            been teaching jiu jitsu for (number) years.(Fun fact)
                         </p>
                     </div>
                 </div>
@@ -41,6 +41,7 @@ function Instructors() {
                             Jeremy is a former ______ muay thai fighter with over 
                             _____ fights of experience. He has been teaching 
                             muay thai for _______ years and _________________
+                            (Fun fact)
                         </p>
                     </div>
                 </div>
@@ -55,7 +56,7 @@ function Instructors() {
                         <p>
                             Martin is a former member of the SFSU
                             wrestling team, with (name of accolades and number
-                            of matches and experience)
+                            of matches and experience) (Fun fact)
                         </p>
                     </div>
                 </div>
@@ -68,7 +69,7 @@ function Instructors() {
                         <h1> Brandy Cotter </h1>
                         <h2> Boxing </h2>
                         <p>Brandy has been training boxing for 
-                            _____ years and (more info about Brandy here)
+                            _____ years and (more info about Brandy here) (Fun fact)
                         </p>
                     </div>
                 </div>
@@ -80,10 +81,11 @@ function Instructors() {
                     <div className='instructor-text'>
                         <h1> Ryan </h1>
                         <h2> Jiu-Jitsu </h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur 
-                            adipiscing elit, sed do eiusmod tempor 
-                            esse cillum dolore eu fugiat nulla pariatur. 
-                            Excepteur sint occaecat cupidatat non proident</p>
+                        <p>  
+                            Ryan is a Brazilian Jiu-Jitsu brown belt under
+                            (name of guy) who has (number of matches) and 
+                            has been training for ___ years. (Fun fact)
+                        </p>
                     </div>
                 </div>
                 
