@@ -21,11 +21,10 @@ function Instructors() {
                     <div className='instructor-text'>
                     <h1> Kyle Riddeau </h1>
                     <h2> Jiu-Jitsu </h2>
-                    <p>Kyle is a ___th degree black belt under _______ who has professionally
-                        fought for ___ years and has been teaching jiu jLorem ipsum dolor sit amet, consectetur 
-                            adipiscing elit, sed do eiusmod tempor 
-                            esse cillum dolore eu fugiat nulla pariatur. 
-                            Excepteur sint occaecat cupidatat non proident</p>
+                    <p>  Kyle is a (number)th degree black belt under 
+                        (name of guy) who has professionally 
+                        fought (name of sport) for (number) years and has 
+                        been teaching jiu jitsu for (number) years.</p>
 
                     </div>
                 </div>
