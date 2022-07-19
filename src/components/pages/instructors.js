@@ -56,10 +56,6 @@ function Instructors() {
                             Martin is a former member of the SFSU
                             wrestling team, with (name of accolades and number
                             of matches and experience)
-                            Lorem ipsum dolor sit amet, consectetur 
-                            adipiscing elit, sed do eiusmod tempor 
-                            esse cillum dolore eu fugiat nulla pariatur. 
-                            Excepteur sint occaecat cupidatat non proident
                         </p>
                     </div>
                 </div>
@@ -72,10 +68,8 @@ function Instructors() {
                         <h1> Brandy Cotter </h1>
                         <h2> Boxing </h2>
                         <p>Brandy has been training boxing for 
-                            _____Lorem ipsum dolor sit amet, consectetur 
-                            adipiscing elit, sed do eiusmod tempor 
-                            esse cillum dolore eu fugiat nulla pariatur. 
-                            Excepteur sint occaecat cupidatat non proident</p>
+                            _____ years and (more info about Brandy here)
+                        </p>
                     </div>
                 </div>
 
