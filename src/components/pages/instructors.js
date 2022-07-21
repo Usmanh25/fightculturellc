@@ -55,7 +55,7 @@ function Instructors() {
                         <h2> Wrestling </h2>
                         <p>
                             Martin is a former member of the SFSU
-                            wrestling team, with (name of accolades and number
+                            wrestling team, with (name of accolades/number
                             of matches and experience) (Fun fact)
                         </p>
                     </div>
