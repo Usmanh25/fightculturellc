@@ -36,7 +36,7 @@ function Instructors() {
                         <img src='images/jeremy.jpg' alt='boxingpic'></img>
                     </div>
                     <div className='instructor-text'>
-                    <h1> Jeremy </h1>
+                    <h1> Jeremy ____</h1>
                     <h2> Muay Thai </h2>
                         <p>     
                             Jeremy is a former ______ muay thai fighter with over 
@@ -80,7 +80,7 @@ function Instructors() {
                         <img src='images/ProfilePicDefault.png' alt='wrestlingpic'></img>
                     </div>
                     <div className='instructor-text'>
-                        <h1> Ryan </h1>
+                        <h1> Ryan ____ </h1>
                         <h2> Jiu-Jitsu </h2>
                         <p>  
                             Ryan is a Brazilian Jiu-Jitsu brown belt under
@@ -94,13 +94,28 @@ function Instructors() {
                         <img src='images/ProfilePicDefault.png' alt='wrestlingpic'></img>
                     </div>
                     <div className='instructor-text'>
-                        <h1> Ali </h1>
+                        <h1> Ali ____ </h1>
                         <h2> Jiu-Jitsu </h2>
                         <h2> Muay Thai </h2>
                         <p>  
                             Ali is a (number)th degree Black Belt in Brazilian Jiu-Jitsu under
                             (name of guy), who has also been training muay thai ___ years. 
                             (Fun fact)
+                        </p>
+                    </div>
+                </div>
+                <div className='instructor-div'>
+                    <div className='instructor-image'>
+                        <img src='images/ProfilePicDefault.png' alt='wrestlingpic'></img>
+                    </div>
+                    <div className='instructor-text'>
+                        <h1> Wilson ____ </h1>
+                        <h2> Jiu-Jitsu </h2>
+                        <h2> Muay Thai </h2>
+                        <p>  
+                            Wilson is a Brown Belt in Brazilian Jiu-Jitsu under
+                            (name of guy), who has also been training muay thai 
+                            for ___ years.(Experience, Fun fact)
                         </p>
                     </div>
                 </div>
