@@ -119,6 +119,19 @@ function Instructors() {
                         </p>
                     </div>
                 </div>
+                <div className='instructor-div'>
+                    <div className='instructor-image'>
+                        <img src='images/ProfilePicDefault.png' alt='wrestlingpic'></img>
+                    </div>
+                    <div className='instructor-text'>
+                        <h1> Ron ____ </h1>
+                        <h2> Muay Thai </h2>
+                        <p>  
+                            Ron is one of our beloved Muay Thai trainers who has been
+                            competed and trained for over (number) years (Fun fact)
+                        </p>
+                    </div>
+                </div>
                 
             </div>
         </div>
