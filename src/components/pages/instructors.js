@@ -114,8 +114,8 @@ function Instructors() {
                         <h2> Muay Thai </h2>
                         <p>  
                             Wilson is a Brown Belt in Brazilian Jiu-Jitsu under
-                            (name of guy), who has also been training muay thai 
-                            for ___ years.(Experience) (Fun fact)
+                            (name of guy), as well as an experienced muay thai practitioner 
+                            with over ___ years of experience.(Experience) (Fun fact)
                         </p>
                     </div>
                 </div>
