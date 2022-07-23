@@ -88,6 +88,20 @@ function Instructors() {
                         </p>
                     </div>
                 </div>
+                <div className='instructor-div'>
+                    <div className='instructor-image'>
+                        <img src='images/ProfilePicDefault.png' alt='wrestlingpic'></img>
+                    </div>
+                    <div className='instructor-text'>
+                        <h1> Ryan </h1>
+                        <h2> Jiu-Jitsu </h2>
+                        <p>  
+                            Ryan is a Brazilian Jiu-Jitsu brown belt under
+                            (name of guy) who has (number of matches) and 
+                            has been training for ___ years. (Fun fact)
+                        </p>
+                    </div>
+                </div>
                 
             </div>
         </div>
