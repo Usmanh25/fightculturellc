@@ -23,7 +23,7 @@ function Instructors() {
                         <h2> Jiu-Jitsu </h2>
                         <h2> Muay Thai </h2>
                         <p>  
-                            Kyle is a (number)th degree black belt under 
+                            Kyle is a ()th degree black belt under 
                             (name of guy) who has professionally 
                             fought (name of sport) for (number) years and has 
                             been teaching jiu jitsu for (number) years.(Fun fact)
@@ -127,7 +127,7 @@ function Instructors() {
                         <h1> Ron ____ </h1>
                         <h2> Muay Thai </h2>
                         <p>  
-                            Ron is one of our beloved Muay Thai trainers who has been
+                            Ron is one of our beloved Muay Thai trainers who has 
                             competed and trained for over (number) years (Fun fact)
                         </p>
                     </div>
