@@ -25,7 +25,7 @@ function Instructors() {
                         <p>  
                             Kyle is a __th degree black belt under 
                             ______ who has professionally 
-                            fought (name of sport) for (number) years and has 
+                            fought (name of sport) for __ years and has 
                             been teaching jiu jitsu for (number) years.(Fun fact)
                         </p>
                     </div>
