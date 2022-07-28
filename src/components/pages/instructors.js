@@ -42,7 +42,7 @@ function Instructors() {
                         <p>     
                             Jeremy is a former ______ muay thai fighter with over 
                             _____ fights of experience. He has been teaching 
-                            muay thai for _______ years and _________________
+                            muay thai for ______ years and _________________
                             (Fun fact)
                         </p>
                     </div>
