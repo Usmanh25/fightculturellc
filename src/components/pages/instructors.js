@@ -86,7 +86,7 @@ function Instructors() {
                         <p>  
                             Ryan is a Brazilian Jiu-Jitsu brown belt under
                             (name of guy) who has (number of matches) and 
-                            has been training for ___ years. (Fun fact)
+                            has been training for __ years. (Fun fact)
                         </p>
                     </div>
                 </div>
