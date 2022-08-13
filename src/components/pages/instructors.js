@@ -128,7 +128,8 @@ function Instructors() {
                         <h2> Muay Thai </h2>
                         <p>  
                             Ron is one of our beloved Muay Thai trainers who has 
-                            competed and trained for over (number) years (Fun fact)
+                            ____ fights of experience and competed and trained for 
+                            over ____ years (Fun fact)
                         </p>
                     </div>
                 </div>
