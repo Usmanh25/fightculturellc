@@ -42,7 +42,7 @@ function Instructors() {
                         <p>     
                             Jeremy is our muay thai specialist. A former professional,
                             he has been training muay thai since 2006. He likes long 
-                            walks on the each and fruity alchoholic beverages.
+                            walks on the beach and fruity alchoholic beverages.
                         </p>
                     </div>
                 </div>
