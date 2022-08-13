@@ -23,10 +23,10 @@ function Instructors() {
                         <h2> Jiu-Jitsu </h2>
                         <h2> Muay Thai </h2>
                         <p>  
-                            Kyle is a __th degree black belt under 
+                            Kyle is a ___th degree black belt under 
                             ______ who has professionally 
-                            fought (name of sport) for __ years and has 
-                            been teaching jiu jitsu for __ years.
+                            fought (name of martial art) for ____ years and has 
+                            been teaching jiu jitsu for ____ years.
                             (Fun fact)
                         </p>
                     </div>
@@ -54,6 +54,20 @@ function Instructors() {
                     <div className='instructor-text'>
                         <h1> Martin Ruiz </h1>
                         <h2> Wrestling </h2>
+                        <p>
+                            Martin is a former NCAA
+                            wrestler with _____ matches of experience who has been 
+                            training wrestling for _____ years (Fun fact)
+                        </p>
+                    </div>
+                </div>
+                <div className='instructor-div'>
+                    <div className='instructor-image'>
+                        <img src='images/martin.jpg' alt='jiujitsupic'></img>
+                    </div>
+                    <div className='instructor-text'>
+                        <h1> Ritchie ____ </h1>
+                        <h2> Muay Thai </h2>
                         <p>
                             Martin is a former NCAA
                             wrestler with _____ matches of experience who has been 
@@ -95,12 +109,12 @@ function Instructors() {
                         <img src='images/ProfilePicDefault.png' alt='wrestlingpic'></img>
                     </div>
                     <div className='instructor-text'>
-                        <h1> Ron ____ </h1>
+                        <h1> Ron Nitafan </h1>
                         <h2> Muay Thai </h2>
                         <p>  
-                            Ron is one of our beloved Muay Thai trainers who has 
-                            ____ fights of experience and competed and trained for 
-                            over ____ years (Fun fact)
+                            Ron is one of our beloved Muay Thai trainers with over 10 years
+                            of training, competing, and instructing under his belt. A retired 
+                            motorcycle road racer, he now fills his spare time with a Latin dance team
                         </p>
                     </div>
                 </div>
