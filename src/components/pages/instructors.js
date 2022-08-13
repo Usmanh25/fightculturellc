@@ -37,13 +37,12 @@ function Instructors() {
                         <img src='images/jeremy.jpg' alt='boxingpic'></img>
                     </div>
                     <div className='instructor-text'>
-                    <h1> Jeremy ____</h1>
+                    <h1> Jeremy Jacildo</h1>
                     <h2> Muay Thai </h2>
                         <p>     
-                            Jeremy is a former ______ muay thai fighter with over 
-                            _____ fights of experience. He has been teaching 
-                            muay thai for ______ years and _________________
-                            (Fun fact)
+                            Jeremy is our muay thai specialist. A former professional,
+                            he has been training muay thai since 2006. He likes long 
+                            walks on the each and fruity alchoholic beverages.
                         </p>
                     </div>
                 </div>
