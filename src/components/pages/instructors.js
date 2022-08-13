@@ -55,9 +55,9 @@ function Instructors() {
                         <h1> Martin Ruiz </h1>
                         <h2> Wrestling </h2>
                         <p>
-                            Martin is a former SFSU
-                            wrestler with (name of accolades/number
-                            of matches/experience) (Fun fact)
+                            Martin is a former NCAA
+                            wrestler with _____ matches of experience who has been 
+                            training wrestling for _____ years (Fun fact)
                         </p>
                     </div>
                 </div>
@@ -89,36 +89,7 @@ function Instructors() {
                         </p>
                     </div>
                 </div>
-                <div className='instructor-div'>
-                    <div className='instructor-image'>
-                        <img src='images/ProfilePicDefault.png' alt='wrestlingpic'></img>
-                    </div>
-                    <div className='instructor-text'>
-                        <h1> Ali ____ </h1>
-                        <h2> Jiu-Jitsu </h2>
-                        <h2> Muay Thai </h2>
-                        <p>  
-                            Ali is a (number)th degree Black Belt in Brazilian Jiu-Jitsu under
-                            (name of guy), who has also been training muay thai ___ years. 
-                            (Fun fact)
-                        </p>
-                    </div>
-                </div>
-                <div className='instructor-div'>
-                    <div className='instructor-image'>
-                        <img src='images/ProfilePicDefault.png' alt='wrestlingpic'></img>
-                    </div>
-                    <div className='instructor-text'>
-                        <h1> Wilson ____ </h1>
-                        <h2> Jiu-Jitsu </h2>
-                        <h2> Muay Thai </h2>
-                        <p>  
-                            Wilson has a Brown Belt in Brazilian Jiu-Jitsu under
-                            (name of guy), as well as an experienced muay thai practitioner 
-                            with over ___ years of experience.(Fun fact)
-                        </p>
-                    </div>
-                </div>
+                
                 <div className='instructor-div'>
                     <div className='instructor-image'>
                         <img src='images/ProfilePicDefault.png' alt='wrestlingpic'></img>
