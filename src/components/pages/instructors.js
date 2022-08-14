@@ -40,7 +40,7 @@ function Instructors() {
                     <h1> Jeremy Jacildo</h1>
                     <h2> Muay Thai </h2>
                         <p>     
-                            Jeremy is our muay thai specialist. A former professional,
+                            Jeremy is our Muay Thai specialist. A former professional,
                             he has been training muay thai since 2006. He likes long 
                             walks on the beach and fruity alchoholic beverages.
                         </p>
@@ -63,15 +63,14 @@ function Instructors() {
                 </div>
                 <div className='instructor-div'>
                     <div className='instructor-image'>
-                        <img src='images/martin.jpg' alt='jiujitsupic'></img>
+                        <img src='images/ProfilePicDefault.png' alt='jiujitsupic'></img>
                     </div>
                     <div className='instructor-text'>
-                        <h1> Ritchie ____ </h1>
+                        <h1> Ritchie Mercado </h1>
                         <h2> Muay Thai </h2>
                         <p>
-                            Martin is a former NCAA
-                            wrestler with _____ matches of experience who has been 
-                            training wrestling for _____ years (Fun fact)
+                            Ritchie is our  a former fighter _____ years of Muay Thai experience. He is aHe has a brown belt in Brazilia Jiu-Jitsu, 
+                            and you can find him cutting hair next door at Apex Barbershp
                         </p>
                     </div>
                 </div>
