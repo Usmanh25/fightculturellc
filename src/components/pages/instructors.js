@@ -12,7 +12,7 @@ function Instructors() {
 
             <div className='classes-div'>
 
-            <h1 className='instructors-title'>Our Instructors</h1>
+            <h1 className='instructors-title'>Instructors</h1>
 
                 <div className='instructor-div'>
                     <div className='instructor-image'>
