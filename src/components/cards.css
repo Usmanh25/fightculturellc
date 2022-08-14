@@ -1,22 +1,30 @@
 .cards {
     padding: 4rem;
-    /* background-image: url("FightCultureBlackLogo.png"); */
-    /* background-image: url("background.jpg");
-    background-size: 1020px, 1120px; */
     /* object-fit: cover; */
+    background: url('steel_wallpaper_bottom.jpg');
     background-color: rgb(114, 116, 116);
+    background-repeat: repeat-y;
+    background-size: 2000px;
 
 }
   
 .fc-header {
     text-align: center;
     /* background-color: blue; */
-    color: black;
+    color: white;
     font-size: 160px;
     font-weight: bold;
     margin-bottom: 90px;
     margin-top: -65px;
     font-family: 'UnifrakturCook', cursive;
+
+    color: white;
+    /* -webkit-text-stroke: 4px white; */
+
+
+    background: -webkit-linear-gradient(gray, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     
 }
   

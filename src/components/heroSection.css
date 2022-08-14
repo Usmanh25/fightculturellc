@@ -10,8 +10,8 @@
     width: 500px; */
     /* position: fixed; */
     object-fit: cover;
-    height: 80%;
-    width: 80%;
+    height: 85%;
+    width: 85%;
     border-radius: 10px;
     box-shadow: 0 6px 20px rgba(255, 56, 56, 0.17);
     -webkit-filter: drop-shadow(0 6px 20px rgba(255, 56, 56, 0.017));
@@ -23,10 +23,13 @@
     /* background: url('FightCultureHomePage.png') center center/cover no-repeat; */
     /* background: url('FightCultureBlackLogo.png') center center/cover no-repeat; */
     /* background: url('rusty_wallpaper.jpg') center center/cover no-repeat; */
-    background: url('black_steel_wallpaper.jpg') center center/cover no-repeat;
+    background: url('steel_wallpaper_top.jpg') center center/cover no-repeat;
+    /* background-size: 2000px; */
+
+    /* background-size: cover;  */
+
     
-    
-    height: 100vh;
+    height: 105vh;
     width: 100%;
     display: flex;
     flex-direction: column;
