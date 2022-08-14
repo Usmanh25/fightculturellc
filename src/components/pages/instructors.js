@@ -61,6 +61,22 @@ function Instructors() {
                         </p>
                     </div>
                 </div>
+
+                <div className='instructor-div'>
+                    <div className='instructor-image'>
+                        <img src='images/ProfilePicDefault.png' alt='wrestlingpic'></img>
+                    </div>
+                    <div className='instructor-text'>
+                        <h1> Ron Nitafan </h1>
+                        <h2> Muay Thai </h2>
+                        <p>  
+                            Ron is one of our beloved Muay Thai trainers with over 10 years
+                            of training, competing, and instructing under his belt. A retired 
+                            motorcycle road racer, he now fills his spare time with a Latin dance team
+                        </p>
+                    </div>
+                </div>
+                
                 <div className='instructor-div'>
                     <div className='instructor-image'>
                         <img src='images/ProfilePicDefault.png' alt='jiujitsupic'></img>
@@ -69,24 +85,13 @@ function Instructors() {
                         <h1> Ritchie Mercado </h1>
                         <h2> Muay Thai </h2>
                         <p>
-                            Ritchie is our morning Muay Thai instructor. He has been training and competing for _____ years.
-                            A skilled martial artist, he also has a brown belt in Brazilian Jiu-Jitsu.
+                            Ritchie is our morning instructor. He has been training and competing Muay Thai for _____ years.
+                            A versatile and skilled martial artist, he also has a brown belt in Brazilian Jiu-Jitsu. 
                         </p>
                     </div>
                 </div>
 
-                <div className='instructor-div'>
-                    <div className='instructor-image'>
-                        <img src='images/ProfilePicDefault.png' alt='wrestlingpic'></img>
-                    </div>
-                    <div className='instructor-text'>
-                        <h1> Brandy Cotter </h1>
-                        <h2> Boxing </h2>
-                        <p>Brandy has been training boxing for 
-                            _____ years and (more info about Brandy here) (Fun fact)
-                        </p>
-                    </div>
-                </div>
+
 
                 <div className='instructor-div'>
                     <div className='instructor-image'>
@@ -103,17 +108,16 @@ function Instructors() {
                     </div>
                 </div>
                 
+
                 <div className='instructor-div'>
                     <div className='instructor-image'>
                         <img src='images/ProfilePicDefault.png' alt='wrestlingpic'></img>
                     </div>
                     <div className='instructor-text'>
-                        <h1> Ron Nitafan </h1>
-                        <h2> Muay Thai </h2>
-                        <p>  
-                            Ron is one of our beloved Muay Thai trainers with over 10 years
-                            of training, competing, and instructing under his belt. A retired 
-                            motorcycle road racer, he now fills his spare time with a Latin dance team
+                        <h1> Brandy Cotter </h1>
+                        <h2> Boxing </h2>
+                        <p>Brandy has been training boxing for 
+                            _____ years and (more info about Brandy here) (Fun fact)
                         </p>
                     </div>
                 </div>
