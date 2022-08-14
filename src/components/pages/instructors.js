@@ -69,8 +69,8 @@ function Instructors() {
                         <h1> Ritchie Mercado </h1>
                         <h2> Muay Thai </h2>
                         <p>
-                            Ritchie is our  a former fighter _____ years of Muay Thai experience. He is aHe has a brown belt in Brazilia Jiu-Jitsu, 
-                            and you can find him cutting hair next door at Apex Barbershp
+                            Ritchie is our morning Muay Thai instructor. He has been training and competing for _____ years.
+                            A skilled martial artist, he also has a brown belt in Brazilian Jiu-Jitsu.
                         </p>
                     </div>
                 </div>
