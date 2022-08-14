@@ -60,8 +60,6 @@ function Instructors() {
                     <div className='instructor-text'>
                         <h1> Martin Ruiz </h1>
                         <h2> Wrestling </h2>
-                        <h3> Monday </h3>
-                        <h3> Tuesday </h3>
                         <h3> Friday </h3>
                         <p>
                             Martin is a former NCAA

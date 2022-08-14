@@ -28,9 +28,10 @@
 }
 .contact-container1 {
     /* height: 750px; */
-    
-    background-image: url("background-blur.png");
-    background-size: 1500px, 100px;
+    background: url('black_steel_wallpaper.jpg') center center/cover no-repeat;
+
+    /* background-image: url("steel_wallpaper.jpg"); */
+    background-size: 1700px;
     /* filter: blur(8px); */
     /* -webkit-filter: blur(8px); */
 }

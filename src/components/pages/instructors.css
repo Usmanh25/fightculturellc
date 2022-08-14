@@ -49,6 +49,7 @@
     color: black;
     text-align: center;
     -webkit-text-stroke: 1px #e53d27ee;
+    margin-bottom: 20px;
 
 
 }
@@ -57,9 +58,9 @@
     font-size: 19px;
     font-family: 'Mochiy Pop One', sans-serif;
     color: black;
-    text-align: left;
+    text-align: center;
     /* -webkit-text-stroke: 1px black; */
-    margin-left: 100px;
+    /* margin-left: 100px; */
     margin-bottom: 20px;
 
 }
