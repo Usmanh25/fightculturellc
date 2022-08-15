@@ -37,7 +37,7 @@ function Classes() {
                             For fans of the sweet science, our newly added boxing class will provide you with one of 
                             the best cardio-vascular workouts you've had! This session is 60 minutes long and 
                             will instill boxing fundamentals in your movement, defense, and striking. Much like 
-                            Muay Thai, this class is a great for conditioning, stress-relief, and self-defense! 
+                            Muay Thai, this class is great for conditioning, stress-relief, and self-defense! 
                         </p>
                     </div>
                     <div className='class-image2'>
