@@ -21,7 +21,7 @@ function Classes() {
                     <div className='class-text'>
                         <h1> Muay Thai </h1>
                             <p>
-                                Muay thai, or Thai boxing, is a style of fighting which utilizes "eight limbs": fists, 
+                                Muay thai, or Thai boxing, is a style of fighting which utilizes fists, 
                                 legs, elbows, and knees. A centuries old practice, we teach authentic Muay Thai and cover basic 
                                 and advanced techniques. At Fight Culture, our 60 minute session covers all aspects of Muay Thai 
                                 training including footwork, pad holding, striking, defense, and sparring. This is a moderate-to-high 
