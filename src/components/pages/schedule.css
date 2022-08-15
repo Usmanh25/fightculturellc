@@ -1,8 +1,7 @@
 
-/* .schedule-container {
-    background-image: url('FightCultureBlackLogo.png');
-    background-size: 562px 562px;
-} */
+.schedule-container {
+    background-color: white;
+}
 
 .schedule-image-container > img {
     height: 100%;
