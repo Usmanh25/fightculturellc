@@ -1,6 +1,13 @@
 
+.schedule-container {
+    background-image: url('FightCultureBlackLogo.png');
+    background-size: 500px 500px;
+}
+
 .schedule-image-container > img {
     height: 100%;
     width: 100%;
+    animation: fadeInAnimation ease-in 1.2s;
+
 
 }

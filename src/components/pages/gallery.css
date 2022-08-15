@@ -1,7 +1,6 @@
 .gallery-container {
     background-image: url('FightCultureBlackLogo.png');
     background-size: 500px 500px;
-    
 }
 h1 span { 
     backdrop-filter: blur(10px);

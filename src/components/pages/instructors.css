@@ -46,7 +46,7 @@
     font-family: 'Mochiy Pop One', sans-serif;
     color: black;
     text-align: center;
-    -webkit-text-stroke: 3px rgb(32, 26, 26);
+    -webkit-text-stroke: 1px red;
     margin-bottom: 25px;
 
 }
@@ -56,7 +56,7 @@
     font-family: 'Mochiy Pop One', sans-serif;
     color: black;
     text-align: center;
-    -webkit-text-stroke: 1px #e53d27ee;
+    -webkit-text-stroke: 1px red;
     margin-bottom: 20px;
 
 
@@ -81,7 +81,7 @@
 .instructors-title {
     font-family: 'Mochiy Pop One', sans-serif;
     color: black;
-    -webkit-text-stroke: 3px rgb(32, 26, 26);
+    -webkit-text-stroke: 3px gray;
     font-size: 100px;
     text-align: center;
     padding-top: 50px;

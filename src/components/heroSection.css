@@ -30,7 +30,7 @@
     -o-animation: fadeInTop 1.2s both;
     animation: fadeInTop 1.2s both; */
 
-    animation: fadeInAnimation ease-in 1s;
+    animation: fadeInAnimation ease-in 2s;
 
 }
 
