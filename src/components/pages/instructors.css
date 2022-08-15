@@ -23,6 +23,11 @@
     -moz-animation: fadeInLeft 1.2s both;
     -o-animation: fadeInLeft 1.2s both;
     animation: fadeInLeft 1.2s both;
+
+    box-shadow: 0 5px 20px red;
+    -webkit-filter: drop-shadow(0 5px 20px red);
+    filter: drop-shadow(0 5px 20px red);
+    border-radius: 10px;
 }
 .instructor-text{
     background-color: green;
