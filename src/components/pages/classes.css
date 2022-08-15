@@ -22,12 +22,13 @@
     color: black;
     /* background: linear-gradient(black, white); */
     /* background: -webkit-linear-gradient(gray, white); */
-    /* -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 140px;
     font-weight: bold;
-    /* -webkit-text-stroke: 1px black; */
-    -webkit-text-stroke: 1px gray;
+
+    -webkit-text-stroke: 1px red;
+    /* -webkit-text-stroke: 1px gray; */
 
 
     
@@ -191,8 +192,9 @@
     /* font-family: 'UnifrakturCook', cursive; */
     font-size: 70px;
     font-family: 'Mochiy Pop One', sans-serif;
-    color: black;
+    /* color: black; */
     text-align: center;
+    -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px red;
     
 }
@@ -249,7 +251,6 @@
         font-family: 'Mochiy Pop One', sans-serif;
         color: black;
         -webkit-text-stroke: 3px rgb(32, 26, 26);
-        font-size: 60px;
         text-align: center;
     }
 
@@ -262,6 +263,11 @@
     }
     .class-text > h1 {
         margin-top: 25px;
+    }
+    .classes-div > h1 {
+        font-size: 70px;
+        text-align: center;
+
     }
 
 

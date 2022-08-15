@@ -44,10 +44,12 @@
     /* font-family: 'UnifrakturCook', cursive; */
     font-size: 70px;
     font-family: 'Mochiy Pop One', sans-serif;
-    color: black;
+    /* color: black; */
     text-align: center;
     -webkit-text-stroke: 1px red;
     margin-bottom: 25px;
+    -webkit-text-fill-color: transparent;
+
 
 }
 .instructor-text > h2{
@@ -80,11 +82,12 @@
 
 .instructors-title {
     font-family: 'Mochiy Pop One', sans-serif;
-    color: black;
-    -webkit-text-stroke: 3px gray;
+    /* color: black; */
+    /* -webkit-text-stroke: 3px gray; */
     font-size: 100px;
     text-align: center;
     padding-top: 50px;
+    
     padding-bottom: 50px;
     -webkit-animation: fadeInTop 1.2s both;
     -moz-animation: fadeInTop 1.2s both;
