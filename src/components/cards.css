@@ -10,7 +10,6 @@
   
 .fc-header {
     text-align: center;
-    /* background-color: blue; */
     color: white;
     font-size: 160px;
     font-weight: bold;
@@ -18,8 +17,7 @@
     margin-top: -65px;
     font-family: 'UnifrakturCook', cursive;
 
-    color: white;
-    /* -webkit-text-stroke: 4px white; */
+    -webkit-text-stroke: 4px white;
 
 
     background: -webkit-linear-gradient(gray, white);
