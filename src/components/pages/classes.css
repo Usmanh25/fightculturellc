@@ -24,9 +24,9 @@
     background: -webkit-linear-gradient(gray, white);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 140px;
+    font-size: 160px;
     font-weight: bold;
-    -webkit-text-stroke: 1px white;
+    -webkit-text-stroke: 1px black;
 
     
 
@@ -192,6 +192,7 @@
     color: black;
     text-align: center;
     -webkit-text-stroke: 3px rgb(32, 26, 26);
+    
 }
 
 
