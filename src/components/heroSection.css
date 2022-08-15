@@ -5,6 +5,14 @@
     z-index: -1;
 } */
 
+@keyframes fadeInAnimation {
+
+    0% { opacity: 0; }
+
+    100% { opacity: 1;}
+
+}
+
 #myVideo {
     /* height: 500px;
     width: 500px; */
@@ -17,6 +25,13 @@
     -webkit-filter: drop-shadow(0 6px 20px rgba(255, 56, 56, 0.017));
     filter: drop-shadow(0 6px 20px rgba(255, 56, 56, 0.017));
 
+    /* -webkit-animation: fadeInTop 1.2s both;
+    -moz-animation: fadeInTop 1.2s both;
+    -o-animation: fadeInTop 1.2s both;
+    animation: fadeInTop 1.2s both; */
+
+    animation: fadeInAnimation ease-in 1s;
+
 }
 
 .hero-container {
@@ -28,7 +43,10 @@
 
     /* background-size: cover;  */
 
-    
+
+
+
+
     height: 105vh;
     width: 100%;
     display: flex;

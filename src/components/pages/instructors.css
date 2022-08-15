@@ -5,7 +5,7 @@
 }
 
 .instructor-div {
-    background-color: aqua;
+    /* background-color: aqua; */
     width: 70%;
     display: flex;
     margin: auto;
@@ -30,7 +30,7 @@
     border-radius: 10px;
 }
 .instructor-text{
-    background-color: green;
+    /* background-color: green; */
     color: black;
     width: 50%;
     margin-left: 40px;   
