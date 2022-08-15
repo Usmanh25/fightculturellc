@@ -1,6 +1,6 @@
 .gallery-container {
     background-image: url('FightCultureBlackLogo.png');
-    background-size: 500px 500px;
+    background-size: 562px 562px;
 }
 h1 span { 
     backdrop-filter: blur(10px);
@@ -20,6 +20,9 @@ h1 span {
     -moz-animation: fadeInTop 1.2s both;
     -o-animation: fadeInTop 1.2s both;
     animation: fadeInTop 1.2s both;
+
+    animation: fadeInAnimation ease-in 0.8s;
+
 
 }
 .gallery-image-container { 

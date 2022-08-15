@@ -9,12 +9,16 @@
     /* backdrop-filter: blur(5px); */
 
     font-family: 'Mochiy Pop One', sans-serif;
+    animation: fadeInAnimation ease-in 0.8s;
+
 
 }
 
 .contact-greeting > h1 {
     font-family: 'Mochiy Pop One', sans-serif;
     padding-bottom: 20px;
+    animation: fadeInAnimation ease-in 0.8s;
+
 
 }
 
@@ -22,9 +26,13 @@
     height: 100%;
     width: 100%;
     justify-items: center;
+    animation: fadeInAnimation ease-in 0.8s;
+
 }
 .contact-container2 {
     text-align: center;
+    animation: fadeInAnimation ease-in 0.8s;
+
 }
 .contact-container1 {
     /* height: 750px; */
@@ -34,6 +42,8 @@
     background-size: 1700px;
     /* filter: blur(8px); */
     /* -webkit-filter: blur(8px); */
+    animation: fadeInAnimation ease-in 0.8s;
+
 }
 .title-container {
     font-family: 'Rubik Glitch', cursive;    /* color: black; */
@@ -43,6 +53,8 @@
     padding-top: 40px;
     padding-bottom: 60px;
     /* backdrop-filter: blur(5px); */
+    animation: fadeInAnimation ease-in 0.8s;
+
 
 
 }
@@ -53,6 +65,8 @@
     font-size: 28px;
     text-align: center;
     filter: blur(0);
+    animation: fadeInAnimation ease-in 0.8s;
+
 
 
     font-family: 'Mochiy Pop One', sans-serif;
@@ -64,6 +78,7 @@
 .contact-info {
     /* backdrop-filter: blur(5px); */
     /* filter: blur(5px); */
+    animation: fadeInAnimation ease-in 0.8s;
 
     padding-bottom: 20px;
 }
