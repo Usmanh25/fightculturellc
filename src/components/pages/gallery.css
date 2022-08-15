@@ -3,23 +3,15 @@
     background-size: 562px 562px;
 }
 h1 span { 
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(8px);
 
-    color: black;
+    color: white;
     border-radius: 10px;
-    /* opacity: 5; */
 
     font-family: 'Mochiy Pop One', sans-serif;
-    -webkit-text-stroke: 3px #e53d27ee;
-    font-size: 100px;
+    -webkit-text-stroke: 1px red;
+    font-size: 160px;
     text-align: center;
-    /* padding-top: 50px;
-    padding-bottom: 50px; */
-
-    -webkit-animation: fadeInTop 1.2s both;
-    -moz-animation: fadeInTop 1.2s both;
-    -o-animation: fadeInTop 1.2s both;
-    animation: fadeInTop 1.2s both;
 
     animation: fadeInAnimation ease-in 0.8s;
 
