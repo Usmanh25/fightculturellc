@@ -225,8 +225,8 @@
 .class-text > p{
     margin-top: 20px;
     text-align: center;
-    font-size: 18px;
-    /* border-bottom: 2px solid black; */
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .classes-title {
