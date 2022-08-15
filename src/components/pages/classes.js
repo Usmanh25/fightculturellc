@@ -31,9 +31,6 @@ function Classes() {
                 </div>
 
                 <div className='class-div'>
-                    <div className='class-image'>
-                        <img src='images/Sample1.png' alt='boxingpic'></img>
-                    </div>
                     <div className='class-text'>
                     <h1> Boxing </h1>
                         <p>
@@ -43,6 +40,9 @@ function Classes() {
                             Muay Thai, this class is a great for conditioning, stress-relief, and self-defense! 
                         </p>
                     </div>
+                    <div className='class-image2'>
+                        <img src='images/Sample1.png' alt='boxingpic'></img>
+                    </div>
                 </div>
 
                 <div className='class-div'>
@@ -50,7 +50,7 @@ function Classes() {
                         <img src='images/JiuJitsu.png' alt='jiujitsupic'></img>
                     </div>
                     <div className='class-text'>
-                        <h1> Brazilian Jiu Jitsu </h1>
+                        <h1> Brazilian Jiu-Jitsu </h1>
                         <p>
                             Brazilian Jiu-Jitsu, developed by the Gracie family during the early twentieth 
                             century, is a close-combat martial arts system which focuses on ground fighting 
@@ -62,9 +62,6 @@ function Classes() {
                 </div>
 
                 <div className='class-div'>
-                    <div className='class-image'>
-                        <img src='images/Wrestling.png' alt='wrestlers'></img>
-                    </div>
                     <div className='class-text'>
                     <h1> Wrestling </h1>
                         <p>
@@ -73,6 +70,9 @@ function Classes() {
                             follows up with technique teaching and drilling, and then ends with live wrestling. 
                         </p>
 
+                    </div>
+                    <div className='class-image2'>
+                        <img src='images/Wrestling.png' alt='wrestlers'></img>
                     </div>
                 </div>
                 

@@ -54,6 +54,23 @@
     filter: drop-shadow(0 5px 20px red);
     border-radius: 10px;
 }
+.class-image2 > img {
+    /* background-color: red; */
+    /* height: 500px;
+    width: 600px; */
+    height: 100%;
+    width: 100%;
+    -webkit-animation: fadeInLeft 1.2s both;
+    -moz-animation: fadeInLeft 1.2s both;
+    -o-animation: fadeInLeft 1.2s both;
+    animation: fadeInLeft 1.2s both;
+
+    box-shadow: 0 5px 20px red;
+    -webkit-filter: drop-shadow(0 5px 20px red);
+    filter: drop-shadow(0 5px 20px red);
+    border-radius: 10px;
+    margin-left: 50px;
+}
 
 @-webkit-keyframes fadeInLeft {
     0%{
@@ -200,6 +217,8 @@
 }
 
 
+
+
 .class-text > li{
     font-size: 16px;
 }
@@ -207,7 +226,6 @@
     margin-top: 20px;
     text-align: center;
     font-size: 18px;
-    font-weight: bold;
     /* border-bottom: 2px solid black; */
 }
 
