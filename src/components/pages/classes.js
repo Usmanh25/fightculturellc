@@ -72,7 +72,7 @@ function Classes() {
                         </p>
                     </div>
                     <div className='class-image'>
-                        <img src='images/fc_gallery_photo2.jpg' alt='boxingpic'></img>
+                        <img src='images/fc_boxing.jpg' alt='boxing'></img>
                     </div>
                 </div>
                 

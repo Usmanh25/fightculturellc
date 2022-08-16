@@ -130,32 +130,19 @@
     width: 80%;
     display: flex;
     margin: auto;
-    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 100px;
     align-items: center;
     justify-content: center;
     padding-top: 25px;
     padding-bottom: 25px;
 }
 .classes-div > h1 {
-    /* background-color: black; */
     text-align: center;
-    /* color: blue; */
-    /* background: linear-gradient(black, white); */
-    /* background: -webkit-linear-gradient(gray, white); */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    /* -webkit-text-fill-color: transparent; */
     font-size: 140px;
     font-weight: bold;
-
     -webkit-text-stroke: 1px red;
-    /* -webkit-text-stroke: 1px gray; */
-
-
-    
-
-
-
-
 }
 
 .class-image > img {
@@ -183,7 +170,6 @@
     background-color: green;
     color: black;
     width: 60%;
-    margin-left: 40px;  
     -webkit-animation: fadeInLeft 1.2s both;
     -moz-animation: fadeInLeft 1.2s both;
     -o-animation: fadeInLeft 1.2s both;
@@ -271,6 +257,10 @@
         font-size: 70px;
         text-align: center;
 
+    }
+
+    .class-image > img {
+        margin-top: 25px;
     }
 
 
