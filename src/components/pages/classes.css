@@ -28,6 +28,7 @@
         -o-transform: translateX(0);
     }
 }
+
 @keyframes fadeInLeft {
     0%{
         opacity: 0;
@@ -39,7 +40,6 @@
     }
 }
 
-
 @-webkit-keyframes fadeInRight {
     0%{
         opacity: 0;
@@ -50,6 +50,7 @@
         -webkit-transform: translateX(0);
     }
 }
+
 @-moz-keyframes fadeInRight {
     0%{
         opacity: 0;
@@ -60,6 +61,7 @@
         -moz-transform: translateX(0);
     }
 }
+
 @-o-keyframes fadeInRight {
     0%{
         opacity: 0;
@@ -70,6 +72,7 @@
         -o-transform: translateX(0);
     }
 }
+
 @keyframes fadeInRight {
     0%{
         opacity: 0;
@@ -80,6 +83,7 @@
         transform: translateX(0);
     }
 }
+
 @-webkit-keyframes fadeInTop {
     0%{
         opacity: 0;
@@ -90,6 +94,7 @@
         -webkit-transform: translateY(0);
     }
 }
+
 @-moz-keyframes fadeInTop {
     0%{
         opacity: 0;
@@ -100,6 +105,7 @@
         -moz-transform: translateY(0);
     }
 }
+
 @-o-keyframes fadeInTop {
     0%{
         opacity: 0;
@@ -110,6 +116,7 @@
         -o-transform: translateY(0);
     }
 }
+
 @keyframes fadeInTop {
     0%{
         opacity: 0;
@@ -127,26 +134,20 @@
 
 .classes-title {
     font-family: 'Mochiy Pop One', sans-serif;
-    /* color: black; */
-        -webkit-text-stroke: 1px red;
-
+    -webkit-text-stroke: 1px red;
     -webkit-text-fill-color: transparent;
-    /* -webkit-text-stroke: 1px red; */
     background: -webkit-linear-gradient(gray, white);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    /* -webkit-text-stroke: 3px rgb(32, 26, 26); */
     font-size: 140px;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
-
     -webkit-animation: fadeInTop 1.2s both;
     -moz-animation: fadeInTop 1.2s both;
     -o-animation: fadeInTop 1.2s both;
     animation: fadeInTop 1.2s both;
 }
-
 
 .class-div {
     width: 80%;
@@ -163,7 +164,6 @@
 .class-text{
     color: black;
     width: 60%;
-
     -webkit-animation: fadeInLeft 1.2s both;
     -moz-animation: fadeInLeft 1.2s both;
     -o-animation: fadeInLeft 1.2s both;
@@ -176,7 +176,6 @@
     text-align: center;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px red;
-
     font-weight: bold;
     background: -webkit-linear-gradient(gray, white);
     -webkit-background-clip: text;
@@ -191,21 +190,16 @@
 }
 
 .class-image > img {
-
     float: right;
-
     height: 90%;
     width: 90%;
-
     -webkit-animation: fadeInRight 1.2s both;
     -moz-animation: fadeInRight 1.2s both;
     -o-animation: fadeInRight 1.2s both;
     animation: fadeInRight 1.2s both;
-
     box-shadow: 0 5px 20px red;
     -webkit-filter: drop-shadow(0 5px 20px red);
     filter: drop-shadow(0 5px 20px red);
-
     border-radius: 10px;
     margin-left: 25px;
 }
