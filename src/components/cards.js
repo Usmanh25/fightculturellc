@@ -52,7 +52,6 @@ function Cards() {
                                     <img src='images/instagram.png' alt="Sample-Pic" className="cards__item__img2"/>
                                 </figure>
                                 <div className="cards__item__info">
-                                    <h5 className="cards__item__text"></h5>
                                 </div>
                             </a>
                         </li>
