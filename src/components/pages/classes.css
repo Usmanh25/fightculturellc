@@ -139,20 +139,22 @@
 }
 .classes-div > h1 {
     text-align: center;
-    /* -webkit-text-fill-color: transparent; */
+    -webkit-text-fill-color: transparent;
     font-size: 140px;
     font-weight: bold;
     -webkit-text-stroke: 1px red;
 }
+.classes-div {
+    background-color: blue;
+}
 
 .class-image > img {
-    /* background-color: red; */
-    /* height: 500px;
-    width: 600px; */
-    height: 80%;
-    width: 80%;
 
-    /* align-content: right; */
+    float: right;
+
+    height: 90%;
+    width: 90%;
+
     -webkit-animation: fadeInRight 1.2s both;
     -moz-animation: fadeInRight 1.2s both;
     -o-animation: fadeInRight 1.2s both;
@@ -161,37 +163,30 @@
     box-shadow: 0 5px 20px red;
     -webkit-filter: drop-shadow(0 5px 20px red);
     filter: drop-shadow(0 5px 20px red);
+
     border-radius: 10px;
-    margin-left: 50px;
+    margin-left: 25px;
 }
 
 
 .class-text{
-    background-color: green;
     color: black;
     width: 60%;
+
     -webkit-animation: fadeInLeft 1.2s both;
     -moz-animation: fadeInLeft 1.2s both;
     -o-animation: fadeInLeft 1.2s both;
     animation: fadeInLeft 1.2s both;  
 }
+
 .class-text > h1{
-    /* font-family: 'UnifrakturCook', cursive; */
     font-size: 70px;
     font-family: 'Mochiy Pop One', sans-serif;
-    /* color: black; */
     text-align: center;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px red;
-    
 }
 
-
-
-
-.class-text > li{
-    font-size: 16px;
-}
 .class-text > p{
     margin-top: 20px;
     text-align: center;
@@ -261,6 +256,8 @@
 
     .class-image > img {
         margin-top: 25px;
+        /* justify-content: center; */
+        margin-right: 20px;
     }
 
 
