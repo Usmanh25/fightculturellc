@@ -47,7 +47,7 @@ function Classes() {
 
                 <div className='class-div'>
                     <div className='class-image'>
-                        <img src='images/fc_jiujitsu_3.jpg' alt='jiujitsu'></img>
+                        <img src='images/fc_jiujitsu_2.jpg' alt='jiujitsu'></img>
                     </div>
                     <div className='class-text'>
                         <h1> Brazilian Jiu-Jitsu </h1>
@@ -72,7 +72,7 @@ function Classes() {
 
                     </div>
                     <div className='class-image2'>
-                        <img src='images/Wrestling.png' alt='wrestlers'></img>
+                        <img src='images/fc_wrestling.jpg' alt='wrestling'></img>
                     </div>
                 </div>
                 
