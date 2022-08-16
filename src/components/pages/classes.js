@@ -15,11 +15,8 @@ function Classes() {
             <h1 className='classes-title'>Classes</h1>
 
                 <div className='class-div'>
-                    <div className='class-image'>
-                        <img src='images/fc_muaythai_2.jpg' alt='muaythai'></img>
-                    </div>
                     <div className='class-text'>
-                        <h1> Muay Thai </h1>
+                        <h1> MuayThai </h1>
                             <p>
                                 Muay thai, or Thai boxing, is a style of fighting which utilizes fists, 
                                 legs, elbows, and knees. A centuries old practice, we teach authentic Muay Thai and cover basic 
@@ -28,27 +25,12 @@ function Classes() {
                                 intensity workout.
                             </p>
                     </div>
-                </div>
-
-                <div className='class-div'>
-                    <div className='class-text'>
-                    <h1> Boxing </h1>
-                        <p>
-                            For fans of the sweet science, our newly added boxing class will provide you with one of 
-                            the best cardio-vascular workouts you've had! This session is 60 minutes long and 
-                            will instill boxing fundamentals in your movement, defense, and striking. Much like 
-                            Muay Thai, this class is great for conditioning, stress-relief, and self-defense! 
-                        </p>
-                    </div>
-                    <div className='class-image2'>
-                        <img src='images/Sample1.png' alt='boxingpic'></img>
-                    </div>
-                </div>
-
-                <div className='class-div'>
                     <div className='class-image'>
-                        <img src='images/fc_jiujitsu_2.jpg' alt='jiujitsu'></img>
+                        <img src='images/fc_muaythai_2.jpg' alt='muaythai'></img>
                     </div>
+                </div>
+
+                <div className='class-div'>
                     <div className='class-text'>
                         <h1> Brazilian Jiu-Jitsu </h1>
                         <p>
@@ -58,6 +40,9 @@ function Classes() {
                             followed by technique drilling, new concept & positioning instruction, and then live rolling. 
                         </p>
 
+                    </div>
+                    <div className='class-image'>
+                        <img src='images/fc_jiujitsu_2.jpg' alt='jiujitsu'></img>
                     </div>
                 </div>
 
@@ -71,8 +56,23 @@ function Classes() {
                         </p>
 
                     </div>
-                    <div className='class-image2'>
+                    <div className='class-image'>
                         <img src='images/fc_wrestling.jpg' alt='wrestling'></img>
+                    </div>
+                </div>
+
+                <div className='class-div'>
+                    <div className='class-text'>
+                    <h1> Boxing </h1>
+                        <p>
+                            For fans of the sweet science, our newly added boxing class will provide you with one of 
+                            the best cardio-vascular workouts you've had! This session is 60 minutes long and 
+                            will instill boxing fundamentals in your movement, defense, and striking. Much like 
+                            Muay Thai, this class is great for conditioning, stress-relief, and self-defense! 
+                        </p>
+                    </div>
+                    <div className='class-image'>
+                        <img src='images/Sample1.png' alt='boxingpic'></img>
                     </div>
                 </div>
                 
