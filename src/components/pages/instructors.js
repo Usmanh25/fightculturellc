@@ -7,10 +7,7 @@ import './instructors.css';
 function Instructors() {
     return (
         <>
-        {/* <h1 className='classes'>Our Services</h1> */}
-        <div className='instructor-page-container'>
-
-            <div className='classes-div'>
+            <div className='instructor-page-container'>
 
                 <h1 className='instructors-title'>Instructors</h1>
 
@@ -134,9 +131,8 @@ function Instructors() {
                         </p>
                     </div>
                 </div>
-                
+                    
             </div>
-        </div>
         </>
 
     )

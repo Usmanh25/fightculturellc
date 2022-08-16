@@ -8,11 +8,9 @@ function Classes() {
     return (
         <>
         {/* <h1 className='classes'>Our Services</h1> */}
-        <div className='class-page-container'>
+            <div className='class-page-container'>
 
-            <div className='classes-div'>
-
-            <h1 className='classes-title'>Classes</h1>
+                <h1 className='classes-title'>Classes</h1>
 
                 <div className='class-div'>
                     <div className='class-text'>
@@ -74,10 +72,8 @@ function Classes() {
                     <div className='class-image'>
                         <img src='images/fc_boxing.jpg' alt='boxing'></img>
                     </div>
-                </div>
-                
+                </div>                
             </div>
-        </div>
         </>
 
     )
