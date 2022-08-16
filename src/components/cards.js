@@ -42,7 +42,7 @@ function Cards() {
                         <CardItem 
                         src='images/FightCultureLocation.png'
                         text='Get in Touch!'
-                        label='Get In Touch!'
+                        label='Get in Touch!'
                         path='/contact'
                         />
 
