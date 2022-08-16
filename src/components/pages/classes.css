@@ -138,9 +138,6 @@
     font-family: 'Mochiy Pop One', sans-serif;
     -webkit-text-stroke: 1px red;
     -webkit-text-fill-color: transparent;
-    background: -webkit-linear-gradient(gray, white);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     font-size: 140px;
     text-align: center;
     padding-top: 50px;
@@ -179,9 +176,6 @@
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px red;
     font-weight: bold;
-    background: -webkit-linear-gradient(gray, white);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 .class-text > p{
