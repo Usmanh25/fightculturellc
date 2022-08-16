@@ -25,6 +25,7 @@ function Gallery() {
                     <img alt='Gallery' src='images/fc_gallery_photo11.jpg'></img>
                     <img alt='Gallery' src='images/fc_gallery_photo12.jpg'></img>
                     <img alt='Gallery' src='images/fc_gallery_photo13.jpg'></img>
+                    <img alt='Gallery' src='images/fc_muaythai_3.jpg'></img>
                     <img alt='Gallery' src='images/fc_muaythai_1.jpg'></img>
                     <img alt='Gallery' src='images/fc_muaythai_2.jpg'></img>
                     <img alt='Gallery' src='images/fc_jiujitsu_1.jpg'></img>
