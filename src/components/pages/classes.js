@@ -16,8 +16,8 @@ function Classes() {
                     <div className='class-text'>
                         <h1> MuayThai </h1>
                             <p>
-                                Muay Thai, or Thai boxing, is a style of fighting which utilizes fists, 
-                                legs, elbows, and knees. A centuries old practice, we teach authentic Muay Thai and cover basic 
+                                Muay Thai, or Thai boxing, is a style of fighting which utilizes punches, 
+                                kicks, elbows, and knees. A centuries old practice, we teach authentic Muay Thai and cover basic 
                                 and advanced techniques. At Fight Culture, our 60 minute session covers all aspects of Muay Thai 
                                 training including footwork, pad holding, striking, defense, and sparring. This is a moderate-to-high 
                                 intensity workout.

@@ -126,7 +126,7 @@ function Instructors() {
                         <h2> Boxing </h2>
                         <h3> Friday 8:00am</h3>
                         <h3> Saturday 9:00am</h3>
-                        <p>Brandy has been training boxing for 
+                        <p>Brandy is our boxing specialist. She has been training boxing for 
                             _____ years and (more info about Brandy here) (Fun fact)
                         </p>
                     </div>
