@@ -24,11 +24,7 @@ function Instructors() {
                         <h2> Muay Thai </h2>
                         <h3> Thursday 5:00pm</h3>
                         <p>  
-                            Kyle is a ___th degree black belt under 
-                            ______ who has professionally 
-                            fought (name of martial art) for ____ years and has 
-                            been teaching jiu jitsu for ____ years.
-                            (Fun fact)
+                            Kyle is our head Jiu-Jitsu trainer and co-owner. A Muay Thai fighter as well
                         </p>
                     </div>
                 </div>
