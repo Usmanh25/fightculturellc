@@ -12,7 +12,7 @@ function Instructors() {
                 <h1 className='instructors-title'>Instructors</h1>
 
                 <div className='instructor-div'>
-                    <div className='instructor-image'>
+                    <div className='instructor-image-kyle'>
                         <img src='images/kyle.jpg' alt='muaythaifight'></img>
                     </div>
                     <div className='instructor-text'>
