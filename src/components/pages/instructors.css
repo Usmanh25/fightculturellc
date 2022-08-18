@@ -20,6 +20,7 @@
     background-color: red;
     height: 70%;
     width: 70%;
+
     -webkit-animation: fadeInLeft 1.2s both;
     -moz-animation: fadeInLeft 1.2s both;
     -o-animation: fadeInLeft 1.2s both;
@@ -29,6 +30,7 @@
     -webkit-filter: drop-shadow(0 5px 20px red);
     filter: drop-shadow(0 5px 20px red);
     border-radius: 10px;
+
 }
 .instructor-text{
     /* background-color: green; */

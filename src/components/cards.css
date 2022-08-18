@@ -227,6 +227,14 @@
 
 
 }
+@media only screen and (max-width: 980px) {
+
+    .fc-header {
+        margin-top: 25px;
+    }
+
+
+}
 @media only screen and (max-width: 800px) {
 
     .cards__item {
