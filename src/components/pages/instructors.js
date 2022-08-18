@@ -24,7 +24,8 @@ function Instructors() {
                         <h2> Muay Thai </h2>
                         <h3> Thursday 5:00pm</h3>
                         <p>  
-                            Kyle is our head Jiu-Jitsu trainer and co-owner. A Muay Thai fighter as well
+                            Kyle is our head Jiu-Jitsu trainer and co-owner. With over 20 years of training, 
+                            coaching, and fight experience, he has seen it all and loves sharing his knowledge. (fun fact)
                         </p>
                     </div>
                 </div>
