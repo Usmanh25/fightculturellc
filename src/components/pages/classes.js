@@ -24,7 +24,7 @@ function Classes() {
                             </p>
                     </div>
                     <div className='class-image'>
-                        <img src='images/fc_muaythai_2.jpg' alt='muaythai'></img>
+                        <img src='images/fc_muaythai_3.jpg' alt='muaythai'></img>
                     </div>
                 </div>
 
