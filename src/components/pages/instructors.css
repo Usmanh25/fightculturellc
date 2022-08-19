@@ -59,6 +59,7 @@
     -o-animation: fadeInRight 1.2s both;
     animation: fadeInRight 1.2s both; 
 }
+
 .instructor-text > h1{
     /* font-family: 'UnifrakturCook', cursive; */
     font-size: 70px;
@@ -118,7 +119,6 @@
 
 @media only screen and (max-width: 867px) {
 
-
     .instructor-text > h1{
         font-size: 50px;
         /* background-color: pink; */
@@ -132,8 +132,6 @@
         text-align: center;
     }
 
-
-
 }
 @media only screen and (max-width: 730px) {
 
@@ -142,6 +140,9 @@
         font-size: 30px;
         margin-top: 40px;
         /* background-color: yellowgreen; */
+    }
+    .instructor-text {
+        width: 80%;
     }
 
     .instructors-title {

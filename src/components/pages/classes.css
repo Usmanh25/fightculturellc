@@ -132,6 +132,8 @@
 
 .class-page-container {
     background-image: url("white-brick-wall.jpg"); 
+    /* animation: fadeInAnimation ease-in 3.0s; */
+
 }
 
 .classes-title {

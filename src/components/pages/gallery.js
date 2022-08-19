@@ -25,6 +25,15 @@ function Gallery() {
                     <img alt='Gallery' src='images/fc_gallery_photo11.jpg'></img>
                     <img alt='Gallery' src='images/fc_gallery_photo12.jpg'></img>
                     <img alt='Gallery' src='images/fc_gallery_photo13.jpg'></img>
+                    <img alt='Gallery' src='images/fc_gallery_photo14.jpg'></img>
+                    <img alt='Gallery' src='images/fc_gallery_photo15.jpg'></img>
+                    <img alt='Gallery' src='images/fc_gallery_photo16.jpg'></img>
+                    <img alt='Gallery' src='images/fc_gallery_photo17.jpg'></img>
+                    <img alt='Gallery' src='images/fc_gallery_photo18.jpg'></img>
+                    <img alt='Gallery' src='images/fc_gallery_photo19.jpg'></img>
+                    <img alt='Gallery' src='images/fc_gallery_photo20.jpg'></img>
+                    <img alt='Gallery' src='images/fc_gallery_photo21.jpg'></img>
+                    <img alt='Gallery' src='images/fc_gallery_photo22.jpg'></img>
                     <img alt='Gallery' src='images/fc_muaythai_3.jpg'></img>
                     <img alt='Gallery' src='images/fc_muaythai_1.jpg'></img>
                     <img alt='Gallery' src='images/fc_muaythai_2.jpg'></img>
@@ -32,6 +41,7 @@ function Gallery() {
                     <img alt='Gallery' src='images/fc_jiujitsu_2.jpg'></img>
                     <img alt='Gallery' src='images/fc_jiujitsu_3.jpg'></img>
                     <img alt='Gallery' src='images/fc_wrestling.jpg'></img>
+                    <img alt='Gallery' src='images/fc_wrestling2.jpg'></img>
                     <img alt='Gallery' src='images/FightCultureHomePage.png'></img>
 
                     <img alt='Gallery' src='images/fcp-7.jpg'></img>

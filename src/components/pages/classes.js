@@ -40,7 +40,7 @@ function Classes() {
 
                     </div>
                     <div className='class-image'>
-                        <img src='images/fc_jiujitsu_2.jpg' alt='jiujitsu'></img>
+                        <img src='images/fc_jiujitsu_3.jpg' alt='jiujitsu'></img>
                     </div>
                 </div>
 
@@ -64,7 +64,7 @@ function Classes() {
                     <h1> Boxing </h1>
                         <p>
                             For fans of the sweet science, our newly added boxing class will provide you with one of 
-                            the best cardio-vascular workouts you've had! This session is 60 minutes long and 
+                            the best cardiovascular workouts you've had! This session is 60 minutes long and 
                             will instill boxing fundamentals in your movement, defense, and striking. Much like 
                             Muay Thai, this class is great for conditioning, stress-relief, and self-defense! 
                         </p>

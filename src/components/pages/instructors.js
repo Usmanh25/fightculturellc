@@ -26,8 +26,9 @@ function Instructors() {
                         <p>  
                             Kyle is our head Jiu-Jitsu trainer and co-owner. He has over 20 years of  
                             experience training and competing in Muay Thai, Brazilian Jiu-Jitsu, and MMA.
-                            A Brazilian Jiu-Jitsu black belt under Darren Uyenoyama, Kyle has vast martial 
-                            arts knwoledge and loves sharing it.
+                            A Brazilian Jiu-Jitsu black belt under UFC veteran Darren Uyenoyama via Ralph 
+                            Gracie, Kyle teaches authentic Gracie Jiu-Jitsu technique and shares
+                            his Muay Thai knowledge on Thursdays.
                         </p>
                     </div>
                 </div>
@@ -45,9 +46,9 @@ function Instructors() {
                         <h3> Thursday 9:00am</h3>
                         <p>
                             Ritchie is our co-owner and morning Muay Thai trainer.
-                            A former fighter, he has over 15 years of experience training, 
-                            competing, and coaching Muay Thai. A versatile martial artist, 
-                            he is also a Brazilian Jiu-Jitsu brown belt.
+                            A former fighter with vast striking and grappling knowledge, he has over 
+                            15 years of experience training and competing Muay Thai and Jiu Jitsu. 
+                            He is a Brazilian Jiu-Jitsu Brown Belt.
                         </p>
                     </div>
                 </div>
@@ -63,8 +64,8 @@ function Instructors() {
                     <h3> Tuesday 5:00pm</h3>
                         <p>     
                             Jeremy is our Muay Thai specialist. A former professional,
-                            he has been training muay thai since 2006. He likes long 
-                            walks on the beach and fruity alchoholic beverages.
+                            he has been training Muay Thai since 2006. He likes long 
+                            walks on the beach and fruity alcoholic beverages.
                         </p>
                     </div>
                 </div>
@@ -79,7 +80,7 @@ function Instructors() {
                         <h3> Friday 6:30pm</h3>
                         <p>
                             Martin is an decorated NCAA Wrestler with 17 years of experience.
-                            Currently the Head Coach at Lowell High School, his competetive 
+                            Currently the Head Coach at Lowell High School, his competitive 
                             athletics journey has shifted to motivating and inspiring the youth
                             through wrestling.
                         </p>
@@ -97,7 +98,7 @@ function Instructors() {
                         <p>  
                             Ron is one of our beloved Muay Thai trainers with over 10 years
                             of training, competing, and instructing under his belt. A retired 
-                            motorcycle road racer, he now fills his spare time with a Latin dance team
+                            motorcycle road racer, he now fills his spare time with a Latin dance team.
                         </p>
                     </div>
                 </div>
@@ -112,8 +113,8 @@ function Instructors() {
                         <h3> Tuesday 6:30pm</h3>
                         <p>  
                             Ryan is our Tuesday night Jiu-Jitsu coach. A Brazilian Jiu-Jitsu brown belt with
-                            extensive competetive experience, he has been competing for years and loves 
-                            sharing his grappling techniques with our students.
+                            extensive grappling experience, he loves competing and mentoring our young 
+                            students.
                         </p>
                     </div>
                 </div>
