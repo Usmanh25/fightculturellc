@@ -111,9 +111,9 @@ function Instructors() {
                         <h2> Jiu-Jitsu </h2>
                         <h3> Tuesday 6:30pm</h3>
                         <p>  
-                            Ryan is a Brazilian Jiu-Jitsu brown belt under
-                            ____ who has _____ matches of experience and 
-                            has been training for ___ years. (Fun fact)
+                            Ryan is our Tuesday night Jiu-Jitsu coach. A Brazilian Jiu-Jitsu brown belt with
+                            extensive competetive experience, he has been competing for years and loves 
+                            sharing his grappling techniques with our students.
                         </p>
                     </div>
                 </div>
@@ -127,8 +127,9 @@ function Instructors() {
                         <h2> Boxing </h2>
                         <h3> Friday 8:00am</h3>
                         <h3> Saturday 9:00am</h3>
-                        <p>Brandy is our boxing trainer. She has been training boxing for 
-                            _____ years and (more info about Brandy here) (Fun fact)
+                        <p> 
+                            Brandy is our Friday and Saturday morning boxing trainer. She has been training 
+                            boxing for over a decade and (more info about Brandy here) (Fun fact)
                         </p>
                     </div>
                 </div>
