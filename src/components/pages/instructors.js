@@ -25,7 +25,7 @@ function Instructors() {
                         <h3> Thursday 5:00pm</h3>
                         <p>  
                             Kyle is our head Jiu-Jitsu trainer and co-owner. With over 20 years of training, 
-                            coaching, and fight experience, he has seen it all and loves sharing his knowledge. (fun fact)
+                            coaching, and competetive experience in  he has seen it all and loves sharing his knowledge. (fun fact)
                         </p>
                     </div>
                 </div>
@@ -56,9 +56,10 @@ function Instructors() {
                         <h2> Wrestling </h2>
                         <h3> Friday 6:30pm</h3>
                         <p>
-                            Martin is a former NCAA
-                            wrestler with _____ matches of experience who has been 
-                            training wrestling for _____ years (Fun fact)
+                            Martin is an decorated NCAA Wrestler with 17 years of experience.
+                            Currently the Head Coach at Lowell High School, his competetive 
+                            athletics journey has shifted to motivating and inspiring the youth
+                            through wrestling.
                         </p>
                     </div>
                 </div>
@@ -75,7 +76,7 @@ function Instructors() {
                         <h3> Wednesday 8:00am</h3>
                         <h3> Thursday 9:00am</h3>
                         <p>
-                            Ritchie is our morning instructor. He has been training and competing Muay Thai for _____ years.
+                            Ritchie is our morning co owner instructor. He has been training and competing Muay Thai for _____ years.
                             A versatile and skilled martial artist, he also has a brown belt in Brazilian Jiu-Jitsu. 
                         </p>
                     </div>
@@ -84,7 +85,7 @@ function Instructors() {
 
                 <div className='instructor-div'>
                     <div className='instructor-image'>
-                        <img src='images/ProfilePicDefault.png' alt='wrestlingpic'></img>
+                        <img src='images/ron.jpg' alt='wrestlingpic'></img>
                     </div>
                     <div className='instructor-text'>
                         <h1> Ron Nitafan </h1>
@@ -123,7 +124,7 @@ function Instructors() {
                         <h2> Boxing </h2>
                         <h3> Friday 8:00am</h3>
                         <h3> Saturday 9:00am</h3>
-                        <p>Brandy is our boxing specialist. She has been training boxing for 
+                        <p>Brandy is our boxing trainer. She has been training boxing for 
                             _____ years and (more info about Brandy here) (Fun fact)
                         </p>
                     </div>
