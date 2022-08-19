@@ -3,22 +3,41 @@
     background-size: 600px 600px;
 }
 h1 span { 
-    /* backdrop-filter: blur(6px); */
+    backdrop-filter: blur(4px);
     /* background-color: white; */
-
-    color: white;
-    border-radius: 10px;
-
-    font-family: 'Mochiy Pop One', sans-serif;
-    -webkit-text-stroke: 1px red;
+    border-radius: 50px;
+    /* font-family: 'Mochiy Pop One', sans-serif; */
     font-size: 160px;
     text-align: center;
+    margin-top: 75px;
     /* border-bottom: 5px solid red; */
 
     animation: fadeInAnimation ease-in 0.8s;
 
+    background-color: none;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    -webkit-text-stroke: 2px red;
+    font-size: 150px;
+    
 
 }
+
+.gallery {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    background-color: none;
+    background-position: center;
+    background-size: cover;
+    color: black;
+    -webkit-text-stroke: 2px red;
+    font-size: 150px;
+}
+
 .gallery-image-container { 
     text-align: center;
 }
@@ -32,11 +51,17 @@ h1 span {
     box-shadow: 0 5px 20px red;
     -webkit-filter: drop-shadow(0 5px 20px red);
     filter: drop-shadow(0 5px 20px red);
+
+    animation: fadeInAnimation ease-in 1.2s;
+
 }
 
 @media only screen and (max-width: 700px) {
     h1 span { 
-        font-size:75px;
+        font-size:100px;
+    }
+    .gallery {
+        height: 40vh;
     }
 }
 @media only screen and (max-width: 500px) {

@@ -6,8 +6,6 @@ import './contact.css';
 function Contact() {
     return (
         <>
-            {/* <h1 className='contact'>Join the Culture!</h1> */}
-
             <div className='contact-container'>
                 <div className='contact-container1'>
                     <h1 className='title-container'>Join the Culture!</h1>

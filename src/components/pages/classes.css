@@ -137,10 +137,7 @@
 }
 
 .classes-title {
-    font-family: 'Mochiy Pop One', sans-serif;
-    -webkit-text-stroke: 1px red;
-    -webkit-text-fill-color: transparent;
-    font-size: 140px;
+    font-size: 150px;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -148,6 +145,10 @@
     -moz-animation: fadeInTop 1.2s both;
     -o-animation: fadeInTop 1.2s both;
     animation: fadeInTop 1.2s both;
+    font-family: 'PT Sans', sans-serif;
+    color: black;
+    -webkit-text-stroke: 1.5px red;
+    font-weight: bold;
 }
 
 .class-div {
@@ -209,10 +210,10 @@
     }
 
     .classes-title {
-        font-family: 'Mochiy Pop One', sans-serif;
+        /* font-family: 'Mochiy Pop One', sans-serif; */
         color: black;
-        -webkit-text-stroke: 3px rgb(32, 26, 26);
-        font-size: 75px;
+        -webkit-text-stroke: 1px red;
+        font-size: 100px;
         text-align: center;
     }
 
@@ -220,10 +221,11 @@
 @media only screen and (max-width: 730px) {
 
     .classes-title {
-        font-family: 'Mochiy Pop One', sans-serif;
         color: black;
-        -webkit-text-stroke: 3px rgb(32, 26, 26);
+        font-size: 100px;
+        -webkit-text-stroke: 1px red;
         text-align: center;
+        margin-bottom: -40px;
     }
 
     .class-div {
@@ -236,10 +238,11 @@
 
     .class-text > h1 {
         margin-top: 25px;
+        font-size: 50px;
     }
 
     .classes-div > h1 {
-        font-size: 70px;
+        font-size: 50px;
         text-align: center;
     }
 

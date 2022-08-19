@@ -26,7 +26,7 @@ function Cards() {
                     </ul>
                     <ul className='cards__item'>
                         <CardItem 
-                        src='images/FightCultureSchedule.jpeg'
+                        src='images/FightCultureSchedule.jpg'
                         text='Weekly Schedule'
                         label='Weekly Schedule'
                         path='/schedule'

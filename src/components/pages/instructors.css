@@ -61,7 +61,7 @@
 }
 
 .instructor-text > h1{
-    /* font-family: 'UnifrakturCook', cursive; */
+    font-family: 'UnifrakturCook', cursive;
     font-size: 70px;
     font-family: 'Mochiy Pop One', sans-serif;
     /* color: black; */
@@ -73,7 +73,7 @@
 
 }
 .instructor-text > h2{
-    /* font-family: 'UnifrakturCook', cursive; */
+    font-family: 'UnifrakturCook', cursive;
     font-size: 25px;
     font-family: 'Mochiy Pop One', sans-serif;
     color: black;
@@ -84,7 +84,7 @@
 
 }
 .instructor-text > h3{
-    /* font-family: 'UnifrakturCook', cursive; */
+    font-family: 'UnifrakturCook', cursive;
     font-size: 19px;
     font-family: 'Mochiy Pop One', sans-serif;
     color: black;
@@ -102,13 +102,13 @@
 }
 
 .instructors-title {
-    font-family: 'Mochiy Pop One', sans-serif;
-    /* color: black; */
-    /* -webkit-text-stroke: 3px gray; */
-    font-size: 100px;
+    font-family: 'PT Sans', sans-serif;
+    color: black;
+    -webkit-text-stroke: 1.5px red;
+    font-size: 150px;
     text-align: center;
     padding-top: 50px;
-    
+    /* -webkit-text-fill-color: transparent; */
     padding-bottom: 50px;
     -webkit-animation: fadeInTop 1.2s both;
     -moz-animation: fadeInTop 1.2s both;
@@ -125,10 +125,10 @@
     }
 
     .instructors-title {
-        font-family: 'Mochiy Pop One', sans-serif;
+        font-family: 'PT Sans', sans-serif;
         color: black;
-        -webkit-text-stroke: 3px rgb(32, 26, 26);
-        font-size: 75px;
+        -webkit-text-stroke: 1.5px red;
+        font-size: 100px;
         text-align: center;
     }
 
@@ -137,8 +137,8 @@
 
 
     .instructor-text > h1{
-        font-size: 30px;
-        margin-top: 40px;
+        font-size: 40px;
+        margin-top: 50px;
         /* background-color: yellowgreen; */
     }
     .instructor-text {
@@ -146,10 +146,10 @@
     }
 
     .instructors-title {
-        font-family: 'Mochiy Pop One', sans-serif;
+        font-family: 'PT Sans', sans-serif;
         color: black;
-        -webkit-text-stroke: 3px rgb(32, 26, 26);
-        font-size: 60px;
+        -webkit-text-stroke: 1.5px red;
+        font-size: 100px;
         text-align: center;
     }
 
