@@ -76,8 +76,10 @@ function Instructors() {
                         <h3> Wednesday 8:00am</h3>
                         <h3> Thursday 9:00am</h3>
                         <p>
-                            Ritchie is our morning co owner instructor. He has been training and competing Muay Thai for _____ years.
-                            A versatile and skilled martial artist, he also has a brown belt in Brazilian Jiu-Jitsu. 
+                            Ritchie is our morning Muay Thai trainer and co-owner.
+                            instructor. He has been training and competing Muay Thai 
+                            for _____ years. A versatile and skilled martial artist, 
+                            he also has a brown belt in Brazilian Jiu-Jitsu. 
                         </p>
                     </div>
                 </div>
