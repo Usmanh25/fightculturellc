@@ -27,7 +27,7 @@ function Instructors() {
                             Kyle is our head Jiu-Jitsu trainer and co-owner. He has over 20 years of  
                             experience training and competing in Muay Thai, Brazilian Jiu-Jitsu, and MMA.
                             A Brazilian Jiu-Jitsu black belt under Darren Uyenoyama, Kyle has vast martial 
-                            arts knwoledge and loves sharing it with his pupils.
+                            arts knwoledge and loves sharing it.
                         </p>
                     </div>
                 </div>

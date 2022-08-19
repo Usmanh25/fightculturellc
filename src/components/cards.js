@@ -46,15 +46,15 @@ function Cards() {
                         path='/contact'
                         />
 
-                    <li className="cards__item">
-                        <a className="cards__item__link2" target='_blank' rel="noreferrer" href='https://www.instagram.com/fight_culturesf/'>
-                            <figure className="cards__item__pic-wrap" data-category='Follow Us!'>
-                                <img src='images/instagram.png' alt="Sample-Pic" className="cards__item__img2"/>
-                            </figure>
-                            <div className="cards__item__info">
-                            </div>
-                        </a>
-                    </li>
+                        <li className="cards__item">
+                            <a className="cards__item__link2" target='_blank' rel="noreferrer" href='https://www.instagram.com/fight_culturesf/'>
+                                <figure className="cards__item__pic-wrap" data-category='Follow Us!'>
+                                    <img src='images/instagram.png' alt="Sample-Pic" className="cards__item__img2"/>
+                                </figure>
+                                <div className="cards__item__info">
+                                </div>
+                            </a>
+                        </li>
 
                     </ul>
                 </div>

@@ -35,7 +35,7 @@
     margin: 0 auto;
 }
   
-.cards__wrapper {
+.cards_wrapper {
     position: relative;
     margin: 50px 0 45px;
 }
@@ -221,6 +221,10 @@
 
     .fc-header {
         margin-left: -15px;
+    }
+    .cards__item__link2 {
+        z-index: 3;
+
     }
 
 
