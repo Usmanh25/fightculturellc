@@ -139,6 +139,7 @@
 
     .instructor-text > h1{
         font-size: 30px;
+        margin-top: 40px;
         /* background-color: yellowgreen; */
     }
 
@@ -150,7 +151,17 @@
         text-align: center;
     }
 
+    .instructor-div {
+        flex-direction: column;
 
+    }
+
+    .instructor-image {
+        text-align: center;
+    }
+    .instructor-image-kyle {
+        text-align: center;
+    }
 
 }
 

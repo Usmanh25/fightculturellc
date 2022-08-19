@@ -24,8 +24,30 @@ function Instructors() {
                         <h2> Muay Thai </h2>
                         <h3> Thursday 5:00pm</h3>
                         <p>  
-                            Kyle is our head Jiu-Jitsu trainer and co-owner. With over 20 years of training, 
-                            coaching, and competetive experience in  he has seen it all and loves sharing his knowledge. (fun fact)
+                            Kyle is our head Jiu-Jitsu trainer and co-owner. He has over 20 years of  
+                            experience training and competing in Muay Thai, Brazilian Jiu-Jitsu, and MMA.
+                            A Brazilian Jiu-Jitsu black belt under Darren Uyenoyama, Kyle has vast martial 
+                            arts knwoledge and loves sharing it with his pupils.
+                        </p>
+                    </div>
+                </div>
+
+                <div className='instructor-div'>
+                    <div className='instructor-image'>
+                        <img src='images/ProfilePicDefault.png' alt='jiujitsupic'></img>
+                    </div>
+                    <div className='instructor-text'>
+                        <h1> Ritchie Mercado </h1>
+                        <h2> Muay Thai </h2>
+                        <h3> Monday 8:00am</h3>
+                        <h3> Tuesday 9:00am</h3>
+                        <h3> Wednesday 8:00am</h3>
+                        <h3> Thursday 9:00am</h3>
+                        <p>
+                            Ritchie is our co-owner and morning Muay Thai trainer.
+                            A former fighter, he has over 15 years of experience training, 
+                            competing, and coaching Muay Thai. A versatile martial artist, 
+                            he is also a Brazilian Jiu-Jitsu brown belt.
                         </p>
                     </div>
                 </div>
@@ -63,27 +85,6 @@ function Instructors() {
                         </p>
                     </div>
                 </div>
-
-                <div className='instructor-div'>
-                    <div className='instructor-image'>
-                        <img src='images/ProfilePicDefault.png' alt='jiujitsupic'></img>
-                    </div>
-                    <div className='instructor-text'>
-                        <h1> Ritchie Mercado </h1>
-                        <h2> Muay Thai </h2>
-                        <h3> Monday 8:00am</h3>
-                        <h3> Tuesday 9:00am</h3>
-                        <h3> Wednesday 8:00am</h3>
-                        <h3> Thursday 9:00am</h3>
-                        <p>
-                            Ritchie is our morning Muay Thai trainer and co-owner.
-                            instructor. He has been training and competing Muay Thai 
-                            for _____ years. A versatile and skilled martial artist, 
-                            he also has a brown belt in Brazilian Jiu-Jitsu. 
-                        </p>
-                    </div>
-                </div>
-
 
                 <div className='instructor-div'>
                     <div className='instructor-image'>
