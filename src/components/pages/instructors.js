@@ -129,9 +129,11 @@ function Instructors() {
                         <h3> Friday 8:00am</h3>
                         <h3> Saturday 9:00am</h3>
                         <p> 
-                            Brandy is our Friday and Saturday morning boxing trainer. She began her journey in
+                            Brandy is our Friday and Saturday morning boxing trainer. She competedShe began her journey in
                             the early 2000s training Muay Thai with Urijah Faber at Team Alpha Male, where she fell in love with the sport.
-                            She has competed in 
+                            Her passion has  
+
+                            Brandy began training in Muay Thai with Urijah Faber
                         </p>
                     </div>
                 </div>
