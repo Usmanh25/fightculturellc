@@ -73,13 +73,14 @@
 
 }
 .instructor-text > h2{
-    font-family: 'UnifrakturCook', cursive;
-    font-size: 25px;
+    /* font-family: 'UnifrakturCook', cursive; */
+    font-size: 30px;
     font-family: 'Mochiy Pop One', sans-serif;
     color: black;
     text-align: center;
     -webkit-text-stroke: 1px red;
     margin-bottom: 20px;
+
 
 
 }
