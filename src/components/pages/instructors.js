@@ -129,10 +129,9 @@ function Instructors() {
                         <h3> Friday 8:00am</h3>
                         <h3> Saturday 9:00am</h3>
                         <p> 
-                            Brandy is our boxing specialist. A former competetive boxer, she initially began her martial arts journey 
-                            training Muay Thai with Urijah Faber and Team Alpha Male in the early 2000s. Since then, her passion for 
-                            coaching has blossomed, as she teaches at gyms in Sacramento, San Francisco, and Oakland. She has over 15 
-                            years of experience.
+                            Brandy is our boxing specialist. She began training Muay Thai with Urijah Faber and Team Alpha Male in the early 2000s,
+                            where she fell in love with the sport. She has competed in Muay Thai and boxing, but has always preferred coaching over fighitng.
+                            Since then she's taught boxing at gyms in Sacramento, SF, and Oakland, gaining over 15 years of experience.
                         </p>
                     </div>
                 </div>
