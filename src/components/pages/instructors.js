@@ -133,9 +133,9 @@ function Instructors() {
                             the early 2000s training Muay Thai with Urijah Faber at Team Alpha Male, where she fell in love with the sport.
                             Her passion has  
 
-                            Brandy began training in Muay Thai with Urijah Faber and Team alpha male in the early 2000 and fell in love with the sport
+                            Brandy began training in Muay Thai with Urijah Faber and Team alpha male in the early 2000s and fell in love with the sport
                             she competed in both amateur muay thai and boxing, but always loved coaching more than fighitng.
-                            since then shes taught boxing at gyms in sacramento
+                            since then shes taught boxing at gyms in sacramento, sf, and oakland and has over 15 years of experience
                         </p>
                     </div>
                 </div>
