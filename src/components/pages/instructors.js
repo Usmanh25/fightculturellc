@@ -24,7 +24,7 @@ function Instructors() {
                         <h2> Muay Thai </h2>
                         <h3> Thursday 5:00pm</h3>
                         <p>  
-                            Kyle is our head Jiu-Jitsu trainer and co-owner. He has over 20 years of  
+                            Kyle is our head Jiu-Jitsu instructor and co-owner. He has over 20 years of  
                             experience training and competing in Muay Thai, Brazilian Jiu-Jitsu, and MMA.
                             A Brazilian Jiu-Jitsu black belt under UFC veteran Darren Uyenoyama via Ralph 
                             Gracie, Kyle teaches authentic Gracie Jiu-Jitsu technique and shares
@@ -45,10 +45,10 @@ function Instructors() {
                         <h3> Wednesday 8:00am</h3>
                         <h3> Thursday 9:00am</h3>
                         <p>
-                            Ritchie is our co-owner and morning Muay Thai trainer.
+                            Ritchie is our co-owner and morning Muay Thai instructor.
                             A former fighter with vast striking and grappling knowledge, he has over 
-                            15 years of experience training and competing Muay Thai and Jiu Jitsu. 
-                            He is a Brazilian Jiu-Jitsu Brown Belt.
+                            17 years of experience training and competing Muay Thai and Jiu Jitsu. 
+                            He is a Brazilian Jiu-Jitsu brown belt.
                         </p>
                     </div>
                 </div>
@@ -129,8 +129,9 @@ function Instructors() {
                         <h3> Friday 8:00am</h3>
                         <h3> Saturday 9:00am</h3>
                         <p> 
-                            Brandy is our Friday and Saturday morning boxing trainer. She has been training 
-                            boxing for over a decade and (more info about Brandy here) (Fun fact)
+                            Brandy is our Friday and Saturday morning boxing trainer. She began her journey in
+                            the early 2000s training Muay Thai with Urijah Faber at Team Alpha Male, where she fell in love with the sport.
+                            She has competed in 
                         </p>
                     </div>
                 </div>
