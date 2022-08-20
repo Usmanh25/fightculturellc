@@ -16,7 +16,7 @@ function Instructors() {
                         <img src='images/kyle.jpg' alt='muaythaifight'></img>
                     </div>
                     <div className='instructor-text'>
-                        <h1> Kyle Riddeau </h1>
+                        <h1> Kyle Rideau </h1>
                         <h2> Jiu-Jitsu </h2>
                         <h3> Monday 6:30pm </h3>
                         <h3> Wednesday 6:30pm</h3>
@@ -47,7 +47,7 @@ function Instructors() {
                         <p>
                             Ritchie is our co-owner and morning Muay Thai instructor.
                             A former fighter with vast striking and grappling knowledge, he has over 
-                            17 years of experience training and competing Muay Thai and Jiu Jitsu. 
+                            17 years of experience training and competing Muay Thai and Brazilian Jiu-Jitsu. 
                             He is a Brazilian Jiu-Jitsu brown belt.
                         </p>
                     </div>
@@ -121,7 +121,7 @@ function Instructors() {
                 
                 <div className='instructor-div'>
                     <div className='instructor-image'>
-                        <img src='images/ProfilePicDefault.png' alt='wrestlingpic'></img>
+                        <img src='images/brandy.jpeg' alt='wrestlingpic'></img>
                     </div>
                     <div className='instructor-text'>
                         <h1> Brandy Cotter </h1>
@@ -129,15 +129,10 @@ function Instructors() {
                         <h3> Friday 8:00am</h3>
                         <h3> Saturday 9:00am</h3>
                         <p> 
-                            Brandy is our Friday and Saturday morning boxing instructor. A former competetive boxer and Muay Thai
-                            fighter, her love of martial arts has lead to her passion for coaching. With over 15 years of experience, 
-                            She teaches boxing at gyms in Sacramento, San Francisco, and Oakland,  
-
-                            She began her martial arts journey in the early 2000s training with Urijah Faber at Team Alpha Male. 
-
-                            
-                            she competed in both amateur muay thai and boxing, but always loved coaching more than fighitng.
-                            since then shes taught boxing at gyms in sacramento, sf, and oakland and has over 15 years o experience
+                            Brandy is our boxing specialist. A former competetive boxer, she initially began her martial arts journey 
+                            training Muay Thai with Urijah Faber and Team Alpha Male in the early 2000s. Since then, her passion for 
+                            coaching has blossomed, as she teaches at gyms in Sacramento, San Francisco, and Oakland. She has over 15 
+                            years of experience.
                         </p>
                     </div>
                 </div>
