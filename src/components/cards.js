@@ -12,7 +12,7 @@ function Cards() {
                 <div className='cards_wrapper'>
                     <ul className='cards__item'>
                         <CardItem 
-                        src='images/fc_gallery_photo15.jpg'
+                        src='images/fcp-7.jpg'
                         text='Our Classes'
                         label='Our Classes'
                         path='/classes'
@@ -32,7 +32,7 @@ function Cards() {
                         path='/schedule'
                         />
                         <CardItem 
-                        src='images/fc_gallery_photo1.jpg'
+                        src='images/fc_gallery_photo15.jpg'
                         text='View Our Facility'
                         label='View Our Facility'
                         path='/gallery'

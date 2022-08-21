@@ -133,7 +133,7 @@ function Instructors() {
                             Brandy is our Friday and Saturday morning boxing instructor. 
                             She began her martial arts journey training Muay Thai with 
                                 Urijah Faber and Team Alpha Male in the early 2000s.
-                            She competed in Muay Thai and boxing, and has always loved coaching.
+                            She competed in Muay Thai and boxing, but has always loved coaching more.
                             Since then she's taught boxing at gyms from Sacramento to the Bay Area, 
                                 gaining over 15 years of experience.
                         </p>
