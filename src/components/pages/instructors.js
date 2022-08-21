@@ -121,10 +121,10 @@ function Instructors() {
                 </div>
                 
                 <div className='instructor-div'>
-                    <div className='instructor-image'>
+                    <div className='instructor-image-brandy'>
                         <img src='images/brandy.jpeg' alt='wrestlingpic'></img>
                     </div>
-                    <div className='instructor-text'>
+                    <div className='instructor-text-brandy'>
                         <h1> Brandy Cotter </h1>
                         <h2> Boxing </h2>
                         <h3> Friday 8:00am</h3>
