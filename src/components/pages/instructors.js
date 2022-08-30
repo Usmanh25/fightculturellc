@@ -15,7 +15,7 @@ function Instructors() {
                     <div className='instructor-image-kyle'>
                         <img src='images/kyle.jpg' alt='Kyle'></img>
                     </div>
-                    <div className='instructor-text'>
+                    <div className='instructor-text-kyle'>
                         <h1> Kyle Rideau </h1>
                         <h2> Jiu-Jitsu </h2>
                         <h3> Monday 6:30pm </h3>
@@ -104,7 +104,7 @@ function Instructors() {
                     <div className='instructor-image-brandy'>
                         <img src='images/brandy.jpeg' alt='Brandy'></img>
                     </div>
-                    <div className='instructor-text'>
+                    <div className='instructor-text-brandy'>
                         <h1> Brandy Cotter </h1>
                         <h2> Boxing </h2>
                         <h3> Friday 8:00am</h3>
@@ -124,7 +124,7 @@ function Instructors() {
                     <div className='instructor-image-ritchie'>
                         <img src='images/empty_picture.jpg' alt='Ritchie'></img>
                     </div>
-                    <div className='instructor-text'>
+                    <div className='instructor-text-ritchie'>
                         <h1> Ritchie Mercado </h1>
                         <h2> Muay Thai </h2>
                         <h3> Monday 8:00am</h3>
