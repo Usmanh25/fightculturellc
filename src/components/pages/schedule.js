@@ -1,8 +1,6 @@
 import React from 'react';
 import '../../App.css';
 import './schedule.css';
-// import CardItem from '../cardItem';
-
 
 function Schedule() {
     return(

@@ -59,7 +59,7 @@ function Instructors() {
                         <h2> Wrestling </h2>
                         <h3> Friday 6:30pm</h3>
                         <p>
-                            Martin is an decorated NCAA Wrestler with 17 years of experience.
+                            Martin is a decorated NCAA Wrestler with 17 years of experience.
                             Currently the Head Coach at Lowell High School, his competitive 
                                 athletics journey has shifted to motivating and inspiring the youth
                                 through wrestling.
@@ -114,7 +114,7 @@ function Instructors() {
                             She began her martial arts journey training Muay Thai with 
                                 Urijah Faber and Team Alpha Male in the early 2000s.
                             She competed in Muay Thai and boxing, but has always loved coaching more.
-                            Since then she's taught boxing at gyms from Sacramento to the Bay Area, 
+                            Since then, she's taught boxing at gyms from Sacramento to the Bay Area, 
                                 gaining over 15 years of experience.
                         </p>
                     </div>

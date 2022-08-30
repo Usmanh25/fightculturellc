@@ -496,6 +496,14 @@
 
 /* MEDIA QUERIES */
 
+@media only screen and (max-width: 1450px) {
+    .instructor-image-ryan > img {
+        width: 75%;
+        height: 75%;
+    }
+
+}
+
 @media only screen and (max-width: 1000px) {
     
     .instructor-div {
@@ -524,7 +532,9 @@
 
     .instructor-image-ryan > img{
         margin-left: 165px;
-        margin-bottom: 40px;   
+        margin-bottom: 40px; 
+        height: 60%;  
+        width: 60%;  
     }
 
     .instructor-image-brandy > img{

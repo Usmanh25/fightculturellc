@@ -19,7 +19,7 @@ function Classes() {
                         <p>
                             Muay Thai, or Thai boxing, is a style of fighting which utilizes punches, 
                             kicks, elbows, and knees. A centuries old practice, we teach authentic Muay Thai and cover basic 
-                            and advanced techniques. At Fight Culture, our 60 minute session covers all aspects of Muay Thai 
+                            and advanced techniques. At Fight Culture, our 60-minute session covers all aspects of Muay Thai 
                             training including footwork, pad holding, striking, defense, and sparring. This is a moderate-to-high 
                             intensity workout.
                         </p>
@@ -36,7 +36,7 @@ function Classes() {
                         <p>
                             Brazilian Jiu-Jitsu, developed by the Gracie family during the early twentieth 
                             century, is a close-combat martial arts system which focuses on ground fighting 
-                            and submission holding. Our 90 minute Brazilian Jiu-Jitsu classes begin with group stretches, 
+                            and submission holding. Our 90-minute Brazilian Jiu-Jitsu classes begin with group stretches, 
                             followed by technique drilling, new concept & positioning instruction, and then live rolling. 
                         </p>
 
@@ -51,7 +51,7 @@ function Classes() {
                     <div className='class-text'>
                         <h1> Wrestling </h1>
                         <p>
-                            We offer a 60 minute Wrestling session on Fridays for those looking to sharpen their grappling skills. 
+                            We offer a 60-minute Wrestling session on Fridays for those looking to sharpen their grappling skills. 
                             Much like Brazilian Jiu-Jitsu, this moderate-to-high intensity class begins with dynamic stretching,
                             follows up with technique teaching and drilling, and then ends with live wrestling. 
                         </p>
