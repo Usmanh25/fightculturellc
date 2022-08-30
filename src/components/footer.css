@@ -31,7 +31,6 @@
     font-size: 20px;
     margin-bottom: 24px;
     width: 60%;
-
 }
 
 .footer-input {
@@ -66,13 +65,9 @@
     width: 160px;
     box-sizing: border-box;
 }
-.joe {
-    text-align: center;
 
-}
 .footer-link-items h2 {
     margin-bottom: 16px;
-
 }
 
 .footer-link-items > h2 {
@@ -84,6 +79,7 @@
     text-decoration: none;
     margin-bottom: 8px;
 }
+
 .footer-link-items a:hover {
     color: red;
     transition: 0.3s ease-out;
@@ -96,7 +92,6 @@
 .footer-input::placeholder {
     color: purple;
 }
-
 
 /* Social Media */
 
@@ -126,9 +121,8 @@
     align-items: center;
     width: 240px;
     text-align: center;
-    
-    /* background-color: blue; */
 }
+
 .social-icons > img{
     height: 100%;
     background-color: black;
@@ -143,7 +137,6 @@
 .social-logo {
     color: white; 
     font-family: 'UnifrakturCook', cursive;
-
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
@@ -153,11 +146,6 @@
     align-items: center;
     margin-bottom: 16px;
 }
-
-
-
-
-
 
 .website-rights {
     color: white;
