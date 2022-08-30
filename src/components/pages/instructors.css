@@ -1,13 +1,8 @@
 .instructor-page-container {
-    /* background-color: rgb(114, 116, 116); */
     background-image: url("white-brick-wall.jpg"); 
-
-
 }
 
 .instructor-div {
-    /* background-color: aqua; */
-    
     width: 70%;
     display: flex;
     margin: auto;
@@ -18,70 +13,23 @@
 }
 
 .instructor-image > img{
-    background-color: red;
     height: 70%;
     width: 70%;
-    
-
     -webkit-animation: fadeInLeft 1.2s both;
     -moz-animation: fadeInLeft 1.2s both;
     -o-animation: fadeInLeft 1.2s both;
     animation: fadeInLeft 1.2s both;
-
     box-shadow: 0 5px 20px red;
     -webkit-filter: drop-shadow(0 5px 20px red);
     filter: drop-shadow(0 5px 20px red);
     border-radius: 10px;
     margin-left: 30px;
 }
-.instructor-image-kyle > img{
-    margin-left: 30px;
-    background-color: red;
-    height: 85%;
-    width: 85%;
 
-    -webkit-animation: fadeInLeft 1.2s both;
-    -moz-animation: fadeInLeft 1.2s both;
-    -o-animation: fadeInLeft 1.2s both;
-    animation: fadeInLeft 1.2s both;
-
-    box-shadow: 0 5px 20px red;
-    -webkit-filter: drop-shadow(0 5px 20px red);
-    filter: drop-shadow(0 5px 20px red);
-    border-radius: 10px;
-
-}
-.instructor-image-brandy > img{
-    margin-left: 30px;
-    background-color: red;
-    height: 60%;
-    width: 60%;
-
-    -webkit-animation: fadeInLeft 1.2s both;
-    -moz-animation: fadeInLeft 1.2s both;
-    -o-animation: fadeInLeft 1.2s both;
-    animation: fadeInLeft 1.2s both;
-
-    box-shadow: 0 5px 20px red;
-    -webkit-filter: drop-shadow(0 5px 20px red);
-    filter: drop-shadow(0 5px 20px red);
-    border-radius: 10px;
-
-}
 .instructor-text{
-    /* background-color: green; */
     color: black;
     width: 50%;
     margin-left: 40px;   
-    -webkit-animation: fadeInRight 1.2s both;
-    -moz-animation: fadeInRight 1.2s both;
-    -o-animation: fadeInRight 1.2s both;
-    animation: fadeInRight 1.2s both; 
-}
-.instructor-text-brandy{
-    /* background-color: green; */
-    color: black;
-    width: 100%;
     -webkit-animation: fadeInRight 1.2s both;
     -moz-animation: fadeInRight 1.2s both;
     -o-animation: fadeInRight 1.2s both;
@@ -92,73 +40,38 @@
     font-family: 'UnifrakturCook', cursive;
     font-size: 70px;
     font-family: 'Mochiy Pop One', sans-serif;
-    /* color: black; */
     text-align: center;
     -webkit-text-stroke: 1px red;
     margin-bottom: 25px;
     -webkit-text-fill-color: transparent;
-
-
 }
-
 
 .instructor-text-brandy > h1{
     font-family: 'UnifrakturCook', cursive;
     font-size: 70px;
     font-family: 'Mochiy Pop One', sans-serif;
-    /* color: black; */
     text-align: center;
     -webkit-text-stroke: 1px red;
     margin-bottom: 25px;
     -webkit-text-fill-color: transparent;
-
-
 }
+
 .instructor-text > h2{
-    /* font-family: 'UnifrakturCook', cursive; */
     font-size: 30px;
     font-family: 'Mochiy Pop One', sans-serif;
     color: black;
     text-align: center;
     -webkit-text-stroke: 1px red;
     margin-bottom: 20px;
-
-
-
 }
-.instructor-text-brandy > h2{
-    /* font-family: 'UnifrakturCook', cursive; */
-    font-size: 30px;
-    font-family: 'Mochiy Pop One', sans-serif;
-    color: black;
-    text-align: center;
-    -webkit-text-stroke: 1px red;
-    margin-bottom: 20px;
 
-
-
-}
 .instructor-text > h3{
     font-family: 'UnifrakturCook', cursive;
     font-size: 19px;
     font-family: 'Mochiy Pop One', sans-serif;
     color: black;
     text-align: center;
-    /* -webkit-text-stroke: 1px black; */
-    /* margin-left: 100px; */
     margin-bottom: 20px;
-
-}
-.instructor-text-brandy > h3{
-    font-family: 'UnifrakturCook', cursive;
-    font-size: 19px;
-    font-family: 'Mochiy Pop One', sans-serif;
-    color: black;
-    text-align: center;
-    /* -webkit-text-stroke: 1px black; */
-    /* margin-left: 100px; */
-    margin-bottom: 20px;
-
 }
 
 .instructor-text > p{
@@ -166,13 +79,6 @@
     font-size: 20px;
     font-weight: bold;
     width: 110%;
-}
-.instructor-text-brandy > p{
-    margin-left: -30px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    width: 120%;
 }
 
 .instructors-title {
@@ -182,7 +88,6 @@
     font-size: 150px;
     text-align: center;
     padding-top: 50px;
-    /* -webkit-text-fill-color: transparent; */
     padding-bottom: 50px;
     -webkit-animation: fadeInTop 1.2s both;
     -moz-animation: fadeInTop 1.2s both;
@@ -190,16 +95,14 @@
     animation: fadeInTop 1.2s both;
 }
 
-
 @media only screen and (max-width: 867px) {
 
     .instructor-text > h1{
         font-size: 50px;
-        /* background-color: pink; */
     }
+
     .instructor-text-brandy > h1{
         font-size: 50px;
-        /* background-color: pink; */
     }
 
     .instructors-title {
@@ -217,16 +120,17 @@
     .instructor-text > h1{
         font-size: 40px;
         margin-top: 50px;
-        /* background-color: yellowgreen; */
     }
+
     .instructor-text {
         width: 80%;
     }
+
     .instructor-text-brandy > h1{
         font-size: 40px;
         margin-top: 50px;
-        /* background-color: yellowgreen; */
     }
+
     .instructor-text-brandy {
         width: 80%;
     }
@@ -247,9 +151,11 @@
     .instructor-image {
         text-align: center;
     }
+
     .instructor-image-kyle {
         text-align: center;
     }
+    
     .instructor-image-brandy {
         text-align: center;
         height: 120%;
