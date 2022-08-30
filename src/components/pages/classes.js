@@ -9,7 +9,9 @@ function Classes() {
         <>
             <div className='class-page-container'>
 
+
                 <h1 className='classes-title'>Classes</h1>
+
 
                 <div className='class-div'>
                     <div className='class-text'>
@@ -27,6 +29,7 @@ function Classes() {
                     </div>
                 </div>
 
+
                 <div className='class-div'>
                     <div className='class-text'>
                         <h1> Brazilian Jiu-Jitsu </h1>
@@ -43,6 +46,7 @@ function Classes() {
                     </div>
                 </div>
 
+
                 <div className='class-div'>
                     <div className='class-text'>
                         <h1> Wrestling </h1>
@@ -57,6 +61,7 @@ function Classes() {
                         <img src='images/fc_wrestling.jpg' alt='wrestling'></img>
                     </div>
                 </div>
+
 
                 <div className='class-div2'>
                     <div className='class-text2'>

@@ -1,14 +1,16 @@
 import React from 'react';
 import '../../App.css';
 import './contact.css';
-// import Footer from '../footer';
 
 function Contact() {
     return (
         <>
             <div className='contact-container'>
+
                 <div className='contact-container1'>
+
                     <h1 className='title-container'>Join the Culture!</h1>
+
                     <div className='contact-greeting'>
                         <h1>Start your training today!</h1>
                         <h1>Drop-ins welcome or give us a call!</h1>
@@ -21,9 +23,13 @@ function Contact() {
                     </div>
 
                 </div>
+
+
                 <div className='contact-container2'>
                     <img src='/images/FightCultureLocation.png' alt='FC Map'></img>
                 </div>
+
+                
             </div>
         </>
     )
