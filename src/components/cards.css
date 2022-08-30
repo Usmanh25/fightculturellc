@@ -223,6 +223,11 @@
     .cards__item__link2 > img {
         background-color: white;
         margin-top: 50px;
+        object-fit: cover;
+    }
+
+    .cards__item__link > img {
+        object-fit: cover;
     }
 
     .cards__item__pic-wrap-2 {
