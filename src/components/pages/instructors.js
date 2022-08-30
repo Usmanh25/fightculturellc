@@ -13,7 +13,7 @@ function Instructors() {
 
                 <div className='instructor-div'>
                     <div className='instructor-image-kyle'>
-                        <img src='images/kyle.jpg' alt='muaythaifight'></img>
+                        <img src='images/kyle.jpg' alt='Kyle'></img>
                     </div>
                     <div className='instructor-text'>
                         <h1> Kyle Rideau </h1>
@@ -35,27 +35,7 @@ function Instructors() {
 
                 <div className='instructor-div'>
                     <div className='instructor-image'>
-                        <img src='images/ProfilePicDefault.png' alt='jiujitsupic'></img>
-                    </div>
-                    <div className='instructor-text'>
-                        <h1> Ritchie Mercado </h1>
-                        <h2> Muay Thai </h2>
-                        <h3> Monday 8:00am</h3>
-                        <h3> Tuesday 9:00am</h3>
-                        <h3> Wednesday 8:00am</h3>
-                        <h3> Thursday 9:00am</h3>
-                        <p>
-                            Ritchie is our co-owner and morning Muay Thai instructor.
-                            A former fighter with vast striking and grappling knowledge, he has over 
-                            17 years of experience training and competing Muay Thai and Brazilian Jiu-Jitsu. 
-                            He is a Brazilian Jiu-Jitsu brown belt.
-                        </p>
-                    </div>
-                </div>
-
-                <div className='instructor-div'>
-                    <div className='instructor-image'>
-                        <img src='images/jeremy.jpg' alt='boxingpic'></img>
+                        <img src='images/jeremy.jpg' alt='Jeremy'></img>
                     </div>
                     <div className='instructor-text'>
                         <h1> Jeremy Jacildo</h1>
@@ -72,7 +52,7 @@ function Instructors() {
 
                 <div className='instructor-div'>
                     <div className='instructor-image'>
-                        <img src='images/martin.jpg' alt='jiujitsupic'></img>
+                        <img src='images/martin.jpg' alt='Martin'></img>
                     </div>
                     <div className='instructor-text'>
                         <h1> Martin Ruiz </h1>
@@ -89,7 +69,7 @@ function Instructors() {
 
                 <div className='instructor-div'>
                     <div className='instructor-image'>
-                        <img src='images/ron.jpg' alt='wrestlingpic'></img>
+                        <img src='images/ron.jpg' alt='Ron'></img>
                     </div>
                     <div className='instructor-text'>
                         <h1> Ron Nitafan </h1>
@@ -105,10 +85,10 @@ function Instructors() {
                 </div>
             
                 <div className='instructor-div'>
-                    <div className='instructor-image'>
-                        <img src='images/ProfilePicDefault.png' alt='wrestlingpic'></img>
+                    <div className='instructor-image-brandy'>
+                        <img src='images/ryan.jpeg' alt='Ryan'></img>
                     </div>
-                    <div className='instructor-text'>
+                    <div className='instructor-text-brandy'>
                         <h1> Ryan Wellman </h1>
                         <h2> Jiu-Jitsu </h2>
                         <h3> Tuesday 6:30pm</h3>
@@ -122,7 +102,7 @@ function Instructors() {
                 
                 <div className='instructor-div'>
                     <div className='instructor-image-brandy'>
-                        <img src='images/brandy.jpeg' alt='wrestlingpic'></img>
+                        <img src='images/brandy.jpeg' alt='Brandy'></img>
                     </div>
                     <div className='instructor-text-brandy'>
                         <h1> Brandy Cotter </h1>
@@ -136,6 +116,27 @@ function Instructors() {
                             She competed in Muay Thai and boxing, but has always loved coaching more.
                             Since then she's taught boxing at gyms from Sacramento to the Bay Area, 
                                 gaining over 15 years of experience.
+                        </p>
+                    </div>
+                </div>
+
+                <div className='instructor-div'>
+                    <div className='instructor-image'>
+                        <img src='images/empty_picture.jpg' alt='Ritchie'></img>
+                    </div>
+                    <div className='instructor-text-brandy'>
+                        <h1> Ritchie Mercado </h1>
+                        <h2> Muay Thai </h2>
+                        <h3> Monday 8:00am</h3>
+                        <h3> Tuesday 9:00am</h3>
+                        <h3> Wednesday 8:00am</h3>
+                        <h3> Thursday 9:00am</h3>
+                        <p>
+                            Ritchie is our co-owner and morning Muay Thai instructor.
+                            A former fighter with vast striking and grappling knowledge, he has  
+                                nearly 2 decades of experience training and competing Muay Thai
+                                and Brazilian Jiu-Jitsu. 
+                            He is a Brazilian Jiu-Jitsu brown belt.
                         </p>
                     </div>
                 </div>

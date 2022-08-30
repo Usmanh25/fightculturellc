@@ -132,9 +132,6 @@
 
 .class-page-container {
     background-image: url("white-brick-wall.jpg"); 
-    /* animation: fadeInAnimation ease-in 3.0s; */
-
-
 }
 
 .classes-title {
@@ -154,7 +151,6 @@
 
 .class-div {
     width: 80%;
-    /* background-color: purple; */
     display: flex;
     margin: auto;
     margin-top: 100px;
@@ -163,9 +159,9 @@
     padding-top: 15px;
     padding-bottom: 50px;
 }
+
 .class-div2 {
     width: 80%;
-    /* background-color: green; */
     display: flex;
     margin: auto;
     margin-top: 100px;
@@ -261,7 +257,6 @@
     }
 
     .classes-title {
-        /* font-family: 'Mochiy Pop One', sans-serif; */
         color: black;
         -webkit-text-stroke: 1px red;
         font-size: 100px;
@@ -272,7 +267,6 @@
     }
 
     .classes-title2 {
-        /* font-family: 'Mochiy Pop One', sans-serif; */
         color: black;
         -webkit-text-stroke: 1px red;
         font-size: 100px;

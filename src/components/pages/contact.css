@@ -1,25 +1,18 @@
 .contact-greeting {
-    /* border: 1px solid red; */
     font-size: 25px;
     padding-bottom: 100px;
     color: white;
     -webkit-text-stroke: 1px black;
     text-align: center;
     column-gap: 40px; 
-    /* backdrop-filter: blur(5px); */
-
     font-family: 'Mochiy Pop One', sans-serif;
     animation: fadeInAnimation ease-in 0.8s;
-
-
 }
 
 .contact-greeting > h1 {
     font-family: 'Mochiy Pop One', sans-serif;
     padding-bottom: 20px;
     animation: fadeInAnimation ease-in 0.8s;
-
-
 }
 
 .contact-container2 > img {
