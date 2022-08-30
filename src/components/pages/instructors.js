@@ -51,7 +51,7 @@ function Instructors() {
                 </div>
 
                 <div className='instructor-div'>
-                    <div className='instructor-image'>
+                    <div className='instructor-image-martin'>
                         <img src='images/martin.jpg' alt='Martin'></img>
                     </div>
                     <div className='instructor-text'>
@@ -68,7 +68,7 @@ function Instructors() {
                 </div>
 
                 <div className='instructor-div'>
-                    <div className='instructor-image'>
+                    <div className='instructor-image-ron'>
                         <img src='images/ron.jpg' alt='Ron'></img>
                     </div>
                     <div className='instructor-text'>
@@ -85,10 +85,10 @@ function Instructors() {
                 </div>
             
                 <div className='instructor-div'>
-                    <div className='instructor-image-brandy'>
+                    <div className='instructor-image-ryan'>
                         <img src='images/ryan.jpeg' alt='Ryan'></img>
                     </div>
-                    <div className='instructor-text-brandy'>
+                    <div className='instructor-text-ryan'>
                         <h1> Ryan Wellman </h1>
                         <h2> Jiu-Jitsu </h2>
                         <h3> Tuesday 6:30pm</h3>
@@ -104,7 +104,7 @@ function Instructors() {
                     <div className='instructor-image-brandy'>
                         <img src='images/brandy.jpeg' alt='Brandy'></img>
                     </div>
-                    <div className='instructor-text-brandy'>
+                    <div className='instructor-text'>
                         <h1> Brandy Cotter </h1>
                         <h2> Boxing </h2>
                         <h3> Friday 8:00am</h3>
@@ -121,10 +121,10 @@ function Instructors() {
                 </div>
 
                 <div className='instructor-div'>
-                    <div className='instructor-image'>
+                    <div className='instructor-image-ritchie'>
                         <img src='images/empty_picture.jpg' alt='Ritchie'></img>
                     </div>
-                    <div className='instructor-text-brandy'>
+                    <div className='instructor-text'>
                         <h1> Ritchie Mercado </h1>
                         <h2> Muay Thai </h2>
                         <h3> Monday 8:00am</h3>
