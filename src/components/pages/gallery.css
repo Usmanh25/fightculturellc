@@ -39,7 +39,6 @@ h1 span {
 .gallery-image-container > img {
     height: 45%;
     width: 45%;
-    /* display: flex; */
     margin-bottom: 30px;
     margin-top: 30px;
     margin-right: 30px;
@@ -48,24 +47,27 @@ h1 span {
     box-shadow: 0 5px 20px red;
     -webkit-filter: drop-shadow(0 5px 20px red);
     filter: drop-shadow(0 5px 20px red);
-
     animation: fadeInAnimation ease-in 1.2s;
-
 }
 
 @media only screen and (max-width: 700px) {
+
     h1 span { 
         font-size:100px;
     }
+
     .gallery {
         height: 40vh;
     }
+
     .gallery-image-container > img {
         height: 75%;
         width: 75%;
     }
 }
+
 @media only screen and (max-width: 500px) {
+    
     h1 span { 
         font-size:50px;
     }
