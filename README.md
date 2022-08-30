@@ -1,3 +1,3 @@
 # Fight Culture LLC
 
-in production
+ready for deployment
