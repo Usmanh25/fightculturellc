@@ -7,7 +7,7 @@ function Schedule() {
         <>
             <div className='schedule-container'>
                 <div className='schedule-image-container'>                    
-                    <img src='images/FightCultureSchedule.jpg'></img>
+                    <img src='images/FightCultureSchedule.jpg' alt="Schedule"></img>
                 </div>
             </div>
         </>
