@@ -268,7 +268,7 @@
         font-size: 60px;
     }
 
-    /* .cards__item__img2 {
+    .cards__item__img2 {
         position: absolute;
         top: -20px;
         right: 0;
@@ -282,5 +282,5 @@
         text-align: center;
         object-fit: cover;
         transition: all 0.2s linear;
-    }       */
+    }      
 }
