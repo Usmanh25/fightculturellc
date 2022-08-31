@@ -211,8 +211,8 @@
 @media only screen and (max-width: 500px) {
 
     .cards__item {
-        display: flex;
-        flex-direction: column;
+        /* display: flex;
+        flex-direction: column; */
     }
 
     .fc-header {
@@ -223,11 +223,6 @@
     .cards__item__link2 > img {
         background-color: white;
         margin-top: 50px;
-        object-fit: cover;
-    }
-
-    .cards__item__link > img {
-        object-fit: cover;
     }
 
     .cards__item__pic-wrap-2 {
@@ -269,16 +264,16 @@
     }
 
     .cards__item__img2 {
-        position: absolute;
-        top: -20px;
+        /* position: absolute; */
+        /* top: -20px;
         right: 0;
         bottom: 0;
-        left: 20px;
-        display: block;
-        width: 90%;
+        left: 20px; */
+        /* display: block; */
+        /* width: 90%;
         max-width: 90%;
         height: 90%;
-        max-height: 90%;
+        max-height: 90%; */
         text-align: center;
         object-fit: cover;
         transition: all 0.2s linear;
