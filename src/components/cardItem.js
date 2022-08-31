@@ -10,7 +10,6 @@ function CardItem(props) {
                         <img src={props.src} alt="Sample-Pic" className="cards__item__img"/>
                     </figure>
                 </Link>
-
             </li>
         </>
     )

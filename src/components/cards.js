@@ -40,12 +40,21 @@ function Cards() {
                         label='Get in Touch!'
                         path='/contact'
                         />
-                        <CardItem 
+                        {/* <CardItem 
                         src='images/iglogo.png'
                         label='Follow Us!'
+                        target='_blank'
                         path='https://www.instagram.com/fight_culturesf/'
-                        />
+                        /> */}
+                        <li className="cards__item">
+                            <a className="cards__item__link" target='_blank' rel="noreferrer" href='https://www.instagram.com/fight_culturesf/'>
+                                <figure className="cards__item__pic-wrap" data-category='Follow Us!'>
+                                    <img src='images/iglogo.png' alt="Sample-Pic" className="cards__item__img"/>
+                                </figure>
+                            </a>
+                        </li>
                     </ul>
+
 
 
                         {/* <li className="cards__item">
@@ -53,8 +62,6 @@ function Cards() {
                                 <figure className="cards__item__pic-wrap-2" data-category='Follow Us!'>
                                     <img src='images/instagram.png' alt="Sample-Pic" className="cards__item__img2"/>
                                 </figure>
-                                <div className="cards__item__info">
-                                </div>
                             </a>
                         </li> */}
 

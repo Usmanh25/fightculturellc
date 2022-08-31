@@ -1,9 +1,9 @@
 .cards {
     padding: 4rem;
     background: url('steel_wallpaper_bottom.jpg');
-    /* background-color: black; */
-    /* background-repeat: repeat-y;
-    background-size: 2000px; */
+    background-color: black;
+    background-repeat: repeat-y;
+    background-size: 2000px;
 }
   
 .fc-header {
@@ -42,7 +42,7 @@
     flex: 1;
     margin: 0 1rem;
     border-radius: 10px;
-    margin-bottom: 50px;
+    /* margin-bottom: 25px; */
     /* background-color: blue; */
 }
 
@@ -118,7 +118,6 @@
 
     .cards__item {
       display: flex;
-      /* flex-direction: column; */
     }
 }
   
@@ -135,8 +134,10 @@
         font-size: 80px;
     }
     .cards__item {
-        /* display: flex; */
         flex-direction: column;
+    }
+    .cards {
+        background-size: 800px;
     }
 
 
