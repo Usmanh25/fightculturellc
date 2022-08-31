@@ -13,13 +13,11 @@ function Cards() {
                     <ul className='cards__item'>
                         <CardItem 
                         src='images/fcp-7.jpg'
-                        text='Our Classes'
                         label='Our Classes'
                         path='/classes'
                         />
                         <CardItem 
                         src='images/FightCultureHomePage.png'
-                        text='Our Instructors'
                         label='Our Instructors'
                         path='/instructors'
                         />
@@ -27,13 +25,11 @@ function Cards() {
                     <ul className='cards__item'>
                         <CardItem 
                         src='images/FightCultureSchedule.jpg'
-                        text='Weekly Schedule'
                         label='Weekly Schedule'
                         path='/schedule'
                         />
                         <CardItem 
                         src='images/fc_gallery_photo15.jpg'
-                        text='View Our Facility'
                         label='View Our Facility'
                         path='/gallery'
                         />
@@ -41,13 +37,11 @@ function Cards() {
                     <ul className='cards__item'>
                         <CardItem 
                         src='images/FightCultureLocation.png'
-                        text='Get in Touch!'
                         label='Get in Touch!'
                         path='/contact'
                         />
                         <CardItem 
-                        src='images/instagram.png'
-                        text='Follow Us!'
+                        src='images/iglogo.png'
                         label='Follow Us!'
                         path='https://www.instagram.com/fight_culturesf/'
                         />
