@@ -63,13 +63,23 @@
     .title-container {
         font-size: 100px;
     }
-
+    
     .contact-greeting {
         font-size: 20px;
     }
     
     .contact-info > h1 {
         font-size: 20px;
+    }
+    
+}
+
+@media only screen and (max-width: 610px) {
+    .title-container {
+        font-size: 75px;
+    }
+    .contact-greeting {
+        font-size: 15px;
     }
 
 }
