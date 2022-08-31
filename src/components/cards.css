@@ -42,8 +42,7 @@
     flex: 1;
     margin: 0 1rem;
     border-radius: 10px;
-    /* margin-bottom: 25px; */
-    /* background-color: blue; */
+    margin-bottom: 50px;
 }
 
 .cards__item__link {
