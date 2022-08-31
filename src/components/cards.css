@@ -132,6 +132,12 @@
 /* EDIT FOR MOBILE HEADER */
 @media only screen and (max-width: 608px) {
     .fc-header {
-        font-size: 100px;
+        font-size: 80px;
     }
+    .cards__item {
+        /* display: flex; */
+        flex-direction: column;
+    }
+
+
 }
