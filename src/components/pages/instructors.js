@@ -12,17 +12,28 @@ function Instructors() {
                 <h1 className='instructors-title'>Instructors</h1>
 
                 <div className='instructor-div'>
-                    <div className='instructor-image-kyle'>
+                    <div className='instructor-image'>
                         <img src='images/kyle.jpg' alt='Kyle'></img>
                     </div>
-                    <div className='instructor-text-kyle'>
+                    <div className='instructor-text'>
+                        
                         <h1> Kyle Rideau </h1>
-                        <h2> Jiu-Jitsu </h2>
-                        <h3> Monday 6:30pm </h3>
-                        <h3> Wednesday 6:30pm</h3>
-                        <h3> Thursday 6:30pm</h3>
-                        <h2> Muay Thai </h2>
-                        <h3> Thursday 5:00pm</h3>
+                    
+                        <div className='kyle-classes'>
+                            <div className='kyle-jj'>
+                                <h2> Jiu-Jitsu </h2>
+                                <h3> Monday 6:30pm </h3>
+                                <h3> Wednesday 6:30pm</h3>
+                                <h3> Thursday 6:30pm</h3>
+                            </div>
+                            <div className='kyle-mt'>
+                                <h2> Muay Thai </h2>
+                                <h3> Thursday 5:00pm</h3>
+                            </div>
+                        </div>
+                    
+
+
                         <p>  
                             Kyle is our head Jiu-Jitsu instructor and co-owner. He has over 20 years of  
                             experience training and competing in Muay Thai, Brazilian Jiu-Jitsu, and MMA.
@@ -51,7 +62,7 @@ function Instructors() {
                 </div>
 
                 <div className='instructor-div'>
-                    <div className='instructor-image-martin'>
+                    <div className='instructor-image'>
                         <img src='images/martin.jpg' alt='Martin'></img>
                     </div>
                     <div className='instructor-text'>
@@ -68,7 +79,7 @@ function Instructors() {
                 </div>
 
                 <div className='instructor-div'>
-                    <div className='instructor-image-ron'>
+                    <div className='instructor-image'>
                         <img src='images/ron.jpg' alt='Ron'></img>
                     </div>
                     <div className='instructor-text'>
@@ -85,10 +96,10 @@ function Instructors() {
                 </div>
             
                 <div className='instructor-div'>
-                    <div className='instructor-image-ryan'>
+                    <div className='instructor-image'>
                         <img src='images/ryan.jpeg' alt='Ryan'></img>
                     </div>
-                    <div className='instructor-text-ryan'>
+                    <div className='instructor-text'>
                         <h1> Ryan Wellman </h1>
                         <h2> Jiu-Jitsu </h2>
                         <h3> Tuesday 6:30pm</h3>
@@ -101,10 +112,10 @@ function Instructors() {
                 </div>
                 
                 <div className='instructor-div'>
-                    <div className='instructor-image-brandy'>
+                    <div className='instructor-image'>
                         <img src='images/brandy.jpeg' alt='Brandy'></img>
                     </div>
-                    <div className='instructor-text-brandy'>
+                    <div className='instructor-text'>
                         <h1> Brandy Cotter </h1>
                         <h2> Boxing </h2>
                         <h3> Friday 8:00am</h3>
@@ -121,10 +132,10 @@ function Instructors() {
                 </div>
 
                 <div className='instructor-div'>
-                    <div className='instructor-image-ritchie'>
+                    <div className='instructor-image'>
                         <img src='images/empty_picture.jpg' alt='Ritchie'></img>
                     </div>
-                    <div className='instructor-text-ritchie'>
+                    <div className='instructor-text'>
                         <h1> Ritchie Mercado </h1>
                         <h2> Muay Thai </h2>
                         <h3> Monday 8:00am</h3>

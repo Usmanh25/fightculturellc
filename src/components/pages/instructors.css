@@ -1,5 +1,231 @@
-/* KEYFRAMES FOR ANIMATION */
+.instructor-page-container {
+    background-image: url("white-brick-wall.jpg"); 
+}
 
+.instructors-title {
+    font-family: 'PT Sans', sans-serif;
+    color: black;
+    -webkit-text-stroke: 1.5px red;
+    font-size: 150px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    -webkit-animation: fadeInTop 1.2s both;
+    -moz-animation: fadeInTop 1.2s both;
+    -o-animation: fadeInTop 1.2s both;
+    animation: fadeInTop 1.2s both;
+}
+
+.instructor-div {
+    /* background-color: yellow; */
+    width: 75%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* INSTRUCTOR IMAGES */
+
+.instructor-image {
+    width: 50%;
+    -webkit-animation: fadeInLeft 1.2s both;
+    -moz-animation: fadeInLeft 1.2s both;
+    -o-animation: fadeInLeft 1.2s both;
+    animation: fadeInLeft 1.2s both;
+}
+.instructor-image > img{
+    box-shadow: 0 5px 20px red;
+    -webkit-filter: drop-shadow(0 5px 20px red);
+    filter: drop-shadow(0 5px 20px red);
+    height: 85%;
+    width: 85%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.kyle-classes {
+    /* background-color: teal; */
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.kyle-jj > h2 {
+    font-size: 35px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    color: white;
+    text-align: center;
+    -webkit-text-stroke: 1px red;
+    margin-bottom: 20px;
+}
+.kyle-jj > h3 {
+    font-size: 20px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.kyle-mt > h2 {
+    font-size: 35px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    color: white;
+    text-align: center;
+    -webkit-text-stroke: 1px red;
+    margin-bottom: 20px;
+}
+.kyle-mt > h3 {
+    font-size: 20px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.instructor-text{
+    /* background-color: pink; */
+    color: black;
+    width: 50%;
+    margin-left: 40px;   
+    -webkit-animation: fadeInRight 1.2s both;
+    -moz-animation: fadeInRight 1.2s both;
+    -o-animation: fadeInRight 1.2s both;
+    animation: fadeInRight 1.2s both; 
+    text-align: center;
+}
+
+.instructor-text > h1{
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 60px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    text-align: center;
+    -webkit-text-stroke: 2px black;
+    margin-bottom: 25px;
+    -webkit-text-fill-color: transparent;
+}
+
+.instructor-text > h2{
+    font-size: 35px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    color: white;
+    text-align: center;
+    -webkit-text-stroke: 1px red;
+    margin-bottom: 20px;
+}
+
+.instructor-text > h3{
+    font-size: 20px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.instructor-text > p{
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    font-weight: bolder;
+    -webkit-backdrop-filter: blur(4px);
+}
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1150px) {
+
+    .instructor-div {
+        flex-direction: column;
+    }
+
+    .instructor-image {
+        text-align: center;
+        width: 90%;
+        margin-bottom: 40px;
+    }
+
+}
+
+@media only screen and (max-width: 867px) {
+
+    .instructors-title {
+        font-family: 'PT Sans', sans-serif;
+        color: black;
+        -webkit-text-stroke: 1.5px red;
+        font-size: 120px;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .instructor-text > h1{
+        font-size: 50px;
+        margin-top: 50px;
+    }
+
+    .instructor-text {
+        width: 80%;
+    }
+
+    .instructor-text > p {
+        text-align: center;
+    }
+
+}
+
+
+@media only screen and (max-width: 610px) {
+
+    .instructors-title {
+        font-size: 70px;
+    }
+    
+    .instructor-text {
+        margin-right: 30px;
+    }
+
+    .instructor-image {
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* KEYFRAMES FOR ANIMATION */
+    
 @-webkit-keyframes fadeInLeft {
     0%{
         opacity: 0;
@@ -130,590 +356,4 @@
         opacity: 1;
         transform: translateY(0);
     }
-}
-
-.instructor-page-container {
-    background-image: url("white-brick-wall.jpg"); 
-}
-
-.instructors-title {
-    font-family: 'PT Sans', sans-serif;
-    color: black;
-    -webkit-text-stroke: 1.5px red;
-    font-size: 150px;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    -webkit-animation: fadeInTop 1.2s both;
-    -moz-animation: fadeInTop 1.2s both;
-    -o-animation: fadeInTop 1.2s both;
-    animation: fadeInTop 1.2s both;
-}
-
-.instructor-div {
-    width: 75%;
-    display: flex;
-    margin: auto;
-    align-items: center;
-    justify-content: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-/* INSTRUCTOR IMAGES */
-
-.instructor-image > img{
-    height: 70%;
-    width: 70%;
-    -webkit-animation: fadeInLeft 1.2s both;
-    -moz-animation: fadeInLeft 1.2s both;
-    -o-animation: fadeInLeft 1.2s both;
-    animation: fadeInLeft 1.2s both;
-    box-shadow: 0 5px 20px red;
-    -webkit-filter: drop-shadow(0 5px 20px red);
-    filter: drop-shadow(0 5px 20px red);
-    border-radius: 10px;
-    margin-left: 30px;
-}
-.instructor-image-kyle > img{
-    height: 86%;
-    width: 86%;
-    -webkit-animation: fadeInLeft 1.2s both;
-    -moz-animation: fadeInLeft 1.2s both;
-    -o-animation: fadeInLeft 1.2s both;
-    animation: fadeInLeft 1.2s both;
-    box-shadow: 0 5px 20px red;
-    -webkit-filter: drop-shadow(0 5px 20px red);
-    filter: drop-shadow(0 5px 20px red);
-    border-radius: 10px;
-    margin-left: 30px;
-}
-.instructor-image-martin > img{
-    height: 71%;
-    width: 71%;
-    -webkit-animation: fadeInLeft 1.2s both;
-    -moz-animation: fadeInLeft 1.2s both;
-    -o-animation: fadeInLeft 1.2s both;
-    animation: fadeInLeft 1.2s both;
-    box-shadow: 0 5px 20px red;
-    -webkit-filter: drop-shadow(0 5px 20px red);
-    filter: drop-shadow(0 5px 20px red);
-    border-radius: 10px;
-    margin-left: 30px;
-}
-.instructor-image-ron > img{
-    height: 75%;
-    width: 75%;
-    -webkit-animation: fadeInLeft 1.2s both;
-    -moz-animation: fadeInLeft 1.2s both;
-    -o-animation: fadeInLeft 1.2s both;
-    animation: fadeInLeft 1.2s both;
-    box-shadow: 0 5px 20px red;
-    -webkit-filter: drop-shadow(0 5px 20px red);
-    filter: drop-shadow(0 5px 20px red);
-    border-radius: 10px;
-    margin-left: 30px;
-}
-.instructor-image-ryan > img{
-    height: 60%;
-    width: 60%;
-    -webkit-animation: fadeInLeft 1.2s both;
-    -moz-animation: fadeInLeft 1.2s both;
-    -o-animation: fadeInLeft 1.2s both;
-    animation: fadeInLeft 1.2s both;
-    box-shadow: 0 5px 20px red;
-    -webkit-filter: drop-shadow(0 5px 20px red);
-    filter: drop-shadow(0 5px 20px red);
-    border-radius: 10px;
-    margin-left: 30px;
-}
-.instructor-image-brandy > img{
-    height: 70%;
-    width: 70%;
-    -webkit-animation: fadeInLeft 1.2s both;
-    -moz-animation: fadeInLeft 1.2s both;
-    -o-animation: fadeInLeft 1.2s both;
-    animation: fadeInLeft 1.2s both;
-    box-shadow: 0 5px 20px red;
-    -webkit-filter: drop-shadow(0 5px 20px red);
-    filter: drop-shadow(0 5px 20px red);
-    border-radius: 10px;
-    margin-left: 30px;
-}
-.instructor-image-ritchie > img{
-    height: 70%;
-    width: 70%;
-    -webkit-animation: fadeInLeft 1.2s both;
-    -moz-animation: fadeInLeft 1.2s both;
-    -o-animation: fadeInLeft 1.2s both;
-    animation: fadeInLeft 1.2s both;
-    box-shadow: 0 5px 20px red;
-    -webkit-filter: drop-shadow(0 5px 20px red);
-    filter: drop-shadow(0 5px 20px red);
-    border-radius: 10px;
-    margin-left: 30px;
-}
-
-/* INSTRUCTOR TEXT */
-
-.instructor-text{
-    color: black;
-    width: 50%;
-    margin-left: 40px;   
-    -webkit-animation: fadeInRight 1.2s both;
-    -moz-animation: fadeInRight 1.2s both;
-    -o-animation: fadeInRight 1.2s both;
-    animation: fadeInRight 1.2s both; 
-    text-align: center;
-}
-
-.instructor-text > h1{
-    font-family: 'UnifrakturCook', cursive;
-    font-size: 60px;
-    font-family: 'Mochiy Pop One', sans-serif;
-    text-align: center;
-    -webkit-text-stroke: 1px red;
-    margin-bottom: 25px;
-    -webkit-text-fill-color: transparent;
-}
-
-.instructor-text > h2{
-    font-size: 30px;
-    font-family: 'Mochiy Pop One', sans-serif;
-    color: black;
-    text-align: center;
-    -webkit-text-stroke: 1px red;
-    margin-bottom: 20px;
-}
-
-.instructor-text > h3{
-    font-family: 'UnifrakturCook', cursive;
-    font-size: 19px;
-    font-family: 'Mochiy Pop One', sans-serif;
-    color: black;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.instructor-text > p{
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    width: 100%;
-}
-
-/* KYLE */
-
-.instructor-text-kyle{
-    color: black;
-    width: 50%;
-    margin-left: 40px;   
-    -webkit-animation: fadeInRight 1.2s both;
-    -moz-animation: fadeInRight 1.2s both;
-    -o-animation: fadeInRight 1.2s both;
-    animation: fadeInRight 1.2s both; 
-    text-align: center;
-}
-
-.instructor-text-kyle > h1{
-    font-family: 'UnifrakturCook', cursive;
-    font-size: 60px;
-    font-family: 'Mochiy Pop One', sans-serif;
-    text-align: center;
-    -webkit-text-stroke: 1px red;
-    margin-bottom: 25px;
-    -webkit-text-fill-color: transparent;
-}
-
-.instructor-text-kyle > h2{
-    font-size: 30px;
-    font-family: 'Mochiy Pop One', sans-serif;
-    color: black;
-    text-align: center;
-    -webkit-text-stroke: 1px red;
-    margin-bottom: 20px;
-}
-
-.instructor-text-kyle > h3{
-    font-family: 'UnifrakturCook', cursive;
-    font-size: 19px;
-    font-family: 'Mochiy Pop One', sans-serif;
-    color: black;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.instructor-text-kyle > p{
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    width: 100%;
-}
-
-/* RYAN */
-
-.instructor-text-ryan{
-    color: black;
-    width: 80%;
-    margin-right: 100px;
-    -webkit-animation: fadeInRight 1.2s both;
-    -moz-animation: fadeInRight 1.2s both;
-    -o-animation: fadeInRight 1.2s both;
-    animation: fadeInRight 1.2s both; 
-    text-align: center;
-}
-
-.instructor-text-ryan > h1{
-    font-family: 'UnifrakturCook', cursive;
-    font-size: 60px;
-    font-family: 'Mochiy Pop One', sans-serif;
-    text-align: center;
-    -webkit-text-stroke: 1px red;
-    margin-bottom: 25px;
-    -webkit-text-fill-color: transparent;
-}
-
-.instructor-text-ryan > h2{
-    font-size: 30px;
-    font-family: 'Mochiy Pop One', sans-serif;
-    color: black;
-    text-align: center;
-    -webkit-text-stroke: 1px red;
-    margin-bottom: 20px;
-}
-
-.instructor-text-ryan > h3{
-    font-family: 'UnifrakturCook', cursive;
-    font-size: 19px;
-    font-family: 'Mochiy Pop One', sans-serif;
-    color: black;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.instructor-text-ryan > p{
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    width: 100%;
-}
-
-/* BRANDY */
-
-.instructor-text-brandy{
-    color: black;
-    width: 90%;
-    margin-right: 100px;
-    -webkit-animation: fadeInRight 1.2s both;
-    -moz-animation: fadeInRight 1.2s both;
-    -o-animation: fadeInRight 1.2s both;
-    animation: fadeInRight 1.2s both; 
-    text-align: center;
-}
-
-.instructor-text-brandy > h1{
-    font-family: 'UnifrakturCook', cursive;
-    font-size: 60px;
-    font-family: 'Mochiy Pop One', sans-serif;
-    text-align: center;
-    -webkit-text-stroke: 1px red;
-    margin-bottom: 25px;
-    -webkit-text-fill-color: transparent;
-}
-
-.instructor-text-brandy > h2{
-    font-size: 30px;
-    font-family: 'Mochiy Pop One', sans-serif;
-    color: black;
-    text-align: center;
-    -webkit-text-stroke: 1px red;
-    margin-bottom: 20px;
-}
-
-.instructor-text-brandy > h3{
-    font-family: 'UnifrakturCook', cursive;
-    font-size: 19px;
-    font-family: 'Mochiy Pop One', sans-serif;
-    color: black;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.instructor-text-brandy > p{
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    width: 100%;
-}
-
-/* RITCHIE */
-
-.instructor-text-ritchie{
-    color: black;
-    width: 70%;
-    margin-right: 65px;
-    -webkit-animation: fadeInRight 1.2s both;
-    -moz-animation: fadeInRight 1.2s both;
-    -o-animation: fadeInRight 1.2s both;
-    animation: fadeInRight 1.2s both; 
-    text-align: center;
-}
-
-.instructor-text-ritchie > h1{
-    font-family: 'UnifrakturCook', cursive;
-    font-size: 60px;
-    font-family: 'Mochiy Pop One', sans-serif;
-    text-align: center;
-    -webkit-text-stroke: 1px red;
-    margin-bottom: 25px;
-    -webkit-text-fill-color: transparent;
-}
-
-.instructor-text-ritchie > h2{
-    font-size: 30px;
-    font-family: 'Mochiy Pop One', sans-serif;
-    color: black;
-    text-align: center;
-    -webkit-text-stroke: 1px red;
-    margin-bottom: 20px;
-}
-
-.instructor-text-ritchie > h3{
-    font-family: 'UnifrakturCook', cursive;
-    font-size: 19px;
-    font-family: 'Mochiy Pop One', sans-serif;
-    color: black;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.instructor-text-ritchie > p{
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    width: 100%;
-}
-
-/* MEDIA QUERIES */
-
-@media only screen and (max-width: 1450px) {
-    .instructor-image-ryan > img {
-        width: 75%;
-        height: 75%;
-    }
-
-}
-
-@media only screen and (max-width: 1000px) {
-    
-    .instructor-div {
-        flex-direction: column;
-    }
-    
-    .instructor-image > img{
-        margin-left: 110px;
-        margin-bottom: 40px;   
-    }
-
-    .instructor-image-kyle > img{
-        margin-left: 60px;
-        margin-bottom: 40px;
-    }
-
-    .instructor-image-martin > img{
-        margin-left: 110px;
-        margin-bottom: 40px;   
-    }
-
-    .instructor-image-ron > img{
-        margin-left: 100px;
-        margin-bottom: 40px;   
-    }
-
-    .instructor-image-ryan > img{
-        margin-left: 165px;
-        margin-bottom: 40px; 
-        height: 60%;  
-        width: 60%;  
-    }
-
-    .instructor-image-brandy > img{
-        margin-left: 130px;
-        margin-bottom: 40px;
-    }
-
-    .instructor-image-ritchie > img{
-        margin-bottom: 40px;
-        margin-left: 115px;
-    }
-
-    .instructor-text-ryan{
-        margin-left: 150px;
-    }
-
-    .instructor-text-ritchie{
-        margin-left: 110px;
-    }
-
-    .instructor-text-brandy{
-        margin-left: 130px;
-    }
-}
-
-@media only screen and (max-width: 867px) {
-
-    .instructor-text > h1{
-        font-size: 50px;
-    }
-
-    .instructors-title {
-        font-family: 'PT Sans', sans-serif;
-        color: black;
-        -webkit-text-stroke: 1.5px red;
-        font-size: 100px;
-        text-align: center;
-    }
-}
-
-@media only screen and (max-width: 850px) {
-
-    .instructor-text > h1{
-        font-size: 40px;
-        margin-top: 50px;
-    }
-
-    .instructor-text {
-        width: 80%;
-    }
-
-    .instructors-title {
-        font-family: 'PT Sans', sans-serif;
-        color: black;
-        -webkit-text-stroke: 1.5px red;
-        font-size: 120px;
-        font-weight: bolder;
-        text-align: center;
-    }
-
-    .instructor-image > img {
-        margin-left: 90px;
-    }
-    
-    .instructor-image-kyle > img{
-        margin-left: 50px;
-        margin-bottom: 25px; 
-    }
-
-    .instructor-text > p {
-        text-align: center;
-    }
-
-    .instructor-image-martin > img{
-        margin-left: 90px;
-    }
-
-    .instructor-image-ron > img{
-        margin-left: 80px; 
-    }
-
-    .instructor-image-ryan > img{
-        margin-left: 145px;  
-    }
-
-    .instructor-image-brandy > img{
-        margin-left: 110px;   
-    }
-
-    .instructor-image-ritchie > img{
-        margin-left: 115px;
-    }
-}
-
-@media only screen and (max-width: 800px) {
-
-    .instructor-image-ryan > img {
-        height: 55%;
-        width: 55%;
-    }
-
-}
-
-@media only screen and (max-width: 650px) {
-
-    .instructor-text-kyle > p {
-        width: 150%;
-        margin-left: -55px;
-    }
-
-    .instructor-image-ryan > img{
-        height: 70%;
-        width: 70%;
-        margin-left: 90px;
-    }
-
-    .instructor-image-brandy > img{
-        height: 70%;
-        width: 70%;
-        margin-left: 85px;
-    }
-
-    .instructor-image-ritchie > img{
-        height: 70%;
-        width: 70%;
-        margin-left: 85px;
-    }
-}
-
-@media only screen and (max-width: 605px) {
-    .instructors-title {
-        font-size: 70px;
-    }
-}
-
-@media only screen and (max-width: 550px) {
-
-    .instructor-image > img {
-        margin-left: 30px;
-        height: 90%;
-        width: 90%;
-    }
-    
-    .instructor-image-kyle > img{
-        margin-left: 45px;
-    }
-
-    .instructor-image-martin > img{
-        margin-left: 35px;
-        height: 90%;
-        width: 90%;
-    }
-
-    .instructor-image-ron > img{
-        margin-left: 45px;
-        height: 85%;
-        width: 85%;
-    }
-
-    .instructor-image-ryan > img{
-        margin-left: 40px;
-        height: 85%;
-        width: 85%;        
-    }
-
-    .instructor-image-brandy > img{
-        margin-left: 30px;
-        height: 90%;
-        width: 90%;
-    }
-
-    .instructor-image-ritchie > img{
-        margin-left: 30px;
-        height: 90%;
-        width: 90%;
-    }
-
-    .instructor-text {
-        margin-right: 30px;
-    }
-
 }
