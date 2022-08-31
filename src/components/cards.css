@@ -17,12 +17,7 @@
 }
   
 .cards__container {
-    /* background-color: palegreen; */
-
-
-    /* just added */
     display: flex;
-
     flex-flow: column;
     align-items: center;
     max-width: 1120px;
@@ -31,7 +26,6 @@
 }
   
 .cards_wrapper {
-    /* background-color: magenta; */
     position: relative;
     margin: 50px 50px 50px 50px;
     width: 100%;
@@ -46,7 +40,6 @@
 }
 
 .cards__item__link {
-    /* background-color: yellow; */
     display: flex;
     flex-flow: column;
     width: 100%;
@@ -55,7 +48,6 @@
     filter: drop-shadow(0 6px 20px rgb(255, 0, 0));
     border-radius: 10px;
     overflow: hidden;
-    /* text-decoration: none; */
 }
 
 .cards__item__pic-wrap {
@@ -63,7 +55,6 @@
     width: 100%;
     padding-top: 67%;
     overflow: hidden;
-    /* background-color: green; */
 }
 
 .fade-img {
@@ -138,6 +129,5 @@
     .cards {
         background-size: 800px;
     }
-
 
 }
