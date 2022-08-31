@@ -74,6 +74,7 @@
     -webkit-text-stroke: 1px red;
     margin-bottom: 20px;
 }
+
 .kyle-mt > h3 {
     font-size: 20px;
     font-family: 'Mochiy Pop One', sans-serif;
@@ -187,11 +188,34 @@
     .instructor-text {
         margin-right: 30px;
     }
-
+    
     .instructor-image {
         width: 100%;
     }
+    
+    .instructor-text > h2 {
+        font-size: 25px;
+    }
 
+    .instructor-text > h3 {
+        font-size: 15px;
+    }
+
+    .kyle-jj > h2 {
+        font-size: 25px;
+    }
+
+    .kyle-mt > h2 {
+        font-size: 25px;
+    }
+
+    .kyle-jj > h3 {
+        font-size: 9px;
+    }
+    
+    .kyle-mt > h3 {
+        font-size: 9px;
+    }
 }
 
 
