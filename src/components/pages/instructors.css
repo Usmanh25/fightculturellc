@@ -17,7 +17,6 @@
 }
 
 .instructor-div {
-    /* background-color: yellow; */
     width: 75%;
     display: flex;
     margin: auto;
@@ -27,8 +26,6 @@
     padding-bottom: 100px;
 }
 
-/* INSTRUCTOR IMAGES */
-
 .instructor-image {
     width: 50%;
     -webkit-animation: fadeInLeft 1.2s both;
@@ -36,6 +33,7 @@
     -o-animation: fadeInLeft 1.2s both;
     animation: fadeInLeft 1.2s both;
 }
+
 .instructor-image > img{
     box-shadow: 0 5px 20px red;
     -webkit-filter: drop-shadow(0 5px 20px red);
@@ -45,12 +43,13 @@
     border-radius: 10px;
     object-fit: cover;
 }
+
 .kyle-classes {
-    /* background-color: teal; */
     display: flex;
     text-align: center;
     justify-content: space-around;
 }
+
 .kyle-jj > h2 {
     font-size: 35px;
     font-family: 'Mochiy Pop One', sans-serif;
@@ -59,6 +58,7 @@
     -webkit-text-stroke: 1px red;
     margin-bottom: 20px;
 }
+
 .kyle-jj > h3 {
     font-size: 20px;
     font-family: 'Mochiy Pop One', sans-serif;
@@ -66,6 +66,7 @@
     text-align: center;
     margin-bottom: 20px;
 }
+
 .kyle-mt > h2 {
     font-size: 35px;
     font-family: 'Mochiy Pop One', sans-serif;
@@ -82,8 +83,8 @@
     text-align: center;
     margin-bottom: 20px;
 }
+
 .instructor-text{
-    /* background-color: pink; */
     color: black;
     width: 50%;
     margin-left: 40px;   
@@ -128,13 +129,6 @@
     font-weight: bolder;
     -webkit-backdrop-filter: blur(4px);
 }
-
-
-
-
-
-
-
 
 /* MEDIA QUERIES */
 
@@ -217,34 +211,6 @@
         font-size: 9px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
