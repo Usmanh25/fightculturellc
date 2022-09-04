@@ -1,6 +1,7 @@
 .cards {
     padding: 4rem;
-    background: url('steel_wallpaper_bottom.jpg');
+    background-color: black;
+    /* background: url('steel_wallpaper_bottom.jpg'); */
     background-color: black;
     background-repeat: repeat-y;
     background-size: 2000px;
@@ -10,7 +11,8 @@
     text-align: center;
     font-size: 160px;
     margin-bottom: 60px;
-    font-family: 'UnifrakturCook', cursive;
+    animation: fadeInAnimation ease-in 2s;
+    font-family: 'UnifrakturCook';
     background: -webkit-linear-gradient(gray, white);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

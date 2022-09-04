@@ -26,7 +26,8 @@
     text-decoration: none;
     font-size: 2rem;
     display: flex;
-    font-family: 'UnifrakturCook', cursive;
+    animation: fadeInAnimation ease-in 2s;
+    font-family: 'UnifrakturCook';
     align-items: center;
 }
 

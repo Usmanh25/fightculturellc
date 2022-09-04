@@ -15,7 +15,8 @@
 }
 
 .hero-container {
-    background: url('steel_wallpaper_top.jpg') center center/cover no-repeat;
+    background-color: black;
+    /* background: url('steel_wallpaper_top.jpg') center center/cover no-repeat; */
     height: 105vh;
     width: 100%;
     display: flex;
