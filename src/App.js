@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './components/navbar';
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+// import {BrowserRouter} from 'react-router-dom';
+import {Routes, Route} from 'react-router-dom';
 import './App.css';
 import Home from './components/pages/home'
 import Classes from './components/pages/classes'
@@ -15,21 +16,19 @@ import ScrollToTop from './components/scrollToTop';
 function App() {
   return (
     <>
-    
-      <Router>
+      {/* <BrowserRouter> */}
         <ScrollToTop/>
         <Navbar/>
           <Routes>
-            <Route path='/' exact element={<Home />} />
-            <Route path='/classes' exact element={<Classes />} />
-            <Route path='/instructors' exact element={<Instructors />} />
-            <Route path='/schedule' exact element={<Schedule />} />
-            <Route path='/gallery' exact element={<Gallery />} />
-            <Route path='/contact' exact element={<Contact />} />
+            <Route path='/' element={<Home />} />
+            <Route path='/classes' element={<Classes />} />
+            <Route path='/instructors' element={<Instructors />} />
+            <Route path='/schedule' element={<Schedule />} />
+            <Route path='/gallery' element={<Gallery />} />
+            <Route path='/contact' element={<Contact />} />
           </Routes>
         <Footer/>
-      </Router>
-      
+      {/* </BrowserRouter> */}
     </>
   );
 }
