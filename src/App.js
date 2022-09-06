@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './components/navbar';
-// import {BrowserRouter} from 'react-router-dom';
+import {BrowserRouter} from 'react-router-dom';
 import {Routes, Route} from 'react-router-dom';
 import './App.css';
 import Home from './components/pages/home'
@@ -16,7 +16,7 @@ import ScrollToTop from './components/scrollToTop';
 function App() {
   return (
     <>
-      {/* <BrowserRouter> */}
+      <BrowserRouter>
         <ScrollToTop/>
         <Navbar/>
           <Routes>
@@ -28,7 +28,7 @@ function App() {
             <Route path='/contact' element={<Contact />} />
           </Routes>
         <Footer/>
-      {/* </BrowserRouter> */}
+      </BrowserRouter>
     </>
   );
 }
