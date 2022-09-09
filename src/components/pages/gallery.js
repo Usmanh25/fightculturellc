@@ -4,7 +4,7 @@ import './gallery.css';
 
 function Gallery() {
     return (
-        <>
+        <div>
             <div className='gallery-container'>
 
                 <div className='gallery-text'>
@@ -37,7 +37,7 @@ function Gallery() {
                     <img alt='Gallery' src='images/fcp-7.jpg'></img>
                 </div>  
             </div>
-        </>
+        </div>
     )
 }
 

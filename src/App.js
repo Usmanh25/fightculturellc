@@ -15,21 +15,19 @@ import ScrollToTop from './components/scrollToTop';
 
 function App() {
   return (
-    <>
-      <BrowserRouter>
-        <ScrollToTop/>
-        <Navbar/>
-          <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='/classes' element={<Classes />} />
-            <Route path='/instructors' element={<Instructors />} />
-            <Route path='/schedule' element={<Schedule />} />
-            <Route path='/gallery' element={<Gallery />} />
-            <Route path='/contact' element={<Contact />} />
-          </Routes>
-        <Footer/>
-      </BrowserRouter>
-    </>
+    <BrowserRouter>
+      <ScrollToTop/>
+      <Navbar/>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/classes' element={<Classes />} />
+          <Route path='/instructors' element={<Instructors />} />
+          <Route path='/schedule' element={<Schedule />} />
+          <Route path='/gallery' element={<Gallery />} />
+          <Route path='/contact' element={<Contact />} />
+        </Routes>
+      <Footer/>
+    </BrowserRouter>
   );
 }
 

@@ -1,10 +1,12 @@
-import React, {useState} from "react";
+import React from "react";
+import {useState} from "react";
 import {Link} from 'react-router-dom';
 import './navbar.css';
 
 
 function Navbar() {
 
+    
     const [click, setClick] = useState(false)
 
     const handleClick = () => setClick(!click)
@@ -12,7 +14,6 @@ function Navbar() {
     const closeMobileMenu = () => setClick(false)
 
     return (
-        <>
             <nav className='navbar'>
                 <div className='navbar-container'>
                     <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
@@ -50,7 +51,6 @@ function Navbar() {
                     </ul>
                 </div>
             </nav>
-        </>
     )
 }
 

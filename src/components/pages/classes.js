@@ -6,7 +6,7 @@ import './classes.css';
 function Classes() {
         
     return (
-        <>
+        <div>
             <div className='class-page-container'>
 
 
@@ -78,7 +78,7 @@ function Classes() {
                     </div>
                 </div>                
             </div>
-        </>
+        </div>
 
     )
 }

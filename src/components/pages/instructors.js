@@ -6,7 +6,7 @@ import './instructors.css';
 
 function Instructors() {
     return (
-        <>
+        <div>
             <div className='instructor-page-container'>
 
                 <h1 className='instructors-title'>Instructors</h1>
@@ -153,7 +153,7 @@ function Instructors() {
                 </div>
                     
             </div>
-        </>
+        </div>
 
     )
 }
