@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
       }
   
       return res.send(
-        data.replace('<div id="root"></div>', `<div id="root">${app}</div>`)
+        data.replace(`<div id="root"></div>`, `<div id="root">${app}</div>`)
       );
     });
 });
@@ -29,5 +29,5 @@ app.get('/', (req, res) => {
 app.use(express.static('./build'));
 
 app.listen(PORT, () => {
-    console.log(`Server is listening on port ${PORT}`);
+    console.log(`Server is listening on port ${PORT} bruh`);
 });

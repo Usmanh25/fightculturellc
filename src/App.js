@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './components/navbar';
-import {BrowserRouter} from 'react-router-dom';
+// import {BrowserRouter} from 'react-router-dom';
 import {Routes, Route} from 'react-router-dom';
 import './App.css';
 import Home from './components/pages/home'
@@ -12,22 +12,29 @@ import Contact from './components/pages/contact'
 import Footer from './components/footer'
 import ScrollToTop from './components/scrollToTop';
 
-
 function App() {
   return (
-    <BrowserRouter>
+
+    <div>
+      
       <ScrollToTop/>
-      <Navbar/>
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/classes' element={<Classes />} />
-          <Route path='/instructors' element={<Instructors />} />
-          <Route path='/schedule' element={<Schedule />} />
-          <Route path='/gallery' element={<Gallery />} />
-          <Route path='/contact' element={<Contact />} />
-        </Routes>
-      <Footer/>
-    </BrowserRouter>
+
+
+            <Navbar/>
+
+            <Routes>
+              <Route path='/' element={<Home />} />
+              <Route path='/classes' element={<Classes />} />
+              <Route path='/instructors' element={<Instructors />} />
+              <Route path='/schedule' element={<Schedule />} />
+              <Route path='/gallery' element={<Gallery />} />
+              <Route path='/contact' element={<Contact />} />
+            </Routes>
+            
+            <Footer/>
+
+    </div>
+
   );
 }
 
