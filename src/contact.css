@@ -28,7 +28,7 @@
 }
 
 .contact-container1 {
-    background: url('black_steel_wallpaper.jpg') center center/cover no-repeat;
+    background: url('components/black_steel_wallpaper.jpg') center center/cover no-repeat;
     animation: fadeInAnimation ease-in 0.8s;
 }
 

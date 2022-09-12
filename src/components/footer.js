@@ -1,6 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import './footer.css';
+import Link from 'next/link'
 
 function Footer() {
     return (
@@ -22,20 +21,20 @@ function Footer() {
                     <div className='footer-link-wrapper'>
                         <div className='footer-link-items'>
                             <h2>Services</h2>
-                            <Link to='/classes'>Classes</Link>
-                            <Link to='/instructors'>Instructors</Link>
-                            <Link to='/schedule'>Schedule</Link>
+                            <Link href='/classes'><a>Classes</a></Link>
+                            <Link href='/instructors'><a>Instructors</a></Link>
+                            <Link href='/schedule'><a>Schedule</a></Link>
                         </div>
                         <div className='footer-link-items'>
                             <h2>Get in Touch!</h2>
-                            <Link to='/contact'>Contact</Link>
+                            <Link href='/contact'><a>Contact</a></Link>
 
                         </div>
                     </div>
                     <div className='footer-link-wrapper'>
                         <div className='footer-link-items'>
                             <h2>Pictures</h2>
-                            <Link to='/gallery'>Gallery</Link>
+                            <Link href='/gallery'><a>Gallery</a></Link>
 
                         </div>
                         <div className='footer-link-items'>
@@ -48,18 +47,20 @@ function Footer() {
                             aria-label='Instagram'>
                                 <i className='fab fa-instagram'/>
                             </a>
-                            {/* <Link to='/'>Instagram</Link>
-                            <Link to='/'>Facebook</Link>
-                            <Link to='/'>Twitter</Link>
-                            <Link to='/'>Youtube</Link> */}
+                            {/* <Link href='/'>Instagram</Link>
+                            <Link href='/'>Facebook</Link>
+                            <Link href='/'>Twitter</Link>
+                            <Link href='/'>Youtube</Link> */}
                         </div>
                     </div>
                 </div>
                 <section className="social-media">
                     <div className="social-media-wrap">
                         <div className="footer-logo">
-                            <Link to='/' className="social-logo">
-                                Fight Culture
+                            <Link href='/' className="social-logo">
+                                <a>
+                                    Fight Culture
+                                </a>
                             </Link>
                             {/* // */}
 

@@ -1,7 +1,6 @@
 import React from "react";
 import {useState} from "react";
-import {Link} from 'react-router-dom';
-import './navbar.css';
+import Link from 'next/link'
 
 
 function Navbar() {
@@ -18,8 +17,10 @@ function Navbar() {
             <nav className='navbar'>
                 <div className='navbar-container'>
 
-                    <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                        Fight Culture <img className='fclogo'src='/images/FightCultureBlackLogo.png' alt='pic'/>
+                    <Link href='/' className='navbar-logo' onClick={closeMobileMenu}>
+                        <a>
+                            Fight Culture <img className='fclogo'src='/images/FightCultureBlackLogo.png' alt='pic'/>
+                        </a>
                     </Link>
 
                     <div className='menu-icon' onClick={handleClick}>
@@ -28,28 +29,38 @@ function Navbar() {
                     
                     <ul className={click ? 'nav-menu active' : 'nav-menu' }>
                         <li className='nav-item'>
-                            <Link to='/classes' className='nav-links' onClick={closeMobileMenu}>
-                                Classes
+                            <Link href='/classes' className='nav-links' onClick={closeMobileMenu}>
+                                <a>
+                                    Classes
+                                </a>
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/instructors' className='nav-links' onClick={closeMobileMenu}>
-                                Instructors
+                            <Link href='/instructors' className='nav-links' onClick={closeMobileMenu}>
+                                <a>
+                                    Instructors
+                                </a>
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/schedule' className='nav-links' onClick={closeMobileMenu}>
-                                Schedule
+                            <Link href='/schedule' className='nav-links' onClick={closeMobileMenu}>
+                                <a>
+                                    Schedule
+                                </a>
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/gallery' className='nav-links' onClick={closeMobileMenu}>
-                                Gallery
+                            <Link href='/gallery' className='nav-links' onClick={closeMobileMenu}>
+                                <a>
+                                    Gallery
+                                </a>
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
-                                Contact Us
+                            <Link href='/contact' className='nav-links' onClick={closeMobileMenu}>
+                                <a>
+                                    Contact Us
+                                </a>
                             </Link>
                         </li>
                     </ul>

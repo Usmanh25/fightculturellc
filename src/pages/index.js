@@ -1,7 +1,6 @@
 import React from 'react';
-import '../../App.css';
-import HeroSection from '../heroSection';
-import Cards from '../cards';
+import HeroSection from '../components/heroSection';
+import Cards from '../components/cards';
 
 function Home () {
     return (
