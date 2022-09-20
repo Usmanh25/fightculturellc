@@ -1,5 +1,5 @@
 import React from 'react';
-import CardItem from './cardItem';
+import CardItem from './CardItem';
 
 
 function Cards() {
@@ -46,8 +46,8 @@ function Cards() {
                             path='/contact'
                             />
                             <li className="cards__item">
-                                <a className="cards__item__link" target='_blank' rel="noreferrer" href='https://www.instagram.com/fight_culturesf/'>
-                                    <figure className="cards__item__pic-wrap" data-category='Follow Us!'>
+                                <a className="cards__item__link" target='_blank' rel="noreferrer" href="https://www.instagram.com/fight_culturesf/">
+                                    <figure className="cards__item__pic-wrap" data-category="Follow Us!">
                                         <img src='images/iglogo.png' alt="Sample-Pic" className="cards__item__img"/>
                                     </figure>
                                 </a>

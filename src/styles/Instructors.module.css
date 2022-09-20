@@ -1,5 +1,5 @@
 .instructor-page-container {
-    background-image: url("components/white-brick-wall.jpg"); 
+    background-image: url("../../public/images/white-brick-wall.jpg"); 
 }
 
 .instructors-title {
@@ -127,7 +127,7 @@
     font-size: 20px;
     width: 100%;
     font-weight: bolder;
-    -webkit-backdrop-filter: blur(4px);
+    /* -webkit-backdrop-filter: blur(4px); */
 }
 
 /* MEDIA QUERIES */

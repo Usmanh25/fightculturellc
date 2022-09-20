@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'UnifrakturCook';
+        src: url('/fonts/UnifrakturCook.woff2') format('woff2');   
+        font-weight: 400;
+        font-display: swap;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: 'Mochiy Pop One', sans-serif;
+        src: url('/fonts/MochiyPopOneRegular.woff2') format('woff2');   
+        font-weight: 400;
+        font-display: swap;
+        font-style: normal;
+    }
+}

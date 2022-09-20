@@ -1,9 +1,9 @@
 .gallery-container {
-    background-image: url('components/FightCultureBlackLogo.png');
+    background-image: url('../../public/images/FightCultureBlackLogo.png');
     background-size: 500px 500px;
 }
 
-h1 span { 
+.gallery-text > h1 { 
     backdrop-filter: blur(4px);
     border-radius: 50px;
     font-size: 160px;
@@ -52,7 +52,7 @@ h1 span {
 
 @media only screen and (max-width: 700px) {
 
-    h1 span { 
+    .gallery-text > h1 { 
         font-size:100px;
     }
 
@@ -68,7 +68,7 @@ h1 span {
 
 @media only screen and (max-width: 500px) {
     
-    h1 span { 
+    .gallery-text > h1 { 
         font-size:50px;
     }
 }
