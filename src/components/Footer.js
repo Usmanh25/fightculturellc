@@ -1,15 +1,17 @@
 import React from "react";
 import Link from 'next/link'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
     return (
         <div>
-            <div className="footer-container">
-                <section className="footer-subscription">
-                    <p className="footer-subscription-heading">
+            <div className="pt-16 pr-0 pb-8 pl-0 bg-[#242424] flex flex-col justify-center items-center">
+                <section className="flex flex-col justify-center items-center text-center text-white mb-6 px-6 py-6 color-white">
+                    <p className="mb-6 text-2xl">
                         About Us
                     </p>
-                    <p className="footer-subscription-text">
+                    <p className="mb-6 text-xl w-3/5">
                         Fight Culture is a 3 year-old 1000 square-foot martial arts training facility located in San Francisco's 
                         Outer Mission District at 6137 Mission Street. We teach a variety of martial arts classes suitable for 
                         all levels. Whether you are a beginner, a training fighter, or just looking to stay fit,
@@ -17,56 +19,58 @@ function Footer() {
                         your fitness goals. 
                     </p>
                 </section>
-                <div className='footer-links'>
-                    <div className='footer-link-wrapper'>
-                        <div className='footer-link-items'>
-                            <h2>Services</h2>
-                            <Link href='/classes'><a>Classes</a></Link>
-                            <Link href='/instructors'><a>Instructors</a></Link>
-                            <Link href='/schedule'><a>Schedule</a></Link>
+                <div className='pt-8'>
+                {/* <div className='sm:pt-8 md:justify-center bg-green-500 flex max-w-5xl w-full'> */}
+                    <div className='flex'>
+                        <div className='flex text-red-500 flex-col items-start m-4 box-border text-left w-40'>
+                            <h2 className='underline mb-4 text-white text-2xl'>Services</h2>
+                            <Link href='/classes'><a className='text-white mb-2 no-underline hover:text-red-500 duration-300 ease-out'>Classes</a></Link>
+                            <Link href='/instructors'><a className='text-white mb-2 no-underline hover:text-red-500 duration-300 ease-out'>Instructors</a></Link>
+                            <Link href='/schedule'><a className='text-white mb-2 no-underline hover:text-red-500 duration-300 ease-out'>Schedule</a></Link>
                         </div>
-                        <div className='footer-link-items'>
-                            <h2>Get in Touch!</h2>
-                            <Link href='/contact'><a>Contact</a></Link>
 
-                        </div>
-                    </div>
-                    <div className='footer-link-wrapper'>
-                        <div className='footer-link-items'>
-                            <h2>Pictures</h2>
+                        <div className='flex text-red-500 flex-col items-start m-4 box-border text-left w-40'>
+                            <h2 className='underline mb-4 text-white text-2xl'>Pictures</h2>
                             <Link href='/gallery'>
-                                <a>
+                                <a className='text-white mb-2 no-underline hover:text-red-500 duration-300 ease-out'>
                                     Gallery
                                 </a>
-                            </Link>
-
+                            </Link>                        
                         </div>
-                        {/* <div className='footer-link-items'>
-                            <h2>Follow Us!</h2>
+                        
+                    </div>
+                    <div className='flex'>
+                        <div className='flex text-red-500 flex-col items-start m-4 box-border text-left w-40'>
+                            <h2 className='underline mb-4 text-white text-2xl'>Get in Touch!</h2>
+                            <Link href='/contact'><a className='text-white mb-2 no-underline hover:text-red-500 duration-300 ease-out'>Contact</a></Link>
+                        </div>
+
+                        <div className='flex text-red-500 flex-col items-start m-4 box-border text-left w-40'>
+                            <h2 className='underline mb-4 text-white text-2xl'>Follow Us!</h2>
                             <a 
-                            className="social-icon-link instagram"
+                            className="text-white text-2xl hover:text-red-500"
                             href='https://www.instagram.com/fight_culturesf/' 
                             rel="noreferrer"
                             target='_blank'
                             aria-label='Instagram'>
-                                <i className='fab fa-instagram'/>
-                            </a>
-                        </div> */}
+                                <FontAwesomeIcon icon={faInstagram} />
+                            </a>                      
+                        </div>
                     </div>
                 </div>
-                <section className="social-media">
-                    <div className="social-media-wrap">
-                        <div className="footer-logo">
-                            <Link href='/' className="social-logo">
-                                <a>
+                <section className="sm:flex-row md:flex max-w-5xl w-full">
+                    <div className="sm:flex-row justify-between items-center w-11/12 max-w-5xl mx-auto mt-10 mb-0 md:justify-between flex flex-col">
+                        <div className="items-center text-center">
+                            <Link href='/' className="text-center text-white font-unifrakturCook justify-self-start ml-5 cursor-pointer flex items-center mb-4 no-underline text-3xl">
+                                <a className='text-white font-unifrakturCook justify-self-start ml-5 cursor-pointer flex items-center mb-4 no-underline text-3xl hover:text-red-500 duration-300 ease-out'>
                                     Fight Culture
                                 </a>
                             </Link>
 
                         </div>
-                        <small className="website-rights"> UsmanHameed©2022</small>
-                        <div className="social-icons">
-                            <img className='fclogo'src='/images/FightCultureBlackLogo.png' alt='pic'/>
+                        <small className="mb-4 text-white text-sm"> UsmanHameed©2022</small>
+                        <div className="flex justify-between items-center text-center w-60">
+                            <img className='bg-black w-full h-full p-5 rounded-full'src='/images/FightCultureBlackLogo.png' alt='logo'/>
                         </div>
                     </div>
                 </section>

@@ -1,7 +1,7 @@
-.gallery-container {
+/* .gallery-container {
     background-image: url('../../public/images/FightCultureBlackLogo.png');
     background-size: 500px 500px;
-}
+} */
 
 .gallery-text > h1 { 
     backdrop-filter: blur(4px);
@@ -32,7 +32,7 @@
     font-size: 150px;
 }
 
-.gallery-image-container { 
+/* .gallery-image-container { 
     text-align: center;
 }
 
@@ -48,34 +48,34 @@
     -webkit-filter: drop-shadow(0 5px 20px red);
     filter: drop-shadow(0 5px 20px red);
     animation: fadeInAnimation ease-in 1.2s;
-}
+} */
 
 @media only screen and (max-width: 700px) {
 
-    .gallery-text > h1 { 
+    /* .gallery-text > h1 { 
         font-size:100px;
     }
 
     .gallery {
         height: 40vh;
-    }
+    } */
 
-    .gallery-image-container > img {
+    /* .gallery-image-container > img {
         height: 75%;
         width: 75%;
-    }
+    } */
 }
 
-@media only screen and (max-width: 500px) {
+/* @media only screen and (max-width: 500px) {
     
     .gallery-text > h1 { 
         font-size:50px;
     }
-}
+} */
 
-@media only screen and (max-width: 610px) {
+/* @media only screen and (max-width: 610px) {
 
     .gallery-container {
         background-size: 375px 375px;
     }
-}
+} */

@@ -12,6 +12,11 @@ import '../styles/globals.css'
 // import '../styles/Schedule.module.css'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import '@fortawesome/fontawesome-svg-core/styles.css'; //importing font awesome css
+import { config } from '@fortawesome/fontawesome-svg-core';
+
+config.autoAddCss = false; // Tell Font Awesome to skip adding the CSS automatically since it's being imported above
+
 
 function App({ Component, pageProps }) {
     return (
