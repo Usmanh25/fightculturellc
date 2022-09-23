@@ -7,11 +7,11 @@ function Classes() {
             <div className="bg-[url('/images/white-brick-wall.jpg')]">
 
 
-                <h1 className='text-7xl text-center py-8 font-bold animate-fadeIn lg:text-9xl' >Classes</h1>
+                <h1 className='text-7xl text-center py-8 animate-fadeIn lg:text-9xl' >Classes</h1>
 
 
                 <div className='sm:flex justify-center items-center m-auto my-24 pb-12 md:flex-row w-screen justify-between px-24'>
-                    <div className='sm:w-10/10 text-center text-black animate-fadeIn md:w-5/10 '>
+                    <div className='sm:w-10/10 text-center text-black animate-fadeIn md:w-5/10'>
                         <h1 className='text-4xl font-mochiyPopOne text-center'> Muay Thai </h1>
                         <p className='text-l mt-5'>
                         Muay Thai, or Thai boxing, is a style of fighting which utilizes punches, 
