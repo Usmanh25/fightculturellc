@@ -19,7 +19,7 @@ function Navbar() {
 
             <div>
                 <Link href='/' className='flex items-center justify-center'>
-                    <a onClick={closeMobileMenu} className='text-white font-unifrakturCook animate-fadeIn text-3xl text-white mr-5 ml-5 hover:text-red-500'>
+                    <a onClick={closeMobileMenu} className='text-white font-unifrakturCook animate-fadeIn text-3xl text-white mr-5 ml-5 hover:text-red-500 duration-300 ease-out'>
                         Fight Culture 
                     </a>
                 </Link>
@@ -36,54 +36,53 @@ function Navbar() {
             </div>
 
 
-            <div className='fixed'>
-                {/* <ul className={click ? 'animate-fadeIn' : 'hidden bg-green-500 opacity-100 z-10 transition-all duration-500 ease-in md:flex justify-around text-white'}> */}
-                <ul className={click ? 'animate-fadeIn mt-10 absolute w-screen bg-[#242222] flex-col transition-all duration-500 ease-in' : 'hidden bg-green-500 opacity-100 z-10 transition-all duration-500 ease-in md:flex justify-around text-white'}>
+            {/* <div className='md:ml-auto'> */}
+                <ul className={click ? 'fixed mt-96 mb-1 w-screen bg-[#242222]' : 'hidden med:flex items-right ml-auto justify-right pr-4'}>
                     
-                    <li className='text-white py-4 text-center hover:bg-white hover:text-[#242222]'>
-                        <Link href='/classes' className=''>
+                    <li className='text-white py-4 text-center hover:bg-white mt-0 hover: duration-300 ease-out hover:text-[#242222] md:hover:text-red-500 hover:bg-black px-5 transition ease-in-out hover:scale-125'>
+                        <Link href='/classes' className='cursor-pointer'>
                             <a onClick={closeMobileMenu}>
                                 Classes
                             </a>
                         </Link>
                     </li>
 
-                    <li className='text-white py-4 text-center hover:bg-white hover:text-[#242222]'>
-                        <Link href='/instructors' className=''>
+                    <li className='text-white py-4 text-center hover:bg-white mt-0 hover: duration-300 ease-out hover:text-[#242222] md:hover:text-red-500 hover:bg-black px-5 transition ease-in-out hover:scale-125'>
+                        <Link href='/instructors' className='cursor-pointer'>
                             <a onClick={closeMobileMenu}>
                                 Instructors
                             </a>
                         </Link>
                     </li>
 
-                    <li className='text-white py-4 text-center hover:bg-white hover:text-[#242222]'>
-                        <Link href='/schedule' className=''>
+                    <li className='text-white py-4 text-center hover:bg-white mt-0 hover: duration-300 ease-out hover:text-[#242222] md:hover:text-red-500 hover:bg-black px-5 transition ease-in-out hover:scale-125'>
+                        <Link href='/schedule' className='cursor-pointer'>
                             <a onClick={closeMobileMenu}>
                                 Schedule
                             </a>
                         </Link>
                     </li>
 
-                    <li className='text-white py-4 text-center hover:bg-white hover:text-[#242222]'>
-                        <Link href='/gallery' className=''>
+                    <li className='text-white py-4 text-center hover:bg-white mt-0 hover: duration-300 ease-out hover:text-[#242222] md:hover:text-red-500 hover:bg-black px-5 transition ease-in-out hover:scale-125'>
+                        <Link href='/gallery' className='cursor-pointer'>
                             <a onClick={closeMobileMenu}>
                                 Gallery
                             </a>
                         </Link>
                     </li>
 
-                    <li className='text-white py-4 text-center hover:bg-white hover:text-[#242222]'>
-                        <Link href='/contact' className=''>
+                    <li className='text-white py-4 text-center hover:bg-white mt-0 hover: duration-300 ease-out hover:text-[#242222] md:hover:text-red-500 hover:bg-black px-5 transition ease-in-out hover:scale-125'>
+                        <Link href='/contact' className='cursor-pointer'>
                             <a onClick={closeMobileMenu}>
                                 Contact Us
                             </a>
                         </Link>
                     </li>
                 </ul>
-            </div>
+            {/* </div> */}
                 
-            <div className='ml-auto animate-fadeIn pr-4 float-right md:hidden'>
-                <FontAwesomeIcon icon={click ? faTimes : faBars} onClick={handleClick} className='text-white float-right md:hidden'/>
+            <div className='ml-auto cursor-pointer animate-fadeIn pr-8 med:hidden'>
+                <FontAwesomeIcon icon={click ? faTimes : faBars} onClick={handleClick} className='text-white float-right lg:hidden'/>
             </div>
                 
        </nav>
