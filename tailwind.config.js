@@ -24,11 +24,13 @@ module.exports = {
     extend: {
       fontFamily: {
         unifrakturCook: "UnifrakturCook, cursive",
-        mochiyPopOne: "Mochiy Pop One, sans-serif"
+        mochiyPopOne: "Mochiy Pop One, sans-serif",
+        bungeeInline: "Bungee Inline, cursive",
+        rubikDirt: "Rubik Dirt, cursive",
       },
       backgroundImage: {
         'white-brick-wall': "url('/images/white-brick-wall.jpg')",
-        'black-steel-wallpaper': "url('/images/black_steel_wallpaper.jpg')",
+        'red-brick-wall': "url('/images/red-brick-wall.jpg')",
         'fight-culture-black-logo': "url('/images/FightCultureBlackLogo.png')"
       },
       colors: {
@@ -41,7 +43,8 @@ module.exports = {
         }
       },
       animation: {
-        fadeIn: 'fadeIn 2s both'
+        fadeIn: 'fadeIn 2s both',
+        fadeInFast: 'fadeIn 0.3s both'
       }
     }
   }

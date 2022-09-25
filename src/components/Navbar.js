@@ -35,56 +35,52 @@ function Navbar() {
                 />
             </div>
 
+            <ul id='fadeInLeftFast' className={click ? 'fixed animate-fadeInFast mt-96 mb-1 w-screen bg-[#242222]' : 'hidden med:flex items-right ml-auto justify-right pr-4'}>
+                
+                <li className='hover:scale-125 hover:transition ease-in-out hover:duration-300 ease-out text-white py-4 text-center hover:bg-white mt-0 hover:text-[#242222] px-5 md:hover:bg-white med:hover:bg-black med:hover:text-red-500'>
+                    <Link href='/classes' className=''>
+                        <a className='' onClick={closeMobileMenu}>
+                            Classes
+                        </a>
+                    </Link>
+                </li>
 
-            {/* <div className='md:ml-auto'> */}
-                <ul className={click ? 'fixed mt-96 mb-1 w-screen bg-[#242222]' : 'hidden med:flex items-right ml-auto justify-right pr-4'}>
-                    
-                    <li className='text-white py-4 text-center hover:bg-white mt-0 hover: duration-300 ease-out hover:text-[#242222] md:hover:text-red-500 hover:bg-black px-5 transition ease-in-out hover:scale-125'>
-                        <Link href='/classes' className='cursor-pointer'>
-                            <a onClick={closeMobileMenu}>
-                                Classes
-                            </a>
-                        </Link>
-                    </li>
+                <li className='hover:scale-125 hover:transition ease-in-out hover:duration-300 ease-out text-white py-4 text-center hover:bg-white mt-0 hover:text-[#242222] px-5 md:hover:bg-white med:hover:bg-black med:hover:text-red-500'>
+                    <Link href='/instructors' className='cursor-pointer'>
+                        <a onClick={closeMobileMenu}>
+                            Instructors
+                        </a>
+                    </Link>
+                </li>
 
-                    <li className='text-white py-4 text-center hover:bg-white mt-0 hover: duration-300 ease-out hover:text-[#242222] md:hover:text-red-500 hover:bg-black px-5 transition ease-in-out hover:scale-125'>
-                        <Link href='/instructors' className='cursor-pointer'>
-                            <a onClick={closeMobileMenu}>
-                                Instructors
-                            </a>
-                        </Link>
-                    </li>
+                <li className='hover:scale-125 hover:transition ease-in-out hover:duration-300 ease-out text-white py-4 text-center hover:bg-white mt-0 hover:text-[#242222] px-5 md:hover:bg-white med:hover:bg-black med:hover:text-red-500'>
+                    <Link href='/schedule' className='cursor-pointer'>
+                        <a onClick={closeMobileMenu}>
+                            Schedule
+                        </a>
+                    </Link>
+                </li>
 
-                    <li className='text-white py-4 text-center hover:bg-white mt-0 hover: duration-300 ease-out hover:text-[#242222] md:hover:text-red-500 hover:bg-black px-5 transition ease-in-out hover:scale-125'>
-                        <Link href='/schedule' className='cursor-pointer'>
-                            <a onClick={closeMobileMenu}>
-                                Schedule
-                            </a>
-                        </Link>
-                    </li>
+                <li className='hover:scale-125 hover:transition ease-in-out hover:duration-300 ease-out text-white py-4 text-center hover:bg-white mt-0 hover:text-[#242222] px-5 md:hover:bg-white med:hover:bg-black med:hover:text-red-500'>
+                    <Link href='/gallery' className='cursor-pointer'>
+                        <a onClick={closeMobileMenu}>
+                            Gallery
+                        </a>
+                    </Link>
+                </li>
 
-                    <li className='text-white py-4 text-center hover:bg-white mt-0 hover: duration-300 ease-out hover:text-[#242222] md:hover:text-red-500 hover:bg-black px-5 transition ease-in-out hover:scale-125'>
-                        <Link href='/gallery' className='cursor-pointer'>
-                            <a onClick={closeMobileMenu}>
-                                Gallery
-                            </a>
-                        </Link>
-                    </li>
-
-                    <li className='text-white py-4 text-center hover:bg-white mt-0 hover: duration-300 ease-out hover:text-[#242222] md:hover:text-red-500 hover:bg-black px-5 transition ease-in-out hover:scale-125'>
-                        <Link href='/contact' className='cursor-pointer'>
-                            <a onClick={closeMobileMenu}>
-                                Contact Us
-                            </a>
-                        </Link>
-                    </li>
-                </ul>
-            {/* </div> */}
+                <li className='hover:scale-125 hover:transition ease-in-out hover:duration-300 ease-out text-white py-4 text-center hover:bg-white mt-0 hover:text-[#242222] px-5 md:hover:bg-white med:hover:bg-black med:hover:text-red-500'>
+                    <Link href='/contact' className='cursor-pointer'>
+                        <a onClick={closeMobileMenu}>
+                            Contact Us
+                        </a>
+                    </Link>
+                </li>
+            </ul>
                 
             <div className='ml-auto cursor-pointer animate-fadeIn pr-8 med:hidden'>
-                <FontAwesomeIcon icon={click ? faTimes : faBars} onClick={handleClick} className='text-white float-right lg:hidden'/>
-            </div>
-                
+                <FontAwesomeIcon icon={click ? faTimes : faBars} onClick={handleClick} className='bg-black text-white float-right lg:hidden'/>
+            </div>  
        </nav>
     )
 }
