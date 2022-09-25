@@ -272,8 +272,6 @@
     margin-top: 150px;
     border-radius: 10px;
     box-shadow: 0 0 80px white;
-    -webkit-filter: drop-shadow(0 0 80px white);
-    filter: drop-shadow(0 0 80px white);
 }
 
 .hero-container {
