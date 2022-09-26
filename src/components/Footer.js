@@ -19,8 +19,7 @@ function Footer() {
                         your fitness goals. 
                     </p>
                 </section>
-                <div className='pt-8'>
-                {/* <div className='sm:pt-8 md:justify-center bg-green-500 flex max-w-5xl w-full'> */}
+                <div className='pt-8 med:flex'>
                     <div className='flex'>
                         <div className='flex text-red-500 flex-col items-start m-4 box-border text-left w-40'>
                             <h2 className='underline mb-4 text-white text-2xl'>Services</h2>

@@ -538,6 +538,7 @@
     .gallery-image-container { 
         flex-direction: row;
     } 
+
 }
 
 @media only screen and (min-width: 516px) {
@@ -554,8 +555,8 @@
 
     }
     .classes-title {
-        font-size: 100px;
-        -webkit-text-stroke: 3px red;
+        font-size: 150px;
+        -webkit-text-stroke: 5px red;
 
     }
 

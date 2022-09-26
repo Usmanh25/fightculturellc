@@ -107,8 +107,7 @@ function Instructors() {
                         <div className='flex justify-around'>
                             <div>
                                 <h2 className='text-xl font-bungeeInline text-white my-3.5 text-red-500 lg:text-4xl'> Jiu-Jitsu </h2>
-                                <h3 className='text-s font-medium text-black lg:text-xl'> Tuesday <span className='underline ml-3 text-center
-text-center'>6:30pm</span> </h3>
+                                <h3 className='text-s font-medium text-black lg:text-xl'> Tuesday <span className='underline ml-3 text-center text-center'>6:30pm</span> </h3>
                             </div>
                         </div>
                         <p className='text-l mt-5 backdrop-blur-lg md:w-1/2 m-auto lg:text-lg font-bold'>  
