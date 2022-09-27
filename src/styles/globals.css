@@ -286,7 +286,7 @@
 /* HOMEPAGE CARDS SECTION */
 
 .cards {
-    padding: 4rem;
+    padding: 0;
 }
 .card-container {
     display: flex;
@@ -373,7 +373,7 @@
 }
 
 .card-text {
-    font-size: 10px;
+    font-size: 16px;
     text-align: center;
     background-color: red;
     font-weight: bolder;
@@ -608,4 +608,13 @@
     .classes-title {
         -webkit-text-stroke: 3px red;
     }
+}
+@media only screen and (max-width: 615px) {
+    .cards {
+        padding: 0.5rem;
+    }
+    .card-text {
+        font-size: 14px;
+    }
+
 }

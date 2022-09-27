@@ -7,16 +7,17 @@
 
 ## Overview
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+FightCultureSF.com is a freelance website for Fight Culture, a martial arts training facility located by the border of San Francisco and Daly City at 6137 Mission Street. Fight Culture teaches muay thai, brazilian jiu-jitsu, wrestling, and boxing to its members. The site can be navigated via the 'Navbar' component, which contains links to all 5 pages: Classes, Instructors, Schedule, Gallery, & Contact. These same links are also accessible within the 'Footer' component as well as the 'Cards' component on the home page.
 
 ## Technologies, Libraries, APIs
 
-- 
-- 
-- 
-- 
+- React Hooks
+- Next.js
+- Node.js
+- Tailwind / CSS3
 
-<img src="/FightCultureBlackLogo.png"></img>
+
+<img src="/images/FightCultureBlackLogo.png"></img>
 
 ## Features
 
@@ -33,12 +34,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Technical Implementations
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The most important implementation I made to this project was the addition of server-side rendering with Next.js. Applying the server side code with React was possible, but I found implementing Next.js to be faster solution which lead to cleaner D.R.Y code and a faster website! Once installed, I had to change my React file structure to fit Next.js parameters. I then added the server code which assisted in rendering static HTML to the server to allow for fast refreshing and an increase in overall site performance and optimization. Without this implementation, the site would only run client-side and render a 403 error when any of the links are refreshed.
 
 ```javascript
 // server.js
 
-    const { createServer } = require('http')
+const { createServer } = require('http')
 const { parse } = require('url')
 const next = require('next')
 
@@ -73,16 +74,41 @@ app.prepare().then(() => {
 })
 ```
 
+Another crucial implementation for the functionality of this project is that of the 'Navbar' component. The Navbar is mobile responsive, and uses true/false logic to apply the component's state navigate pages. [click, setClick] are variables set to a false state, and when the handleClick() function is called, the opposite state from what the component was is then applied. Turnary logic and Tailwind CSS are applied in the unordered list tag, which contains the mobile drop down menu's code. The same logic is then applied to the fontAwesome Icon which appears or disapears depending on the media screen width.
+
+
 ```javascript
-// nameOfFile.js
-    paste code here
+// navbar.js
+    
+const [click, setClick] = useState(false)
+
+const handleClick = () => setClick(!click)
+
+const closeMobileMenu = () => setClick(false)
+
+<ul id='fadeInLeftFast'
+    className={click ? 'fixed animate-fadeInFast mt-96 mb-1 w-screen bg-[#242222]' 
+                      : 'hidden med:flex items-right ml-auto justify-right pr-4'}>
+  <div>
+      // ...Code for Navbar Links
+  </div>
+</ul>
+
+<div className='ml-auto cursor-pointer animate-fadeIn pr-8 med:hidden'>
+  <FontAwesomeIcon 
+    icon={click ? faTimes : faBars} 
+    onClick={handleClick} 
+    className='bg-black text-white float-right lg:hidden'/>
+</div>  
+
 ```
 
 <img src="/images/FightCultureBlackLogo.png"></img>
 
 ## Future Features
 
-- 
-- 
-- 
-- 
+- Google Maps API on Contact page
+- Next.js Image tags for optimal image loading
+- downloadable PDF schedule 
+- downloadable PDF waiver
+- Live-class videos for classes page
