@@ -61,7 +61,7 @@ function Footer() {
                     <div className="sm:flex-row justify-between items-center w-11/12 max-w-5xl mx-auto mt-10 mb-0 md:justify-between flex flex-col">
                         <div className="items-center text-center">
                             <Link href='/' className="text-center text-white font-unifrakturCook justify-self-start ml-5 cursor-pointer flex items-center mb-4 no-underline text-3xl">
-                                <a className='text-white font-unifrakturCook justify-self-start ml-5 cursor-pointer flex items-center mb-4 no-underline text-3xl hover:text-red-500 duration-300 ease-out'>
+                                <a className='text-white font-unifrakturCook justify-self-start ml-3 cursor-pointer flex items-center mb-4 no-underline text-3xl hover:text-red-500 duration-300 ease-out'>
                                     Fight Culture
                                 </a>
                             </Link>

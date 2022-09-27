@@ -71,7 +71,7 @@ function Cards() {
                                 </Link>
                             </li>
                             <li className="card-item">
-                                <Link href='/schedule'>
+                                <Link href='/gallery'>
                                     <a className="card-item-link">
                                         <figure className='card-item-pic-wrap' data-category='View Our Facility'>
                                             <img 

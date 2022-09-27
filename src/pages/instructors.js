@@ -5,7 +5,7 @@ import React from 'react';
 function Instructors() {
     return (
         <div>
-            <div className="bg-[url('/images/white-brick-wall.jpg')] pb-1">
+            <div className="bg-[url('/images/white-brick-wall.jpg')] animate-fadeIn pb-1">
 
                 <h1 className='instructors-title'>Instructors</h1>
 
