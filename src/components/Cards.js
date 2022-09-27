@@ -8,7 +8,7 @@ function Cards() {
 
             <div className='cards'>
 
-                <h1 className='w-full text-5xl font-bungeeInline text-center bg-gradient-to-t from-white via-red-900 to-red-500 bg-clip-text text-transparent md:text-9xl pt-12 pb-12' id='blackoutline'>Fight <br></br><span className='bg-clip-text text-transparent bg-gradient-to-b from-stone-600 via-stone-600 to-black' id='blackoutline'>Culture</span></h1>
+                <h1 className='w-full animate-fadeIn text-5xl font-bungeeInline text-center bg-gradient-to-t from-white via-red-900 to-red-500 bg-clip-text text-transparent md:text-9xl pt-12 pb-12' id='blackoutline'>Fight <br></br><span className='bg-clip-text text-transparent bg-gradient-to-b from-stone-600 via-stone-600 to-black' id='blackoutline'>Culture</span></h1>
 
                 <div className='card-container'>
                     <div className='card-wrapper'>

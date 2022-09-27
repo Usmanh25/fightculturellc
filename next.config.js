@@ -1,4 +1,8 @@
 module.exports = {
-    reactStrictMode: true
-    
+    reactStrictMode: true,
+    trailingSlash: true,
+    images: {
+        loader: 'imgix',
+        path: 'images'
+    }
 }

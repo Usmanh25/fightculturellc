@@ -29,7 +29,7 @@ function Navbar() {
                 <Image  
                     className='fclogo'
                     height='50px'
-                    width='50px'green
+                    width='50px'
                     src='/FightCultureBlackLogo.png' 
                     alt='Logo'
                 />
@@ -39,7 +39,7 @@ function Navbar() {
                 
                 <li className='hover:scale-125 hover:transition ease-in-out hover:duration-300 ease-out text-white py-4 text-center hover:bg-white mt-0 hover:text-[#242222] px-5 md:hover:bg-white med:hover:bg-black med:hover:text-red-500'>
                     <Link href='/classes' className=''>
-                        <a className='' onClick={closeMobileMenu}>
+                        <a className='sm:py-4 px-32 md:px-72 med:px-0 med:py-0' onClick={closeMobileMenu}>
                             Classes
                         </a>
                     </Link>
@@ -47,7 +47,7 @@ function Navbar() {
 
                 <li className='hover:scale-125 hover:transition ease-in-out hover:duration-300 ease-out text-white py-4 text-center hover:bg-white mt-0 hover:text-[#242222] px-5 md:hover:bg-white med:hover:bg-black med:hover:text-red-500'>
                     <Link href='/instructors' className='cursor-pointer'>
-                        <a onClick={closeMobileMenu}>
+                        <a className='sm:py-4 px-32 md:px-72 med:px-0 med:py-0' onClick={closeMobileMenu}>
                             Instructors
                         </a>
                     </Link>
@@ -55,7 +55,7 @@ function Navbar() {
 
                 <li className='hover:scale-125 hover:transition ease-in-out hover:duration-300 ease-out text-white py-4 text-center hover:bg-white mt-0 hover:text-[#242222] px-5 md:hover:bg-white med:hover:bg-black med:hover:text-red-500'>
                     <Link href='/schedule' className='cursor-pointer'>
-                        <a onClick={closeMobileMenu}>
+                        <a className='sm:py-4 px-32 md:px-72 med:px-0 med:py-0' onClick={closeMobileMenu}>
                             Schedule
                         </a>
                     </Link>
@@ -63,7 +63,7 @@ function Navbar() {
 
                 <li className='hover:scale-125 hover:transition ease-in-out hover:duration-300 ease-out text-white py-4 text-center hover:bg-white mt-0 hover:text-[#242222] px-5 md:hover:bg-white med:hover:bg-black med:hover:text-red-500'>
                     <Link href='/gallery' className='cursor-pointer'>
-                        <a onClick={closeMobileMenu}>
+                        <a className='sm:py-4 px-32 md:px-72 med:px-0 med:py-0' onClick={closeMobileMenu}>
                             Gallery
                         </a>
                     </Link>
@@ -71,7 +71,7 @@ function Navbar() {
 
                 <li className='hover:scale-125 hover:transition ease-in-out hover:duration-300 ease-out text-white py-4 text-center hover:bg-white mt-0 hover:text-[#242222] px-5 md:hover:bg-white med:hover:bg-black med:hover:text-red-500'>
                     <Link href='/contact' className='cursor-pointer'>
-                        <a onClick={closeMobileMenu}>
+                        <a className='sm:py-4 px-32 md:px-72 med:px-0 med:py-0' onClick={closeMobileMenu}>
                             Contact Us
                         </a>
                     </Link>

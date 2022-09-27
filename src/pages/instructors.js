@@ -11,7 +11,7 @@ function Instructors() {
 
                 <div className='sm:flex justify-center items-center place-content-start m-auto my-24 pb-12 md:flex-row w-screen justify-between px-12'>
                     <div id='fadeInLeft' className='sm:w-full md:w-3/5 med:ml-12'>
-                        <img className='my-12 shadow-[0_0_25px_red] rounded-xl animate-fadeIn' src='images/kyle.jpg' alt='Jeremy'></img>
+                        <img className='my-12 shadow-[0_0_25px_red] rounded-xl animate-fadeIn' src='images/kyle.jpg' alt='Kyle'></img>
                     </div>
                     <div id='fadeInRight' className='w-full text-center text-black animate-fadeIn md:w-3/4 px-4'>
                         <h1 className='text-4xl font-bungeeInline text-center lg:text-7xl'> Kyle Rideau </h1>
