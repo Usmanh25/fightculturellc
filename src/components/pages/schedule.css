@@ -1,9 +1,0 @@
-.schedule-container {
-    background-color: white;
-}
-
-.schedule-image-container > img {
-    height: 100%;
-    width: 100%;
-    animation: fadeInAnimation ease-in 0.8s;
-}
