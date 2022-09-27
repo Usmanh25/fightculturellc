@@ -28,7 +28,14 @@ function Navbar() {
                 <img className='h-16 w-16' src='/images/FightCultureBlackLogo.png'alt='Logo'/>
             </div>
 
-            <ul id='fadeInLeftFast' className={click ? 'fixed animate-fadeInFast mt-96 mb-1 w-screen bg-[#242222]' : 'hidden med:flex items-right ml-auto justify-right pr-4'}>
+            <ul 
+                id='fadeInLeftFast' 
+                className={click 
+                        ? 
+                    'fixed animate-fadeInFast mt-96 mb-1 w-screen bg-[#242222]' 
+                        : 
+                    'hidden med:flex items-right ml-auto justify-right pr-4'}
+                >
                 
                 <li className='hover:scale-125 hover:transition ease-in-out hover:duration-300 ease-out text-white py-4 text-center hover:bg-white mt-0 hover:text-[#242222] px-5 md:hover:bg-white med:hover:bg-black med:hover:text-red-500'>
                     <Link href='/classes' className=''>
@@ -37,6 +44,10 @@ function Navbar() {
                         </a>
                     </Link>
                 </li>
+
+                <div className='ml-auto cursor-pointer animate-fadeIn pr-8 med:hidden'>
+                    <FontAwesomeIcon icon={click ? faTimes : faBars} onClick={handleClick} className='bg-black text-white float-right lg:hidden'/>
+                </div>  
 
                 <li className='hover:scale-125 hover:transition ease-in-out hover:duration-300 ease-out text-white py-4 text-center hover:bg-white mt-0 hover:text-[#242222] px-5 md:hover:bg-white med:hover:bg-black med:hover:text-red-500'>
                     <Link href='/instructors' className='cursor-pointer'>
@@ -72,7 +83,11 @@ function Navbar() {
             </ul>
                 
             <div className='ml-auto cursor-pointer animate-fadeIn pr-8 med:hidden'>
-                <FontAwesomeIcon icon={click ? faTimes : faBars} onClick={handleClick} className='bg-black text-white float-right lg:hidden'/>
+                <FontAwesomeIcon 
+                    icon={click ? faTimes : faBars} 
+                    onClick={handleClick} 
+                    className='bg-black text-white float-right lg:hidden'
+                />
             </div>  
        </nav>
     )
