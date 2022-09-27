@@ -11,7 +11,7 @@ function Instructors() {
 
                 <div className='sm:flex justify-center items-center place-content-start m-auto my-24 pb-12 md:flex-row w-screen justify-between px-12'>
                     <div id='fadeInLeft' className='sm:w-full md:w-3/5 med:ml-12'>
-                        <img className='my-12 shadow-[0_0_25px_red] rounded-xl animate-fadeIn' src='images/kyle.jpg' alt='Kyle'></img>
+                        <img className='my-12 shadow-[0_0_25px_red] rounded-xl animate-fadeIn' src='/images/kyle.jpg' alt='Kyle'></img>
                     </div>
                     <div id='fadeInRight' className='w-full text-center text-black animate-fadeIn md:w-3/4 px-4'>
                         <h1 className='text-4xl font-bungeeInline text-center lg:text-7xl'> Kyle Rideau </h1>
@@ -36,7 +36,7 @@ function Instructors() {
                 </div>
                 <div className='sm:flex justify-center items-center place-content-start m-auto my-24 pb-12 md:flex-row w-screen justify-between px-12'>
                     <div id='fadeInLeft' className='sm:w-full md:w-3/5 med:ml-12'>
-                        <img className='my-12 shadow-[0_0_25px_red] rounded-xl animate-fadeIn' src='images/jeremy.jpg' alt='Jeremy'></img>
+                        <img className='my-12 shadow-[0_0_25px_red] rounded-xl animate-fadeIn' src='/images/jeremy.jpg' alt='Jeremy'></img>
                     </div>
                     <div id='fadeInRight' className='w-full text-center text-black animate-fadeIn md:w-3/4 px-4'>
                         <h1 className='text-4xl font-bungeeInline text-center lg:text-7xl '> Jeremy Jacildo </h1>
@@ -58,7 +58,7 @@ function Instructors() {
 
                 <div className='sm:flex justify-center items-center  place-content-start m-auto my-24 pb-12 md:flex-row w-screen justify-between px-12'>
                     <div id='fadeInLeft' className='sm:w-full md:w-3/5 med:ml-12'>
-                        <img className='my-12 shadow-[0_0_25px_red] rounded-xl animate-fadeIn' src='images/martin.jpg' alt='Martin'></img>
+                        <img className='my-12 shadow-[0_0_25px_red] rounded-xl animate-fadeIn' src='/images/martin.jpg' alt='Martin'></img>
                     </div>
                     <div id='fadeInRight' className='w-full text-center text-black animate-fadeIn md:w-3/4 px-4'>
                         <h1 className='text-4xl font-bungeeInline text-center lg:text-7xl'> Martin Ruiz </h1>
@@ -79,7 +79,7 @@ function Instructors() {
 
                 <div className='sm:flex justify-center items-center  place-content-start m-auto my-24 pb-12 md:flex-row w-screen justify-between px-12'>
                     <div id='fadeInLeft' className='sm:w-full md:w-3/5 med:ml-12'>
-                        <img className='my-12 shadow-[0_0_25px_red] rounded-xl animate-fadeIn' src='images/ron.jpg' alt='Ron'></img>
+                        <img className='my-12 shadow-[0_0_25px_red] rounded-xl animate-fadeIn' src='/images/ron.jpg' alt='Ron'></img>
                     </div>
                     <div id='fadeInRight' className='w-full text-center text-black animate-fadeIn md:w-3/4 px-4'>
                         <h1 className='text-4xl font-bungeeInline text-center lg:text-7xl '> Ron Nitafan </h1>
@@ -100,7 +100,7 @@ function Instructors() {
 
                 <div className='sm:flex justify-center items-center  place-content-start m-auto my-24 pb-12 md:flex-row w-screen justify-between px-12'>
                     <div id='fadeInLeft' className='sm:w-full md:w-3/5 med:ml-12'>
-                        <img className='my-12 shadow-[0_0_25px_red] rounded-xl animate-fadeIn' src='images/ryan.jpeg' alt='Ryan'></img>
+                        <img className='my-12 shadow-[0_0_25px_red] rounded-xl animate-fadeIn' src='/images/ryan.jpeg' alt='Ryan'></img>
                     </div>
                     <div id='fadeInRight' className='w-full text-center text-black animate-fadeIn md:w-3/4 px-4'>
                         <h1 className='text-4xl font-bungeeInline text-center lg:text-7xl '> Ryan Wellman </h1>
@@ -121,7 +121,7 @@ function Instructors() {
 
                 <div className='sm:flex justify-center items-center  place-content-start m-auto my-24 pb-12 md:flex-row w-screen justify-between px-12'>
                     <div id='fadeInLeft' className='sm:w-full md:w-3/5 med:ml-12'>
-                        <img className='my-12 shadow-[0_0_25px_red] rounded-xl animate-fadeIn' src='images/brandy.jpeg' alt='Brandy'></img>
+                        <img className='my-12 shadow-[0_0_25px_red] rounded-xl animate-fadeIn' src='/images/brandy.jpeg' alt='Brandy'></img>
                     </div>
                     <div id='fadeInRight' className='w-full text-center text-black animate-fadeIn md:w-3/4 px-4'>
                         <h1 className='text-4xl font-bungeeInline text-center lg:text-7xl '> Brandy Cotter </h1>
@@ -145,7 +145,7 @@ function Instructors() {
 
                 <div className='sm:flex justify-center items-center place-content-start m-auto my-24 pb-12 md:flex-row w-screen justify-between px-12'>
                     <div id='fadeInLeft' className='sm:w-full md:w-3/5 med:ml-12'>
-                        <img className='my-12 shadow-[0_0_25px_red] rounded-xl animate-fadeIn' src='images/empty_picture.jpg' alt='Ritchie'></img>
+                        <img className='my-12 shadow-[0_0_25px_red] rounded-xl animate-fadeIn' src='/images/empty_picture.jpg' alt='Ritchie'></img>
                     </div>
                     <div id='fadeInRight' className='w-full text-center text-black animate-fadeIn md:w-3/4 px-4'>
                         <h1 className='text-4xl font-bungeeInline text-center lg:text-7xl'> Ritchie Mercado </h1>

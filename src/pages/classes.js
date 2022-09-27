@@ -14,7 +14,7 @@ function Classes() {
                     <div id='fadeInLeft' className='flex-col justify-center items-center m-auto md:w-6/12'>
                             <h1 className='text-6xl font-rubikDirt text-center md:text-6xl lg:text-8xl lg:py-3'> Muay <br></br>Thai </h1>
                             <div className='pb-5 pt-5 flex items-center justify-center'>
-                                <img className='w-8/12 shadow-[0_5px_20px_red] rounded-xl' src='images/fc_muaythai_3.jpg' alt='Muay Thai'></img>
+                                <img className='w-8/12 shadow-[0_5px_20px_red] rounded-xl' src='/images/fc_muaythai_3.jpg' alt='Muay Thai'></img>
                             </div>
                             <p className='w-screen px-12 pb-40 text-l font-medium text-center md:w-full md:py-3 md:px-20 lg:px-20 lg:pt-10 lg:text-xl font-bold'>
                             Muay Thai, or Thai boxing, is a style of fighting which utilizes punches, 
@@ -27,7 +27,7 @@ function Classes() {
                     <div id='fadeInRight' className='flex-col justify-center items-center m-auto md:w-6/12'>
                             <h1 className='text-6xl font-rubikDirt text-center md:text-6xl lg:text-8xl lg:py-3'> Brazilian <b></b> JiuJitsu </h1>
                             <div className='pb-5 pt-5 flex items-center justify-center'>
-                                <img id='fadeInRight' className='w-8/12 shadow-[0_5px_20px_red] rounded-xl' src='images/fc_jiujitsu_3.jpg' alt='Jiu Jitsu'></img>
+                                <img id='fadeInRight' className='w-8/12 shadow-[0_5px_20px_red] rounded-xl' src='/images/fc_jiujitsu_3.jpg' alt='Jiu Jitsu'></img>
                             </div>
                             <p className='w-screen px-12 pb-40 text-l font-medium text-center md:w-full md:py-3 md:px-20 lg:px-20 lg:pt-10 lg:text-xl font-bold'>
                             Brazilian Jiu-Jitsu, developed by the Gracie family during the early twentieth 
@@ -43,7 +43,7 @@ function Classes() {
                     <div className='flex-col justify-center items-center m-auto md:w-6/12'>
                             <h1 className='text-6xl font-rubikDirt text-center md:text-6xl lg:text-8xl lg:py-3'> Wrestling </h1>
                             <div className='pb-5 pt-5 flex items-center justify-center'>
-                                <img id='fadeInRight' className='w-8/12 shadow-[0_5px_20px_red] rounded-xl' src='images/fc_wrestling.jpg' alt='Wrestling'></img>
+                                <img id='fadeInRight' className='w-8/12 shadow-[0_5px_20px_red] rounded-xl' src='/images/fc_wrestling.jpg' alt='Wrestling'></img>
                             </div>
                             <p className='w-screen px-12 pb-40 text-l font-medium text-center md:w-full md:py-3 md:px-20 lg:px-20 lg:pt-10 lg:text-xl font-bold'>
                             We offer a 60-minute Wrestling session on Fridays for those looking to sharpen their grappling skills. 
@@ -54,7 +54,7 @@ function Classes() {
                     <div className='flex-col justify-center items-center m-auto md:w-6/12'>
                             <h1 className='text-6xl font-rubikDirt text-center md:text-6xl lg:text-8xl lg:py-3'> Boxing </h1>
                             <div className='pb-5 pt-5 flex items-center justify-center'>
-                                <img id='fadeInRight' className='w-8/12 shadow-[0_5px_20px_red] rounded-xl' src='images/fc_boxing.jpg' alt='Boxing'></img>
+                                <img id='fadeInRight' className='w-8/12 shadow-[0_5px_20px_red] rounded-xl' src='/images/fc_boxing.jpg' alt='Boxing'></img>
                             </div>
                             <p className='w-screen px-12 pb-40 text-l font-medium text-center md:w-full md:py-3 md:px-20 lg:px-20 lg:pt-10 lg:text-xl font-bold'>
                             For fans of the sweet science, our newly added boxing class will provide you with one of 

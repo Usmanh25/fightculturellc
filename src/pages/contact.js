@@ -3,7 +3,7 @@ import React from 'react';
 function Contact() {
     return (
         <div>
-            <div className="animate-fadeIn pb-20 pt-40 bg-[url('/images/red-brick-wall.jpg')]">
+            <div className="animate-fadeIn pb-20 pt-40 bg-[url('/images/black-brick-wall.jpg')]">
                 <h1 className='animate-fadeIn text-7xl py-5 text-white font-bungeeInline text-center md:text-9xl'>Join the <br></br>Culture!</h1>
 
                 <div className='py-10 text-3xl text-white text-center gap-10 animate-fadeIn md:text-7xl'>
@@ -18,7 +18,7 @@ function Contact() {
                 </div>
 
                 <div className='flex items-center justify-center rounded-xl animate-fadeIn'>
-                    <img className='w-4/5 h-4/5 shadow-[0_5px_20px_red] rounded-xl hover:shadow-[0_0_40px_white] duration-300 ease-out'src='/images/FightCultureLocation.png' alt='FC Map'></img>
+                    <img className='w-4/5 h-4/5 shadow-[0_0_30px_white] rounded-xl hover:shadow-[0_0_60px_white] duration-300 ease-out'src='/images/FightCultureLocation.png' alt='FC Map'></img>
                 </div>
             </div>
         </div>

@@ -30,7 +30,7 @@ module.exports = {
       },
       backgroundImage: {
         'white-brick-wall': "url('/images/white-brick-wall.jpg')",
-        'red-brick-wall': "url('/images/red-brick-wall.jpg')",
+        'black-brick-wall': "url('/images/black-brick-wall.jpg')",
         'fight-culture-black-logo': "url('/images/FightCultureBlackLogo.png')"
       },
       colors: {

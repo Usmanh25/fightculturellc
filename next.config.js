@@ -3,6 +3,6 @@ module.exports = {
     trailingSlash: true,
     images: {
         loader: 'imgix',
-        path: 'images'
+        path: 'http://fightculturesf.com/images'
     }
 }
