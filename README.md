@@ -17,15 +17,14 @@ FightCultureSF.com is a freelance website for Fight Culture, a martial arts trai
 - Tailwind / CSS3
 
 
-<img src="/images/FightCultureBlackLogo.png"></img>
+<img src="public/images/FightCultureBlackLogo.png"></img>
 
 ## Features
 
--
--
--
--
--
+- Fully responsive 
+- Mobile responsive Navbar with 5 links 
+- Client side rendering with React.js
+- Server side rendering with Next.js
 -
 -
 - 
@@ -103,7 +102,7 @@ const closeMobileMenu = () => setClick(false)
 
 ```
 
-<img src="/images/FightCultureBlackLogo.png"></img>
+<img src="public/images/FightCultureBlackLogo.png"></img>
 
 ## Future Features
 

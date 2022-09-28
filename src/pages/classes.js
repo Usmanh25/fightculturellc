@@ -25,7 +25,7 @@ function Classes() {
                             </p>
                     </div> 
                     <div id='fadeInRight' className='flex-col justify-center items-center m-auto md:w-6/12'>
-                            <h1 className='text-6xl font-rubikDirt text-center md:text-6xl lg:text-8xl lg:py-3'> Brazilian <b></b> Jiu Jitsu </h1>
+                            <h1 className='text-6xl font-rubikDirt text-center md:text-6xl lg:text-8xl lg:py-3'> Brazilian <b></b> JiuJitsu </h1>
                             <div className='pb-5 pt-5 flex items-center justify-center'>
                                 <img id='fadeInRight' className='w-8/12 shadow-[0_5px_20px_red] rounded-xl' src='/images/fc_jiujitsu_3.jpg' alt='Jiu Jitsu'></img>
                             </div>
