@@ -3,7 +3,7 @@
 [Initial Deployment 8/31/22 (Heroku)](https://fight-culture.herokuapp.com/)
 [Current Deployment 9/27/2022 (fightculturesf.com)](https://fightculturesf.com)
 
-![fc-gif](https://user-images.githubusercontent.com/89363938/192744798-2019e091-d895-4ec0-a96b-4815b67075f3.gif)
+![fc-gif](https://user-images.githubusercontent.com/89363938/192744798-2019e091-d895-4ec0-a96b-4815b67075f3.gif width='75%')
 
 <img src="public/images/FightCultureBlackLogo.png"></img>
 
