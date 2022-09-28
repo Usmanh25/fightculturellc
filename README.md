@@ -26,7 +26,8 @@ FightCultureSF.com is the domain site for Fight Culture, a martial arts training
 - Server side rendering with Next.js
 
 ![fc-gif-mobile](https://user-images.githubusercontent.com/89363938/192904392-8693c518-d272-4026-8d45-d5a918cebd52.gif)
-![fc-gif-links-mobile](https://user-images.githubusercontent.com/89363938/192905938-c4518d6e-a362-4712-9961-aaf760497323.gif)
+![fc-gif-links-mobile](https://user-images.githubusercontent.com/89363938/192907702-accdec74-9d4a-4a78-aa9d-b9a9d0a1dfa6.gif)
+
 
 ## Technical Implementations
 
