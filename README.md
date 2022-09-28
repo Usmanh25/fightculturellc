@@ -3,8 +3,8 @@
 [FightCultureSF.com](https://fightculturesf.com)
 
 ![fc-gif](https://user-images.githubusercontent.com/89363938/192744798-2019e091-d895-4ec0-a96b-4815b67075f3.gif) 
+![fc-gif-mobile](https://user-images.githubusercontent.com/89363938/192904366-4eacd9ce-441b-4035-8b7f-91bc6c1f4370.gif)
 <img src="public/images/FightCultureBlackLogo.png" height='200' width='200'></img>
-
 
 
 
@@ -12,7 +12,7 @@
 
 FightCultureSF.com is the domain site for Fight Culture, a martial arts training facility located right on the border of San Francisco and Daly City at 6137 Mission Street. Fight Culture teaches muay thai, brazilian jiu-jitsu, wrestling, and boxing to its members. The site can be navigated via the 'Navbar' component, which contains links to all 5 pages: Classes, Instructors, Schedule, Gallery, & Contact. These links are also accessible within the 'Footer' component as well as the 'Cards' component on the home page.
 
-![fc-gif](https://user-images.githubusercontent.com/89363938/192744798-2019e091-d895-4ec0-a96b-4815b67075f3.gif) 
+![fc-gif-links](https://user-images.githubusercontent.com/89363938/192904331-1de6381a-1caa-4216-8443-54b51e8acf9f.gif)
 
 ## Technologies, Libraries, APIs
 
@@ -28,8 +28,7 @@ FightCultureSF.com is the domain site for Fight Culture, a martial arts training
 - Client side rendering with React.js
 - Server side rendering with Next.js
 
-![fc-gif](https://user-images.githubusercontent.com/89363938/192744798-2019e091-d895-4ec0-a96b-4815b67075f3.gif) 
-
+![fc-gif-mobile](https://user-images.githubusercontent.com/89363938/192904392-8693c518-d272-4026-8d45-d5a918cebd52.gif)
 
 ## Technical Implementations
 
