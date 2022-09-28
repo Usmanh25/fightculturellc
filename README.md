@@ -1,6 +1,6 @@
 # Fight Culture SF
 
-[Deployed at fightculturesf.com](https://fightculturesf.com)
+[FightCultureSF.com](https://fightculturesf.com)
 
 ![fc-gif](https://user-images.githubusercontent.com/89363938/192744798-2019e091-d895-4ec0-a96b-4815b67075f3.gif)
 
