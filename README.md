@@ -3,8 +3,7 @@
 - [First Version - 8/31/22 Heroku](https://fight-culture.herokuapp.com/)<br></br>
 - [Current Version - fightculturesf.com)](https://fightculturesf.com)
 
-<img className='flex' src="public/images/fc-gif.gif"></img>
-<img className='flex' src="public/images/FightCultureBlackLogo.png"></img>
+<img className='' src="public/images/FightCultureBlackLogo.png"></img>
 
 ## Overview
 
