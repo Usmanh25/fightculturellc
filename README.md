@@ -3,7 +3,7 @@
 [FightCultureSF.com](https://fightculturesf.com)
 
 ![fc-gif](https://user-images.githubusercontent.com/89363938/192906932-84af743e-26ce-4ae0-990f-5784387e9c5a.gif)
-<img src="public/images/FightCultureBlackLogo.png" height='400' width='400'></img>
+<img src="public/images/FightCultureBlackLogo.png" height='420' width='420'></img>
 
 ## Overview
 
