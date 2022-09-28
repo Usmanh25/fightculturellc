@@ -1,6 +1,6 @@
 # Fight Culture SF
 
-[Initial Deployment 8/31/22 (Heroku)](https://fight-culture.herokuapp.com/)
+[Initial Deployment 8/31/22 (Heroku)](https://fight-culture.herokuapp.com/) <br></br>
 [Current Deployment 9/27/2022 (fightculturesf.com)](https://fightculturesf.com)
 
 ![fc-gif width='100%' height='100%'](https://user-images.githubusercontent.com/89363938/192744798-2019e091-d895-4ec0-a96b-4815b67075f3.gif)
