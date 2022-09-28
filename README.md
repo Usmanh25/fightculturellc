@@ -4,7 +4,6 @@
 
 ![fc-gif](https://user-images.githubusercontent.com/89363938/192906932-84af743e-26ce-4ae0-990f-5784387e9c5a.gif)
 ![fc-gif-links](https://user-images.githubusercontent.com/89363938/192906941-30a2fe61-e657-4dbc-ad7b-e266ed63e1f7.gif)
-<img src="public/images/FightCultureBlackLogo.png" height='200' width='200'></img>
 
 ## Overview
 
@@ -106,4 +105,4 @@ const closeMobileMenu = () => setClick(false)
 - downloadable PDF waiver
 - Live-class videos for classes page
 
-<img src="public/images/FightCultureBlackLogo.png"></img>
+<img src="public/images/FightCultureBlackLogo.png" height='400' width='400'></img>
