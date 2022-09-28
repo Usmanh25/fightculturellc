@@ -316,17 +316,17 @@
     flex-flow: column;
     width: 100%;
     background-color: red;
-    box-shadow: 0 0 20px red;
-    -webkit-filter: drop-shadow(0 0 20px red);
-    filter: drop-shadow(0 0 20px red);
+    box-shadow: 0 0 10px red;
+    -webkit-filter: drop-shadow(0 0 10px red);
+    filter: drop-shadow(0 0 10px red);
     border-radius: 10px;
     overflow: hidden;
 }
 
 .card-item-link:hover {
-    box-shadow: 0 0 30px white;
-    -webkit-filter: drop-shadow(0 0 30px white);
-    filter: drop-shadow(0 0 30px white);
+    box-shadow: 0 0 15px white;
+    -webkit-filter: drop-shadow(0 0 15px white);
+    filter: drop-shadow(0 0 15px white);
     transition: all 0.1s ease-in
 }
 
@@ -615,6 +615,14 @@
     }
     .card-text {
         font-size: 14px;
+    }
+
+}
+@media only screen and (min-width: 20px) {
+
+    #myVideo {
+        margin-bottom: 80px;
+        margin-top: 160px;
     }
 
 }
