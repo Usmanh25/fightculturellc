@@ -3,7 +3,7 @@
 [FightCultureSF.com](https://fightculturesf.com)
 
 ![fc-gif](https://user-images.githubusercontent.com/89363938/192906932-84af743e-26ce-4ae0-990f-5784387e9c5a.gif)
-<img src="public/images/FightCultureBlackLogo.png" height='221' width='221'></img>
+<img src="public/images/FightCultureBlackLogo.png" height='330' width='330'></img>
 
 
 ## Overview
@@ -21,8 +21,8 @@ FightCultureSF.com is the domain site for Fight Culture, a martial arts training
 
 ## Features
 
-- Fully responsive 
-- Mobile responsive Navbar with 5 links 
+- Fully mobile responsive 
+- Responsive Navbar with 5 links 
 - Client side rendering with React.js
 - Server side rendering with Next.js
 
