@@ -3,6 +3,8 @@
 [Initial Deployment 8/31/22 (Heroku)](https://fight-culture.herokuapp.com/)
 [Current Deployment 9/27/2022 (fightculturesf.com)](https://fightculturesf.com)
 
+![fc-gif](https://user-images.githubusercontent.com/89363938/192744798-2019e091-d895-4ec0-a96b-4815b67075f3.gif)
+
 <img src="public/images/FightCultureBlackLogo.png"></img>
 
 ## Overview
@@ -26,10 +28,7 @@ FightCultureSF.com is a freelance website for Fight Culture, a martial arts trai
 - Client side rendering with React.js
 - Server side rendering with Next.js
 -
--
-- 
-- 
--
+
 
 ## Technical Implementations
 
@@ -102,8 +101,6 @@ const closeMobileMenu = () => setClick(false)
 
 ```
 
-<img src="public/images/FightCultureBlackLogo.png"></img>
-
 ## Future Features
 
 - Google Maps API on Contact page
@@ -111,3 +108,5 @@ const closeMobileMenu = () => setClick(false)
 - downloadable PDF schedule 
 - downloadable PDF waiver
 - Live-class videos for classes page
+
+<img src="public/images/FightCultureBlackLogo.png"></img>
