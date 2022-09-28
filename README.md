@@ -1,13 +1,16 @@
 # Fight Culture SF
 
-- [First Version - 8/31/22 Heroku](https://fight-culture.herokuapp.com/)<br></br>
-- [Current Version - fightculturesf.com)](https://fightculturesf.com)
+[FightCultureSF.com](https://fightculturesf.com)
 
-<img className='' src="public/images/FightCultureBlackLogo.png"></img>
+![fc-gif](https://user-images.githubusercontent.com/89363938/192906932-84af743e-26ce-4ae0-990f-5784387e9c5a.gif)
+<img src="public/images/FightCultureBlackLogo.png" height='330' width='330'></img>
+
 
 ## Overview
 
-FightCultureSF.com is a freelance website for Fight Culture, a martial arts training facility located by the border of San Francisco and Daly City at 6137 Mission Street. Fight Culture teaches muay thai, brazilian jiu-jitsu, wrestling, and boxing to its members. The site can be navigated via the 'Navbar' component, which contains links to all 5 pages: Classes, Instructors, Schedule, Gallery, & Contact. These same links are also accessible within the 'Footer' component as well as the 'Cards' component on the home page.
+FightCultureSF.com is the domain site for Fight Culture, a martial arts training facility located right on the border of San Francisco and Daly City at 6137 Mission Street. Fight Culture teaches muay thai, brazilian jiu-jitsu, wrestling, and boxing to its members. The site can be navigated via the 'Navbar' component, which contains links to all 5 pages: Classes, Instructors, Schedule, Gallery, & Contact. These links are also accessible within the 'Footer' component as well as the 'Cards' component on the home page.
+
+![fc-gif-links](https://user-images.githubusercontent.com/89363938/192906941-30a2fe61-e657-4dbc-ad7b-e266ed63e1f7.gif)
 
 ## Technologies, Libraries, APIs
 
@@ -16,20 +19,15 @@ FightCultureSF.com is a freelance website for Fight Culture, a martial arts trai
 - Node.js
 - Tailwind / CSS3
 
-
-<img src="public/images/FightCultureBlackLogo.png"></img>
-
 ## Features
 
 - Fully mobile responsive 
-- Navbar with links 
+- Responsive Navbar with 5 links 
 - Client side rendering with React.js
 - Server side rendering with Next.js
-- 5 Pages (Classes, Instructors, Schedule, Gallery, Contact)
--
-- 
-- 
--
+
+![fc-gif-mobile](https://user-images.githubusercontent.com/89363938/192908129-c43ca8a7-055d-4313-8c72-940bf0e71eb7.gif)
+![fc-gif-links-mobile](https://user-images.githubusercontent.com/89363938/192907702-accdec74-9d4a-4a78-aa9d-b9a9d0a1dfa6.gif)
 
 ## Technical Implementations
 
@@ -102,12 +100,12 @@ const closeMobileMenu = () => setClick(false)
 
 ```
 
-<img src="public/images/FightCultureBlackLogo.png"></img>
-
 ## Future Features
 
-- Google Maps API Link on Contact page
+- Google Maps API on Contact page
 - Next.js Image tags for optimal image loading
 - downloadable PDF schedule 
 - downloadable PDF waiver
 - Live-class videos for classes page
+
+<img src="public/images/FightCultureBlackLogo.png" height='400' width='400'></img>
