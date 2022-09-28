@@ -2,10 +2,8 @@
 
 [FightCultureSF.com](https://fightculturesf.com)
 
-![fc-gif](https://user-images.githubusercontent.com/89363938/192744798-2019e091-d895-4ec0-a96b-4815b67075f3.gif) 
-
+![fc-gif](https://user-images.githubusercontent.com/89363938/192744798-2019e091-d895-4ec0-a96b-4815b67075f3.gif)
 ![fc-gif-links](https://user-images.githubusercontent.com/89363938/192906542-3c92f6cc-3fe6-4bfe-82c4-8d7afa605335.gif)
-
 <img src="public/images/FightCultureBlackLogo.png" height='200' width='200'></img>
 
 ## Overview
