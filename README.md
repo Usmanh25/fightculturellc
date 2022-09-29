@@ -11,7 +11,7 @@
 FightCultureSF.com is the domain site for Fight Culture, a martial arts training facility located right on the border of San Francisco and Daly City at 6137 Mission Street. Fight Culture teaches muay thai, brazilian jiu-jitsu, wrestling, and boxing to its members. The site can be navigated via the 'Navbar' component, which contains links to all 5 pages: Classes, Instructors, Schedule, Gallery, & Contact. These links are also accessible within the 'Footer' component as well as the 'Cards' component on the home page.
 
 ![fc-gif-links](https://user-images.githubusercontent.com/89363938/192906941-30a2fe61-e657-4dbc-ad7b-e266ed63e1f7.gif)
-<img src="public/images/kyle.jpg" height='100' width='100'></img>
+<img src="public/images/readme-cards.png" height='100' width='100'></img>
 ![readme-cards](https://user-images.githubusercontent.com/89363938/192909819-65df223b-d47a-490f-b55c-dfafd3a5b2be.png)
 ![readme-footer](https://user-images.githubusercontent.com/89363938/192909836-47370121-c0e8-4ff6-92b4-fde134e8ae59.png)
 
