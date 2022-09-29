@@ -110,6 +110,6 @@ const closeMobileMenu = () => setClick(false)
 - downloadable PDF schedule 
 - downloadable PDF waiver
 - Live-class videos for classes page
-- 
+
 <img src="public/images/FightCultureBlackLogo.png" height='400' width='400'></img>
 
