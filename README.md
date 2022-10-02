@@ -74,7 +74,7 @@ app.prepare().then(() => {
 })
 ```
 
-Another crucial implementation for the functionality of this project is that of the 'Navbar' component. The Navbar is mobile responsive, and uses true/false logic to apply the component's state navigate pages. [click, setClick] are variables set to a false state, and when the handleClick() function is called, the opposite state from what the component was is then applied. Turnary logic and Tailwind CSS are applied in the unordered list tag, which contains the mobile drop down menu's code. The same logic is then applied to the fontAwesome Icon which appears or disapears depending on the media screen width.
+Another crucial implementation for the functionality of this project is that of the 'Navbar' component. The Navbar is mobile responsive, and uses true/false logic to apply the component's state & navigate pages. [click, setClick] are variables set to a false state, and when the handleClick() function is called, the opposite state from what the component was is then applied. Turnary logic and Tailwind CSS are applied in the unordered list tag, which contains the mobile drop down menu's code. The same logic is then applied to the fontAwesome Icon which appears or disapears depending on the media screen width.
 
 
 ```javascript
